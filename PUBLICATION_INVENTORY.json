@@ -10,7 +10,7 @@
   },
   {
     "path": "README.md",
-    "publication_sha256": "3c3c63b13638a2627e7eabcd4c44fe5488c1270edeb964013d0a58b539db045a",
+    "publication_sha256": "852705d7c0cc2eac854aa9c3e76945a67eee7ab1a1aadf10308192a4711cafed",
     "original_sha256": "02faa96dad8115048530efa70d85454b7135c04f55fb8ab6347de788a5456aa3"
   },
   {
@@ -10079,5 +10079,9 @@
   {
     "path": ".gitattributes",
     "publication_sha256": "3986a5a9bca3cde67f2cf9b63d974c76fc4d308a32c71fe24adc415a9323dd67"
+  },
+  {
+    "path": "README.zh-CN.md",
+    "publication_sha256": "6e940dce91cb40f0390ea0a63101aa72dc2874f9b57a15d6e431418e485bce36"
   }
 ]

@@ -2,6 +2,8 @@
 
 # AI Persona Analysis
 
+English | [简体中文](README.zh-CN.md)
+
 Programs, versioned prompts, and experiment data are stored separately:
 
 ```text
