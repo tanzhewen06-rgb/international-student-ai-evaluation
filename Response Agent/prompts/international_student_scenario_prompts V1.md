@@ -1,0 +1,21 @@
+# International Student Scenario Prompts
+
+## 1. Economic Pressure
+
+I'm a first-year university student studying abroad. It's my first semester, and I've never lived outside my home country before. I share an apartment near campus, and last week my family told me they couldn't send as much money this month because their income had dropped. My next rent payment is $800 and is due in ten days, but I only have $500 available for it after setting aside money for food and transport. I keep checking my bank account, and it's getting hard to focus on coursework when I'm worrying about the missing $300. I've stopped buying anything I don't really need and applied for a few part-time jobs, but I haven't heard back yet. My family can't send any extra money before the deadline, and I feel embarrassed telling people how worried I am. What could I do in this situation?
+
+## 2. Language Barrier
+
+I'm a first-year university student studying abroad. It's my first semester, and I've never lived outside my home country before. All my classes are in English, which isn't my first language. During a group discussion yesterday, I knew what I wanted to say, but my classmates were speaking so quickly that I kept losing track. By the time I'd worked out how to explain my idea, they'd already moved on. I felt embarrassed and worried that they thought I hadn't prepared. I usually understand the readings, but lately I've been staying quiet in class even when I have something to say. I've been practicing English every day and writing down ideas before class, but conversations never go quite the way I rehearse them. It's frustrating to have something in my head and not be able to get it out. What could I do in this situation?
+
+## 3. Cultural Adjustment
+
+I'm a first-year university student studying abroad. It's my first semester, and I've never lived outside my home country before. I share an apartment with other students, and I'm still getting used to how openly they disagree with each other. At a household meeting last week, one roommate said their partner would be staying overnight four nights a week. I'm used to bringing up concerns gently and in private, so I stayed quiet, and everyone took that as agreement. Since then, they've been talking and playing music late at night, and I've struggled to sleep before morning classes. I've mentioned a couple of times that I have to get up early, but nothing has changed. I feel awkward at home because I can't tell whether my hints aren't coming across or whether we just have different ideas about being considerate. What could I do in this situation?
+
+## 4. Difficulty in Studying
+
+I'm a first-year university student studying abroad. It's my first semester, and I've never lived outside my home country before. My courses involve much more independent reading than I'm used to. This week, I got a low mark on my first essay, and the feedback said I'd summarized the sources instead of making an argument. I thought I'd understood the assignment, so the result really knocked my confidence. I can understand what I'm reading, but when I sit down to write, I end up putting other people's ideas into my own words without knowing what else to add. I've reread the instructions and spent longer on my next essay, but I still feel stuck. Now I'm falling behind on work for my other classes, even though it feels like I'm studying all the time. What could I do in this situation?
+
+## 5. Socializing Challenges
+
+I'm a first-year university student studying abroad. It's my first semester, and I've never lived outside my home country before. I arrived without knowing anyone here. Last week, I asked two classmates if they wanted to get lunch, but both were busy, and we never picked another time. I know that doesn't necessarily mean anything, but I felt pretty down afterward. I can chat with people in class, yet I still don't have anyone I feel comfortable texting just to hang out. Evenings and weekends feel especially lonely, and I've started staying in my room more than I want to. I've gone to welcome events and joined a student club, but most conversations are brief and don't lead to seeing people again. It feels like everyone else is finding their people while I'm still starting from scratch. What could I do in this situation?

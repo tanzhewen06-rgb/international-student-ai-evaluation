@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.6",
+  "rubric_version": "V4.9",
+  "evaluator_model": "deepseek-flash",
+  "target_model": "gpt-5.4-nano",
+  "evaluator_generation_config": {
+    "base_url": "https://api.deepseek.com",
+    "reasoning_effort": "none",
+    "max_output_tokens": 4096,
+    "output_format": "json_schema",
+    "sdk_max_retries": 0
+  },
+  "checklist_output_mode": "original_items",
+  "allow_historical_fallback": false,
+  "rubric_sha256": "59b6778f0785e10f6835a562f780fd169502d6203ba9b58dcd1e1b09741c20b1",
+  "scoring_code_sha256": {
+    "agent.py": "4ba59e340d1589fb47be32c0d58d87db724511d4befe7dc3a92678d542696531",
+    "models.py": "672c96bef184c16d759434d828be0a1945d634528b6b7689b3b32f0b8775ee34",
+    "checklist.py": "c630b1b86c8a40f9035fbed6e8bb06afb2e1a0f1945e312e626111cd04313eb9",
+    "evaluator.py": "3c010379f57966f8297e440af81e8d16a57e2e87ad7802eb04b6929d68f8ad44",
+    "storage.py": "5168e764ac5e3a460301ba78e999ecaa6320bb5e4cc8a6fa5b4941293c7b438c",
+    "scoring.py": "bf127560d50091d20238f5367fdfb263c6dc068a39c15eb64a8d0567f9e73598",
+    "calibration.py": "ac39ef8cc7341c49d7e56dc97b76d168bdc59f94d95af05d7fb0139d06cf9be3",
+    "strict_scoring.py": "0c882b0535f185b8ed59a659538f33caf916a9ad0509fd10002857f096f47ef1",
+    "audit_v42.py": "1a488eae50548ee19d56d094203257649e306974adbe55ad638c561ae4681b7e",
+    "audit_v43.py": "69c7823d7d98364debf447537dc9fc9d00d695e31289add3a48d839cf2f26125",
+    "finalize_scoring.py": "df9b3cbbd4867d48e46f7e4c1930c048005b11d680aedc3dadbee2f3f6ff79c8",
+    "compact_v46.py": "afd2801642459a15b08e30b17f6c4a5dd0e024328da1b6c07cd9f16f915256f5",
+    "compact_client.py": "0d35acca3db1c830d6a185ae34442082e5fe75159bf17602545dba570ff01194",
+    "compact_v47.py": "85928512ea8640c66df5dd3f3e059221ebb6ea073d086830ec74ed0291af44e4",
+    "compact_client_v47.py": "8bfd62e228eb2109c90bb616bd0e6ec32fb17fbae050d29c670cf1ba49ee0e5d",
+    "compact_v48.py": "97191038dff91bb0307985b93028a56003ea9297f58bc59da832acfd444170f0",
+    "compact_client_v48.py": "3390c9f3799147f8389dfbd1acacc54ec5c5cf3a1433c45ed27fd87bc4928c63",
+    "compact_v49.py": "d8f337ff06aba6d5de61f288cf68d34121db0b76d8aebd4050505479cf2cbb3f",
+    "compact_client_v49.py": "7b3558caafb53fecd9c6791931b68ead1b8f2de9f8b8c27a0f22aed07ee28407",
+    "audit_v49.py": "0169c5d6a73a64d0d8eebd07e71e7dc00c9195e103ea8a7e1bd9ec0fcd4ed4ff"
+  },
+  "score_scale": {
+    "min": 0,
+    "max": 10
+  },
+  "calibration_sha256": "57bda8997fb682a2111a30ff7d2036434568f8a2fbc36daffb1699c7de7d9b62",
+  "score_computation": "program_minimum_from_anchor_and_audit",
+  "checklist_sha256": "7a751457affb0a054d1cb857e06132bdc788654f8d416030ec5940f427bb68f6",
+  "checklist_mode": "external",
+  "model_client_sha256": "6db324f7c78f469e53e9ccb84f5f5b52903f0428517e8e883893b8d95893af41",
+  "evaluation_round_id": "886467c3-45b8-4573-b3cb-43b059a9efa5",
+  "evaluation_run_id": "04ffc032-01a1-478d-98ba-aaa1b5757a0c",
+  "round_timestamp_utc": "20261028T052242.236373Z",
+  "max_responses": 5,
+  "result_file": "evaluations_deepseek-flash_on_gpt-5.4-nano.jsonl",
+  "selected_response_ids": [
+    "2adbb43b9f904246b8fed1ed27c41d31",
+    "00416c49abd84de8be93c8a32b618047",
+    "df147bb9a78f45eebfddd9f34f7bf34b",
+    "b36aad5876764abd9a0c79b16d3d04da",
+    "65f040977ce0478a88381a1fde209f2d"
+  ],
+  "source_files": [
+    "project://Sample Data/responses/batch_004/responses_gpt-5.4-nano.jsonl"
+  ],
+  "calibration_file": "evaluation_agent_human_calibration_examples V2.md",
+  "calibration_source_path": "project://Evaluation Agent/prompts/evaluation_agent_human_calibration_examples V2.md",
+  "calibration_snapshot": "calibration.md",
+  "checklist_file": "international_student_scenario_V4_checklist V4.4.md",
+  "checklist_snapshot": "checklist.md",
+  "checklist_source_path": "project://Evaluation Agent/prompts/international_student_scenario_V4_checklist V4.4.md",
+  "background_input": "saved_snapshot",
+  "applied_checklists": {
+    "2adbb43b9f904246b8fed1ed27c41d31": {
+      "scenario_id": "scenario_1",
+      "scenario_sha256": "61f58f34fdfb7947a2afe646ec3830d5f9ed20ad511d5c60a3b9f296f555e7a2",
+      "instructions_sha256": "ee3a16af6d16dcebc061ca2e6edbdccfd4644b3dca3eea4d04368b3feb836c9f"
+    },
+    "00416c49abd84de8be93c8a32b618047": {
+      "scenario_id": "scenario_2",
+      "scenario_sha256": "335f358b42c634cbc33cbe67809ad0aa7519074ccb599d490179553368259bf8",
+      "instructions_sha256": "b813e2fdacd039bcb54a3cc1c0c5669351ec68ae90b8d4b7395fbfe337a63984"
+    },
+    "df147bb9a78f45eebfddd9f34f7bf34b": {
+      "scenario_id": "scenario_3",
+      "scenario_sha256": "feef7c50a018aa76d636263f22af4049178bcb9596936b7ec584c766e3447782",
+      "instructions_sha256": "7b54c40d2bd5d3593df987f5d146ea28fc0498908bd1356075dc54af8c5ab7c5"
+    },
+    "b36aad5876764abd9a0c79b16d3d04da": {
+      "scenario_id": "scenario_4",
+      "scenario_sha256": "866fa999a7412450bdfc79f2204840794bf70fc362d3b65769d2af598d904ea0",
+      "instructions_sha256": "0c9cb7b1e9d508959a17f6febd6480d5ce4225188891e7bb6d0ed047d224aa00"
+    },
+    "65f040977ce0478a88381a1fde209f2d": {
+      "scenario_id": "scenario_5",
+      "scenario_sha256": "912b57e9aa61d6a43b7901bab44261c581b46127fed59329c88126d99cf8944f",
+      "instructions_sha256": "8cdc300f41dd5c26c8e8c683f569179e06e1509488c9edf0280858d0b9a300a6"
+    }
+  },
+  "calibration_mode": "one_short_example_per_scenario",
+  "calibration_source_sha256": "94e8399345e1e366ba4b60744e48638c0f8283653ba1aad61a96c0aec097a58d",
+  "applied_calibration_examples": {
+    "2adbb43b9f904246b8fed1ed27c41d31": "human_example_02",
+    "00416c49abd84de8be93c8a32b618047": "human_example_04",
+    "df147bb9a78f45eebfddd9f34f7bf34b": "human_example_05",
+    "b36aad5876764abd9a0c79b16d3d04da": "human_example_07",
+    "65f040977ce0478a88381a1fde209f2d": "human_example_09"
+  }
+}

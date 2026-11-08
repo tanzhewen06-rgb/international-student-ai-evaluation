@@ -1,0 +1,106 @@
+{
+  "summary": {
+    "status": "complete_with_review",
+    "revision": "V4.13",
+    "planned_judgments": 18,
+    "saved_judgments": 18,
+    "scored_judgments": 8,
+    "unscored_judgments": 10,
+    "remaining_initial_judgments": 0,
+    "score_status": {
+      "validated": 7,
+      "unscored": 10,
+      "provisional": 1
+    },
+    "complete_dimension_groups": 6,
+    "all_repeats_equal": 2,
+    "max_spread": 6,
+    "semantic_review": {
+      "traces": 18,
+      "provider_requests": 46,
+      "phases": {
+        "draft": 18,
+        "review": 18,
+        "review_repair": 10
+      },
+      "statuses": {
+        "reviewed": 8,
+        "needs_review": 10
+      },
+      "review_decisions": {
+        "revise": 17,
+        "reject": 27,
+        "keep": 13,
+        "merge": 3
+      }
+    }
+  },
+  "dimension_groups": [
+    {
+      "evaluator_model": "gpt-5.4-mini-2026-03-17",
+      "response_id": "11d6af8c7fd247db96ab812a9d30e2d4",
+      "dimension": "problem_understanding",
+      "scores": [
+        10,
+        6,
+        7
+      ],
+      "range": 4
+    },
+    {
+      "evaluator_model": "gpt-5.4-mini-2026-03-17",
+      "response_id": "11d6af8c7fd247db96ab812a9d30e2d4",
+      "dimension": "empathy_and_emotional_support",
+      "scores": [
+        9,
+        9,
+        9
+      ],
+      "range": 0
+    },
+    {
+      "evaluator_model": "gpt-5.4-mini-2026-03-17",
+      "response_id": "11d6af8c7fd247db96ab812a9d30e2d4",
+      "dimension": "cultural_respect_and_autonomy",
+      "scores": [
+        10,
+        10,
+        9
+      ],
+      "range": 1
+    },
+    {
+      "evaluator_model": "gpt-5.4-mini-2026-03-17",
+      "response_id": "11d6af8c7fd247db96ab812a9d30e2d4",
+      "dimension": "clarity_and_accessibility",
+      "scores": [
+        9,
+        9,
+        9
+      ],
+      "range": 0
+    },
+    {
+      "evaluator_model": "gpt-5.4-mini-2026-03-17",
+      "response_id": "11d6af8c7fd247db96ab812a9d30e2d4",
+      "dimension": "reasonableness_and_practicality",
+      "scores": [
+        9,
+        8,
+        8
+      ],
+      "range": 1
+    },
+    {
+      "evaluator_model": "gpt-5.4-mini-2026-03-17",
+      "response_id": "11d6af8c7fd247db96ab812a9d30e2d4",
+      "dimension": "factual_reliability_and_faithfulness",
+      "scores": [
+        10,
+        4,
+        4
+      ],
+      "range": 6
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "evaluation_version": "V4.17",
+  "checklist_version": "V4.17",
+  "numeric_protocol_version": "V4.12",
+  "previous_release": "V4.16",
+  "changed_checklist_items": [
+    "L1"
+  ],
+  "changes": [
+    "equivalent L1 clarification",
+    "materiality tag relevance",
+    "targeted kind/impact repair",
+    "nested Markdown evidence normalization"
+  ],
+  "score_formula_changed": false,
+  "item_mapping_changed": false,
+  "anchor_tables_changed": false,
+  "output_schema_changed": false,
+  "judge_models_changed": false,
+  "reasoning_configuration_changed": false,
+  "maximum_judge_attempts": 2,
+  "evaluation_repeats": 2,
+  "files_sha256": {
+    "evaluation_prompt_type1.md": "184deb2c2ccf0be7bb2de00624a50ec43500660c3cf4cc0c62cc044f0139be9a",
+    "checklist_type1.md": "f9ed713334b83ae13328bffeae768cd8a127c5d748eb8a373f3402716c73510a"
+  },
+  "runtime_patch_sha256": {
+    "runtime/agent.py": "9a71c55fb00760be4a7cce8e09f509be4a25f1a9037a1357c7a82ad60ce1623f",
+    "versions/v4_12/judgment.py": "a6693f7995c05826723e38a221c227b1d43320cb4be0f0ee70e4c592d41291cc"
+  }
+}

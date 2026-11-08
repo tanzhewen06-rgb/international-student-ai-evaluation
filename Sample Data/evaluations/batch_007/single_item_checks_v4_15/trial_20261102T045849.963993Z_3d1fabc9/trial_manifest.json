@@ -1,0 +1,91 @@
+{
+  "revision": "V4.15",
+  "settings": {
+    "revision": "V4.15",
+    "evaluator_models": [
+      "gpt-5.4-mini-2026-03-17"
+    ],
+    "judgment_repeats": 1,
+    "cohort": [
+      {
+        "source_file": "project://Sample Data/responses/batch_007/responses_deepseek-flash.jsonl",
+        "source_line": 2,
+        "source_sha256": "7d464fd8a4f2ce5f55f65e6a4155d681f8a634c677f33bb19da56f0f63c4e8fa",
+        "response_id": "ced1e5122ec147799e1890b1b724698c",
+        "scenario_id": "scenario_1",
+        "target_model": "deepseek-flash",
+        "repeat_index": 1,
+        "generation_run_id": "e482d7833c564df2a68db6f3c3e67c96"
+      }
+    ],
+    "expected_inputs": {
+      "ced1e5122ec147799e1890b1b724698c": {
+        "source_sha256": "7d464fd8a4f2ce5f55f65e6a4155d681f8a634c677f33bb19da56f0f63c4e8fa",
+        "rubric_sha256": "f01d52958448b35d5f282822c9435136f742416562aa22a82daeacf21d45be8b",
+        "checklist_sha256": "8a7fb94b7abf7e2e638a19ab5b656bac486c3043cb87ba50dd5febc15e5a06e2",
+        "calibration_sha256": "43bf577ee3d6a8a3b630ab9cdd51631bc923b05352da4d053d805b878d507d8b",
+        "initial_task_sha256": "f4390af151194b85955b712db056ef20d793bcad79426f3df3b8d8cdf4fcfa06",
+        "initial_instructions_sha256": "3a413b6473c50cce9fc4061d48d701225b25d7deb70e092c882d5585f58fe0e9"
+      }
+    },
+    "evaluation_version": "V4.15",
+    "checklist_version": "V4.15",
+    "numeric_protocol_version": "V4.12",
+    "source_file_sha256": {
+      "project://Sample Data/responses/batch_007/responses_deepseek-flash.jsonl": "da1f629ccd13a8485c3af36854163926e2853ea4b5a3c9ca1f525117ed60b72c"
+    },
+    "rubric_file": "project://Evaluation Agent/versions/v4_15/inputs/evaluation_prompt_type1.md",
+    "checklist_file": "project://Evaluation Agent/versions/v4_14/inputs/checklist_type1.md",
+    "calibration_file": "project://Evaluation Agent/gpt_judge_stability/frozen_inputs/calibration.md",
+    "scoring_files_sha256": {
+      "project://Evaluation Agent/runtime/agent.py": "29e11878198eb09a725c8e230143055c5c4c6667ff649499c7eba1910ae5d7bf",
+      "project://Evaluation Agent/runtime/evaluator.py": "382f89478273f59d7d0124ba09c59bbfec960a2665acb29201a2c39c80f488d6",
+      "project://Evaluation Agent/runtime/scoring.py": "5e3805b1554d7e8f3ab7a9fc4c01814eafc640fc495d25c5c6fe5920b0abd7cd",
+      "project://Evaluation Agent/runtime/strict_scoring.py": "08484be3ea2da4f1ec03e67ab5998ef84a62d9aee56f28283af849a2aae13f50",
+      "project://Evaluation Agent/runtime/finalize_scoring.py": "15d771acb07f342db52ae0862cabc5411c45e497c9b172f5abc2762fc0c89d1c",
+      "project://Evaluation Agent/runtime/checklist.py": "81e34f60ea2c250f832d4abe0490809c20d01e9346e021f08443704ddc5c5817",
+      "project://Evaluation Agent/runtime/calibration.py": "2a5a776c4bb7a2f28cbb0b18b95fbc6c1d18daeaed5cbdd2e76922ebd617b373",
+      "project://Evaluation Agent/versions/v4_12/audit.py": "ae108fc4c37bdf12e48ef0cd7971f36530cad1a071b0793b0156f76ba88d4a69",
+      "project://Evaluation Agent/versions/v4_12/judgment.py": "a9281aacc201c4a5edccfb2f9a393d12726e25a1804f48b752847ab83b7f49cc",
+      "project://Evaluation Agent/versions/v4_12/client.py": "a0fb17f491f31a8f5358de5e5315a326492cb10e97ed72fe1cbf29dc45d22c4d",
+      "project://Evaluation Agent/gpt_judge_stability/client.py": "1fffc8f73b7fbc4dd71c4bd16671c19ae835fee9aa9239db2a5c8032437ea5c7",
+      "project://Response Agent/models.py": "b7ac4c3f06b829321ac4eb07ca5b8d646680388ce60ad6db83320e1218e7e82e"
+    }
+  },
+  "status": "complete",
+  "created_at_utc": "20261102T045849.963993Z",
+  "provider_settings": {
+    "gpt-5.4-mini-2026-03-17": {
+      "api": "openai.responses",
+      "reasoning_effort": "none",
+      "temperature": 0,
+      "max_output_tokens": 4096,
+      "output_format": "json_schema",
+      "strict_schema": false,
+      "sdk_max_retries": 0,
+      "timeout_seconds": 300,
+      "adapter_sha256": "1fffc8f73b7fbc4dd71c4bd16671c19ae835fee9aa9239db2a5c8032437ea5c7"
+    }
+  },
+  "outcomes": [
+    {
+      "selected": 1,
+      "scored": 1,
+      "needs_review": 0,
+      "failed": 0,
+      "input_issues": 0,
+      "output_dir": "project://Sample Data/evaluations/batch_007/single_item_checks_v4_15/trial_20261102T045849.963993Z_3d1fabc9/runs/v4_15/gpt-5.4-mini-2026-03-17_on_deepseek-flash_with_checklist/run_20261102T045849.974868Z_d702bdab",
+      "dry_run": false,
+      "evaluation_round_id": "d702bdab-557d-49c5-8468-478d5e79b063",
+      "evaluation_run_id": "e0c6884b-8c78-4918-9e1c-d4d1b1c96114",
+      "evaluator_model": "gpt-5.4-mini-2026-03-17",
+      "target_model": "deepseek-flash",
+      "result_file": "project://Sample Data/evaluations/batch_007/single_item_checks_v4_15/trial_20261102T045849.963993Z_3d1fabc9/runs/v4_15/gpt-5.4-mini-2026-03-17_on_deepseek-flash_with_checklist/run_20261102T045849.974868Z_d702bdab/evaluations_gpt-5.4-mini-2026-03-17_on_deepseek-flash.jsonl",
+      "checklist_sha256": "8a7fb94b7abf7e2e638a19ab5b656bac486c3043cb87ba50dd5febc15e5a06e2",
+      "judge_repeat_index": 1
+    }
+  ],
+  "rounds": {
+    "d702bdab-557d-49c5-8468-478d5e79b063": 1
+  }
+}

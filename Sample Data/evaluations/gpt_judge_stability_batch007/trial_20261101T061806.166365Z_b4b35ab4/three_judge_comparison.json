@@ -1,0 +1,8642 @@
+[
+  {
+    "response_id": "ced1e5122ec147799e1890b1b724698c",
+    "target_model": "deepseek-flash",
+    "scenario_id": "scenario_1",
+    "dimension": "problem_understanding",
+    "scores": [
+      10,
+      6,
+      6
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 7.333333333333333,
+    "sample_sd": 2.309401076758503,
+    "range": 4,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 8,
+      "deepseek-flash": 6
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "ced1e5122ec147799e1890b1b724698c",
+    "target_model": "deepseek-flash",
+    "scenario_id": "scenario_1",
+    "dimension": "empathy_and_emotional_support",
+    "scores": [
+      10,
+      9,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9.333333333333334,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 9,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "ced1e5122ec147799e1890b1b724698c",
+    "target_model": "deepseek-flash",
+    "scenario_id": "scenario_1",
+    "dimension": "cultural_respect_and_autonomy",
+    "scores": [
+      10,
+      9,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9.333333333333334,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 9,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "ced1e5122ec147799e1890b1b724698c",
+    "target_model": "deepseek-flash",
+    "scenario_id": "scenario_1",
+    "dimension": "clarity_and_accessibility",
+    "scores": [
+      10,
+      9,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9.333333333333334,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 9,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "ced1e5122ec147799e1890b1b724698c",
+    "target_model": "deepseek-flash",
+    "scenario_id": "scenario_1",
+    "dimension": "reasonableness_and_practicality",
+    "scores": [
+      9,
+      9,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 8.666666666666666,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 8,
+      "deepseek-flash": 6
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "ced1e5122ec147799e1890b1b724698c",
+    "target_model": "deepseek-flash",
+    "scenario_id": "scenario_1",
+    "dimension": "factual_reliability_and_faithfulness",
+    "scores": [
+      4,
+      3,
+      3
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 3.3333333333333335,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 6,
+      "deepseek-flash": 4
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "11d6af8c7fd247db96ab812a9d30e2d4",
+    "target_model": "deepseek-flash",
+    "scenario_id": "scenario_2",
+    "dimension": "problem_understanding",
+    "scores": [
+      10,
+      10,
+      10
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 10,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "11d6af8c7fd247db96ab812a9d30e2d4",
+    "target_model": "deepseek-flash",
+    "scenario_id": "scenario_2",
+    "dimension": "empathy_and_emotional_support",
+    "scores": [
+      9,
+      9,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "11d6af8c7fd247db96ab812a9d30e2d4",
+    "target_model": "deepseek-flash",
+    "scenario_id": "scenario_2",
+    "dimension": "cultural_respect_and_autonomy",
+    "scores": [
+      10,
+      9,
+      10
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9.666666666666666,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "11d6af8c7fd247db96ab812a9d30e2d4",
+    "target_model": "deepseek-flash",
+    "scenario_id": "scenario_2",
+    "dimension": "clarity_and_accessibility",
+    "scores": [
+      10,
+      10,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9.666666666666666,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "11d6af8c7fd247db96ab812a9d30e2d4",
+    "target_model": "deepseek-flash",
+    "scenario_id": "scenario_2",
+    "dimension": "reasonableness_and_practicality",
+    "scores": [
+      9,
+      9,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "11d6af8c7fd247db96ab812a9d30e2d4",
+    "target_model": "deepseek-flash",
+    "scenario_id": "scenario_2",
+    "dimension": "factual_reliability_and_faithfulness",
+    "scores": [
+      4,
+      4,
+      10
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 6,
+    "sample_sd": 3.4641016151377544,
+    "range": 6,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 6,
+      "deepseek-flash": 4
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "49236bd7a0704d1795c28686c03d6ed8",
+    "target_model": "deepseek-flash",
+    "scenario_id": "scenario_3",
+    "dimension": "problem_understanding",
+    "scores": [
+      8,
+      7,
+      6
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 7,
+    "sample_sd": 1.0,
+    "range": 2,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "49236bd7a0704d1795c28686c03d6ed8",
+    "target_model": "deepseek-flash",
+    "scenario_id": "scenario_3",
+    "dimension": "empathy_and_emotional_support",
+    "scores": [
+      8,
+      9,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 8.333333333333334,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "49236bd7a0704d1795c28686c03d6ed8",
+    "target_model": "deepseek-flash",
+    "scenario_id": "scenario_3",
+    "dimension": "cultural_respect_and_autonomy",
+    "scores": [
+      4,
+      6,
+      6
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 5.333333333333333,
+    "sample_sd": 1.1547005383792515,
+    "range": 2,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "49236bd7a0704d1795c28686c03d6ed8",
+    "target_model": "deepseek-flash",
+    "scenario_id": "scenario_3",
+    "dimension": "clarity_and_accessibility",
+    "scores": [
+      9,
+      9,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "49236bd7a0704d1795c28686c03d6ed8",
+    "target_model": "deepseek-flash",
+    "scenario_id": "scenario_3",
+    "dimension": "reasonableness_and_practicality",
+    "scores": [
+      6,
+      6,
+      6
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 6,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "49236bd7a0704d1795c28686c03d6ed8",
+    "target_model": "deepseek-flash",
+    "scenario_id": "scenario_3",
+    "dimension": "factual_reliability_and_faithfulness",
+    "scores": [
+      6,
+      4,
+      3
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 4.333333333333333,
+    "sample_sd": 1.5275252316519468,
+    "range": 3,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 6
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "736cbc1db77d4ac4806f5405f1ec1680",
+    "target_model": "deepseek-flash",
+    "scenario_id": "scenario_4",
+    "dimension": "problem_understanding",
+    "scores": [
+      10,
+      10,
+      10
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 10,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "736cbc1db77d4ac4806f5405f1ec1680",
+    "target_model": "deepseek-flash",
+    "scenario_id": "scenario_4",
+    "dimension": "empathy_and_emotional_support",
+    "scores": [
+      8,
+      9,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 8.666666666666666,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "736cbc1db77d4ac4806f5405f1ec1680",
+    "target_model": "deepseek-flash",
+    "scenario_id": "scenario_4",
+    "dimension": "cultural_respect_and_autonomy",
+    "scores": [
+      9,
+      10,
+      10
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9.666666666666666,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 7
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "736cbc1db77d4ac4806f5405f1ec1680",
+    "target_model": "deepseek-flash",
+    "scenario_id": "scenario_4",
+    "dimension": "clarity_and_accessibility",
+    "scores": [
+      9,
+      10,
+      10
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9.666666666666666,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "736cbc1db77d4ac4806f5405f1ec1680",
+    "target_model": "deepseek-flash",
+    "scenario_id": "scenario_4",
+    "dimension": "reasonableness_and_practicality",
+    "scores": [
+      8,
+      9,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 8.333333333333334,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "736cbc1db77d4ac4806f5405f1ec1680",
+    "target_model": "deepseek-flash",
+    "scenario_id": "scenario_4",
+    "dimension": "factual_reliability_and_faithfulness",
+    "scores": [
+      8,
+      6,
+      4
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 6,
+    "sample_sd": 2.0,
+    "range": 4,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 6
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "4e83e2b319c34b7d81a29b44ab107b2f",
+    "target_model": "deepseek-flash",
+    "scenario_id": "scenario_5",
+    "dimension": "problem_understanding",
+    "scores": [
+      9,
+      9,
+      6
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 8,
+    "sample_sd": 1.7320508075688772,
+    "range": 3,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "4e83e2b319c34b7d81a29b44ab107b2f",
+    "target_model": "deepseek-flash",
+    "scenario_id": "scenario_5",
+    "dimension": "empathy_and_emotional_support",
+    "scores": [
+      8,
+      8,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 8,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "4e83e2b319c34b7d81a29b44ab107b2f",
+    "target_model": "deepseek-flash",
+    "scenario_id": "scenario_5",
+    "dimension": "cultural_respect_and_autonomy",
+    "scores": [
+      8,
+      8,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 8,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "4e83e2b319c34b7d81a29b44ab107b2f",
+    "target_model": "deepseek-flash",
+    "scenario_id": "scenario_5",
+    "dimension": "clarity_and_accessibility",
+    "scores": [
+      9,
+      9,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "4e83e2b319c34b7d81a29b44ab107b2f",
+    "target_model": "deepseek-flash",
+    "scenario_id": "scenario_5",
+    "dimension": "reasonableness_and_practicality",
+    "scores": [
+      8,
+      8,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 8,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "4e83e2b319c34b7d81a29b44ab107b2f",
+    "target_model": "deepseek-flash",
+    "scenario_id": "scenario_5",
+    "dimension": "factual_reliability_and_faithfulness",
+    "scores": [
+      3,
+      4,
+      3
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 3.3333333333333335,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 6
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "6d8a4ea9b4984888addf75a42c6b0e26",
+    "target_model": "deepseek-flash",
+    "scenario_id": "scenario_1",
+    "dimension": "problem_understanding",
+    "scores": [
+      10,
+      7
+    ],
+    "judge_repeat_indices": [
+      1,
+      2
+    ],
+    "n": 2,
+    "mean": 8.5,
+    "sample_sd": 2.1213203435596424,
+    "range": 3,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 8,
+      "deepseek-flash": 6
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "6d8a4ea9b4984888addf75a42c6b0e26",
+    "target_model": "deepseek-flash",
+    "scenario_id": "scenario_1",
+    "dimension": "empathy_and_emotional_support",
+    "scores": [
+      9,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2
+    ],
+    "n": 2,
+    "mean": 8.5,
+    "sample_sd": 0.7071067811865476,
+    "range": 1,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 9,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "6d8a4ea9b4984888addf75a42c6b0e26",
+    "target_model": "deepseek-flash",
+    "scenario_id": "scenario_1",
+    "dimension": "cultural_respect_and_autonomy",
+    "scores": [
+      10,
+      10
+    ],
+    "judge_repeat_indices": [
+      1,
+      2
+    ],
+    "n": 2,
+    "mean": 10,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "6d8a4ea9b4984888addf75a42c6b0e26",
+    "target_model": "deepseek-flash",
+    "scenario_id": "scenario_1",
+    "dimension": "clarity_and_accessibility",
+    "scores": [
+      9,
+      10
+    ],
+    "judge_repeat_indices": [
+      1,
+      2
+    ],
+    "n": 2,
+    "mean": 9.5,
+    "sample_sd": 0.7071067811865476,
+    "range": 1,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 9,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "6d8a4ea9b4984888addf75a42c6b0e26",
+    "target_model": "deepseek-flash",
+    "scenario_id": "scenario_1",
+    "dimension": "reasonableness_and_practicality",
+    "scores": [
+      9,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2
+    ],
+    "n": 2,
+    "mean": 8.5,
+    "sample_sd": 0.7071067811865476,
+    "range": 1,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 8,
+      "deepseek-flash": 6
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "6d8a4ea9b4984888addf75a42c6b0e26",
+    "target_model": "deepseek-flash",
+    "scenario_id": "scenario_1",
+    "dimension": "factual_reliability_and_faithfulness",
+    "scores": [
+      3,
+      3
+    ],
+    "judge_repeat_indices": [
+      1,
+      2
+    ],
+    "n": 2,
+    "mean": 3,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 6,
+      "deepseek-flash": 5
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "ea45481faf9d4116affadcadec0fea03",
+    "target_model": "deepseek-flash",
+    "scenario_id": "scenario_2",
+    "dimension": "problem_understanding",
+    "scores": [
+      10,
+      10,
+      10
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 10,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "ea45481faf9d4116affadcadec0fea03",
+    "target_model": "deepseek-flash",
+    "scenario_id": "scenario_2",
+    "dimension": "empathy_and_emotional_support",
+    "scores": [
+      9,
+      9,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "ea45481faf9d4116affadcadec0fea03",
+    "target_model": "deepseek-flash",
+    "scenario_id": "scenario_2",
+    "dimension": "cultural_respect_and_autonomy",
+    "scores": [
+      10,
+      10,
+      10
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 10,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "ea45481faf9d4116affadcadec0fea03",
+    "target_model": "deepseek-flash",
+    "scenario_id": "scenario_2",
+    "dimension": "clarity_and_accessibility",
+    "scores": [
+      10,
+      9,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9.333333333333334,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "ea45481faf9d4116affadcadec0fea03",
+    "target_model": "deepseek-flash",
+    "scenario_id": "scenario_2",
+    "dimension": "reasonableness_and_practicality",
+    "scores": [
+      9,
+      9,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "ea45481faf9d4116affadcadec0fea03",
+    "target_model": "deepseek-flash",
+    "scenario_id": "scenario_2",
+    "dimension": "factual_reliability_and_faithfulness",
+    "scores": [
+      9,
+      9,
+      10
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9.333333333333334,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "19cfed60b44d4c8a93435ed7152d405d",
+    "target_model": "deepseek-flash",
+    "scenario_id": "scenario_3",
+    "dimension": "problem_understanding",
+    "scores": [
+      7,
+      7,
+      6
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 6.666666666666667,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 7
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "19cfed60b44d4c8a93435ed7152d405d",
+    "target_model": "deepseek-flash",
+    "scenario_id": "scenario_3",
+    "dimension": "empathy_and_emotional_support",
+    "scores": [
+      8,
+      8,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 8,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "19cfed60b44d4c8a93435ed7152d405d",
+    "target_model": "deepseek-flash",
+    "scenario_id": "scenario_3",
+    "dimension": "cultural_respect_and_autonomy",
+    "scores": [
+      6,
+      4,
+      7
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 5.666666666666667,
+    "sample_sd": 1.5275252316519468,
+    "range": 3,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 7
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "19cfed60b44d4c8a93435ed7152d405d",
+    "target_model": "deepseek-flash",
+    "scenario_id": "scenario_3",
+    "dimension": "clarity_and_accessibility",
+    "scores": [
+      9,
+      9,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "19cfed60b44d4c8a93435ed7152d405d",
+    "target_model": "deepseek-flash",
+    "scenario_id": "scenario_3",
+    "dimension": "reasonableness_and_practicality",
+    "scores": [
+      5,
+      4,
+      5
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 4.666666666666667,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "19cfed60b44d4c8a93435ed7152d405d",
+    "target_model": "deepseek-flash",
+    "scenario_id": "scenario_3",
+    "dimension": "factual_reliability_and_faithfulness",
+    "scores": [
+      4,
+      4,
+      4
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 4,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 5
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "94ecfcc796d340c495711cf9f6b3b9be",
+    "target_model": "deepseek-flash",
+    "scenario_id": "scenario_4",
+    "dimension": "problem_understanding",
+    "scores": [
+      10,
+      10,
+      10
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 10,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "94ecfcc796d340c495711cf9f6b3b9be",
+    "target_model": "deepseek-flash",
+    "scenario_id": "scenario_4",
+    "dimension": "empathy_and_emotional_support",
+    "scores": [
+      9,
+      9,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "94ecfcc796d340c495711cf9f6b3b9be",
+    "target_model": "deepseek-flash",
+    "scenario_id": "scenario_4",
+    "dimension": "cultural_respect_and_autonomy",
+    "scores": [
+      10,
+      10,
+      10
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 10,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 7
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "94ecfcc796d340c495711cf9f6b3b9be",
+    "target_model": "deepseek-flash",
+    "scenario_id": "scenario_4",
+    "dimension": "clarity_and_accessibility",
+    "scores": [
+      10,
+      10,
+      10
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 10,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "94ecfcc796d340c495711cf9f6b3b9be",
+    "target_model": "deepseek-flash",
+    "scenario_id": "scenario_4",
+    "dimension": "reasonableness_and_practicality",
+    "scores": [
+      9,
+      9,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 7
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "94ecfcc796d340c495711cf9f6b3b9be",
+    "target_model": "deepseek-flash",
+    "scenario_id": "scenario_4",
+    "dimension": "factual_reliability_and_faithfulness",
+    "scores": [
+      10,
+      10,
+      10
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 10,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 6
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "ec35da4958044358a1e00ca5041d3e0c",
+    "target_model": "deepseek-flash",
+    "scenario_id": "scenario_5",
+    "dimension": "problem_understanding",
+    "scores": [
+      4,
+      8,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 7,
+    "sample_sd": 2.6457513110645907,
+    "range": 5,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 9,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "ec35da4958044358a1e00ca5041d3e0c",
+    "target_model": "deepseek-flash",
+    "scenario_id": "scenario_5",
+    "dimension": "empathy_and_emotional_support",
+    "scores": [
+      8,
+      8,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 8,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "ec35da4958044358a1e00ca5041d3e0c",
+    "target_model": "deepseek-flash",
+    "scenario_id": "scenario_5",
+    "dimension": "cultural_respect_and_autonomy",
+    "scores": [
+      8,
+      8,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 8.333333333333334,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 9,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "ec35da4958044358a1e00ca5041d3e0c",
+    "target_model": "deepseek-flash",
+    "scenario_id": "scenario_5",
+    "dimension": "clarity_and_accessibility",
+    "scores": [
+      9,
+      9,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "ec35da4958044358a1e00ca5041d3e0c",
+    "target_model": "deepseek-flash",
+    "scenario_id": "scenario_5",
+    "dimension": "reasonableness_and_practicality",
+    "scores": [
+      7,
+      8,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 7.666666666666667,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 8,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "ec35da4958044358a1e00ca5041d3e0c",
+    "target_model": "deepseek-flash",
+    "scenario_id": "scenario_5",
+    "dimension": "factual_reliability_and_faithfulness",
+    "scores": [
+      3,
+      4,
+      3
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 3.3333333333333335,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 8,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "bfa3884988954051837d24c0563e788c",
+    "target_model": "gemini-3.5-flash-lite",
+    "scenario_id": "scenario_1",
+    "dimension": "problem_understanding",
+    "scores": [
+      8,
+      7,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 7.666666666666667,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 4,
+      "deepseek-flash": 4
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "bfa3884988954051837d24c0563e788c",
+    "target_model": "gemini-3.5-flash-lite",
+    "scenario_id": "scenario_1",
+    "dimension": "empathy_and_emotional_support",
+    "scores": [
+      8,
+      8,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 8,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 9,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "bfa3884988954051837d24c0563e788c",
+    "target_model": "gemini-3.5-flash-lite",
+    "scenario_id": "scenario_1",
+    "dimension": "cultural_respect_and_autonomy",
+    "scores": [
+      7,
+      8,
+      7
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 7.333333333333333,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 9,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "bfa3884988954051837d24c0563e788c",
+    "target_model": "gemini-3.5-flash-lite",
+    "scenario_id": "scenario_1",
+    "dimension": "clarity_and_accessibility",
+    "scores": [
+      9,
+      9,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 9,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "bfa3884988954051837d24c0563e788c",
+    "target_model": "gemini-3.5-flash-lite",
+    "scenario_id": "scenario_1",
+    "dimension": "reasonableness_and_practicality",
+    "scores": [
+      6,
+      6,
+      6
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 6,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 4,
+      "deepseek-flash": 4
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "bfa3884988954051837d24c0563e788c",
+    "target_model": "gemini-3.5-flash-lite",
+    "scenario_id": "scenario_1",
+    "dimension": "factual_reliability_and_faithfulness",
+    "scores": [
+      3,
+      3,
+      3
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 3,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 4,
+      "deepseek-flash": 3
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "2201f800968c486d8d94eabf0609a930",
+    "target_model": "gemini-3.5-flash-lite",
+    "scenario_id": "scenario_2",
+    "dimension": "problem_understanding",
+    "scores": [
+      8,
+      6,
+      7
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 7,
+    "sample_sd": 1.0,
+    "range": 2,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 8,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "2201f800968c486d8d94eabf0609a930",
+    "target_model": "gemini-3.5-flash-lite",
+    "scenario_id": "scenario_2",
+    "dimension": "empathy_and_emotional_support",
+    "scores": [
+      6,
+      7,
+      7
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 6.666666666666667,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 8,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "2201f800968c486d8d94eabf0609a930",
+    "target_model": "gemini-3.5-flash-lite",
+    "scenario_id": "scenario_2",
+    "dimension": "cultural_respect_and_autonomy",
+    "scores": [
+      7,
+      6,
+      7
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 6.666666666666667,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 9,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "2201f800968c486d8d94eabf0609a930",
+    "target_model": "gemini-3.5-flash-lite",
+    "scenario_id": "scenario_2",
+    "dimension": "clarity_and_accessibility",
+    "scores": [
+      9,
+      9,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "2201f800968c486d8d94eabf0609a930",
+    "target_model": "gemini-3.5-flash-lite",
+    "scenario_id": "scenario_2",
+    "dimension": "reasonableness_and_practicality",
+    "scores": [
+      8,
+      7,
+      6
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 7,
+    "sample_sd": 1.0,
+    "range": 2,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 9,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "2201f800968c486d8d94eabf0609a930",
+    "target_model": "gemini-3.5-flash-lite",
+    "scenario_id": "scenario_2",
+    "dimension": "factual_reliability_and_faithfulness",
+    "scores": [
+      3,
+      3,
+      3
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 3,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 6,
+      "deepseek-flash": 4
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "828e830138d14e519a28cbf0ca235ac0",
+    "target_model": "gemini-3.5-flash-lite",
+    "scenario_id": "scenario_3",
+    "dimension": "problem_understanding",
+    "scores": [
+      7,
+      7,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 7.333333333333333,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 6
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "provisional"
+    }
+  },
+  {
+    "response_id": "828e830138d14e519a28cbf0ca235ac0",
+    "target_model": "gemini-3.5-flash-lite",
+    "scenario_id": "scenario_3",
+    "dimension": "empathy_and_emotional_support",
+    "scores": [
+      8,
+      8,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 8,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "provisional"
+    }
+  },
+  {
+    "response_id": "828e830138d14e519a28cbf0ca235ac0",
+    "target_model": "gemini-3.5-flash-lite",
+    "scenario_id": "scenario_3",
+    "dimension": "cultural_respect_and_autonomy",
+    "scores": [
+      6,
+      5,
+      7
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 6,
+    "sample_sd": 1.0,
+    "range": 2,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 6
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "provisional"
+    }
+  },
+  {
+    "response_id": "828e830138d14e519a28cbf0ca235ac0",
+    "target_model": "gemini-3.5-flash-lite",
+    "scenario_id": "scenario_3",
+    "dimension": "clarity_and_accessibility",
+    "scores": [
+      9,
+      9,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "provisional"
+    }
+  },
+  {
+    "response_id": "828e830138d14e519a28cbf0ca235ac0",
+    "target_model": "gemini-3.5-flash-lite",
+    "scenario_id": "scenario_3",
+    "dimension": "reasonableness_and_practicality",
+    "scores": [
+      6,
+      6,
+      6
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 6,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 9,
+      "deepseek-flash": 6
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "provisional"
+    }
+  },
+  {
+    "response_id": "828e830138d14e519a28cbf0ca235ac0",
+    "target_model": "gemini-3.5-flash-lite",
+    "scenario_id": "scenario_3",
+    "dimension": "factual_reliability_and_faithfulness",
+    "scores": [
+      3,
+      3,
+      3
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 3,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 8,
+      "deepseek-flash": 5
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "provisional"
+    }
+  },
+  {
+    "response_id": "c8b198df5df7466dbfcc8dd90d066cf3",
+    "target_model": "gemini-3.5-flash-lite",
+    "scenario_id": "scenario_4",
+    "dimension": "problem_understanding",
+    "scores": [
+      8,
+      8,
+      7
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 7.666666666666667,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 6
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "c8b198df5df7466dbfcc8dd90d066cf3",
+    "target_model": "gemini-3.5-flash-lite",
+    "scenario_id": "scenario_4",
+    "dimension": "empathy_and_emotional_support",
+    "scores": [
+      9,
+      7,
+      7
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 7.666666666666667,
+    "sample_sd": 1.1547005383792515,
+    "range": 2,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "c8b198df5df7466dbfcc8dd90d066cf3",
+    "target_model": "gemini-3.5-flash-lite",
+    "scenario_id": "scenario_4",
+    "dimension": "cultural_respect_and_autonomy",
+    "scores": [
+      6,
+      6,
+      6
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 6,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 6
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "c8b198df5df7466dbfcc8dd90d066cf3",
+    "target_model": "gemini-3.5-flash-lite",
+    "scenario_id": "scenario_4",
+    "dimension": "clarity_and_accessibility",
+    "scores": [
+      9,
+      9,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "c8b198df5df7466dbfcc8dd90d066cf3",
+    "target_model": "gemini-3.5-flash-lite",
+    "scenario_id": "scenario_4",
+    "dimension": "reasonableness_and_practicality",
+    "scores": [
+      7,
+      7,
+      6
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 6.666666666666667,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 9,
+      "deepseek-flash": 6
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "c8b198df5df7466dbfcc8dd90d066cf3",
+    "target_model": "gemini-3.5-flash-lite",
+    "scenario_id": "scenario_4",
+    "dimension": "factual_reliability_and_faithfulness",
+    "scores": [
+      6,
+      3,
+      3
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 4,
+    "sample_sd": 1.7320508075688772,
+    "range": 3,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 6,
+      "deepseek-flash": 5
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "f67a1d4b7ef945bca6f4e53741667911",
+    "target_model": "gemini-3.5-flash-lite",
+    "scenario_id": "scenario_1",
+    "dimension": "problem_understanding",
+    "scores": [
+      8,
+      8,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 8,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 7,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "f67a1d4b7ef945bca6f4e53741667911",
+    "target_model": "gemini-3.5-flash-lite",
+    "scenario_id": "scenario_1",
+    "dimension": "empathy_and_emotional_support",
+    "scores": [
+      9,
+      9,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 9,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "f67a1d4b7ef945bca6f4e53741667911",
+    "target_model": "gemini-3.5-flash-lite",
+    "scenario_id": "scenario_1",
+    "dimension": "cultural_respect_and_autonomy",
+    "scores": [
+      8,
+      8,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 8,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 9,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "f67a1d4b7ef945bca6f4e53741667911",
+    "target_model": "gemini-3.5-flash-lite",
+    "scenario_id": "scenario_1",
+    "dimension": "clarity_and_accessibility",
+    "scores": [
+      9,
+      9,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 8,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "f67a1d4b7ef945bca6f4e53741667911",
+    "target_model": "gemini-3.5-flash-lite",
+    "scenario_id": "scenario_1",
+    "dimension": "reasonableness_and_practicality",
+    "scores": [
+      8,
+      7,
+      7
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 7.333333333333333,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 7,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "f67a1d4b7ef945bca6f4e53741667911",
+    "target_model": "gemini-3.5-flash-lite",
+    "scenario_id": "scenario_1",
+    "dimension": "factual_reliability_and_faithfulness",
+    "scores": [
+      3,
+      3,
+      3
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 3,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 6,
+      "deepseek-flash": 4
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "9167d78a416f4ac28cb287624390d140",
+    "target_model": "gemini-3.5-flash-lite",
+    "scenario_id": "scenario_2",
+    "dimension": "problem_understanding",
+    "scores": [
+      8,
+      4,
+      7
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 6.333333333333333,
+    "sample_sd": 2.0816659994661326,
+    "range": 4,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 8,
+      "deepseek-flash": 6
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "9167d78a416f4ac28cb287624390d140",
+    "target_model": "gemini-3.5-flash-lite",
+    "scenario_id": "scenario_2",
+    "dimension": "empathy_and_emotional_support",
+    "scores": [
+      7,
+      7,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 7.333333333333333,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 9,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "9167d78a416f4ac28cb287624390d140",
+    "target_model": "gemini-3.5-flash-lite",
+    "scenario_id": "scenario_2",
+    "dimension": "cultural_respect_and_autonomy",
+    "scores": [
+      10,
+      6,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 8,
+    "sample_sd": 2.0,
+    "range": 4,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "9167d78a416f4ac28cb287624390d140",
+    "target_model": "gemini-3.5-flash-lite",
+    "scenario_id": "scenario_2",
+    "dimension": "clarity_and_accessibility",
+    "scores": [
+      9,
+      8,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 8.666666666666666,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "9167d78a416f4ac28cb287624390d140",
+    "target_model": "gemini-3.5-flash-lite",
+    "scenario_id": "scenario_2",
+    "dimension": "reasonableness_and_practicality",
+    "scores": [
+      8,
+      8,
+      7
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 7.666666666666667,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 9,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "9167d78a416f4ac28cb287624390d140",
+    "target_model": "gemini-3.5-flash-lite",
+    "scenario_id": "scenario_2",
+    "dimension": "factual_reliability_and_faithfulness",
+    "scores": [
+      3,
+      3,
+      3
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 3,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 6,
+      "deepseek-flash": 3
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "111a9200bf55424da3b85f301c0b05c4",
+    "target_model": "gemini-3.5-flash-lite",
+    "scenario_id": "scenario_3",
+    "dimension": "problem_understanding",
+    "scores": [
+      6,
+      8,
+      4
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 6,
+    "sample_sd": 2.0,
+    "range": 4,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 7
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "111a9200bf55424da3b85f301c0b05c4",
+    "target_model": "gemini-3.5-flash-lite",
+    "scenario_id": "scenario_3",
+    "dimension": "empathy_and_emotional_support",
+    "scores": [
+      8,
+      9,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 8.333333333333334,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "111a9200bf55424da3b85f301c0b05c4",
+    "target_model": "gemini-3.5-flash-lite",
+    "scenario_id": "scenario_3",
+    "dimension": "cultural_respect_and_autonomy",
+    "scores": [
+      5,
+      5,
+      4
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 4.666666666666667,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 6
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "111a9200bf55424da3b85f301c0b05c4",
+    "target_model": "gemini-3.5-flash-lite",
+    "scenario_id": "scenario_3",
+    "dimension": "clarity_and_accessibility",
+    "scores": [
+      9,
+      9,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "111a9200bf55424da3b85f301c0b05c4",
+    "target_model": "gemini-3.5-flash-lite",
+    "scenario_id": "scenario_3",
+    "dimension": "reasonableness_and_practicality",
+    "scores": [
+      6,
+      5,
+      4
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 5,
+    "sample_sd": 1.0,
+    "range": 2,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 7
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "111a9200bf55424da3b85f301c0b05c4",
+    "target_model": "gemini-3.5-flash-lite",
+    "scenario_id": "scenario_3",
+    "dimension": "factual_reliability_and_faithfulness",
+    "scores": [
+      3,
+      3,
+      3
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 3,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 5
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "9db33b09c4cc4a55859ec69672bd510a",
+    "target_model": "gemini-3.5-flash-lite",
+    "scenario_id": "scenario_4",
+    "dimension": "problem_understanding",
+    "scores": [
+      6,
+      8,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 7.333333333333333,
+    "sample_sd": 1.1547005383792515,
+    "range": 2,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 9,
+      "deepseek-flash": 4
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "provisional"
+    }
+  },
+  {
+    "response_id": "9db33b09c4cc4a55859ec69672bd510a",
+    "target_model": "gemini-3.5-flash-lite",
+    "scenario_id": "scenario_4",
+    "dimension": "empathy_and_emotional_support",
+    "scores": [
+      8,
+      8,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 8,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 9,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "provisional"
+    }
+  },
+  {
+    "response_id": "9db33b09c4cc4a55859ec69672bd510a",
+    "target_model": "gemini-3.5-flash-lite",
+    "scenario_id": "scenario_4",
+    "dimension": "cultural_respect_and_autonomy",
+    "scores": [
+      8,
+      9,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 8.666666666666666,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 8,
+      "deepseek-flash": 7
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "provisional"
+    }
+  },
+  {
+    "response_id": "9db33b09c4cc4a55859ec69672bd510a",
+    "target_model": "gemini-3.5-flash-lite",
+    "scenario_id": "scenario_4",
+    "dimension": "clarity_and_accessibility",
+    "scores": [
+      9,
+      9,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "provisional"
+    }
+  },
+  {
+    "response_id": "9db33b09c4cc4a55859ec69672bd510a",
+    "target_model": "gemini-3.5-flash-lite",
+    "scenario_id": "scenario_4",
+    "dimension": "reasonableness_and_practicality",
+    "scores": [
+      6,
+      8,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 7.333333333333333,
+    "sample_sd": 1.1547005383792515,
+    "range": 2,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 8,
+      "deepseek-flash": 6
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "provisional"
+    }
+  },
+  {
+    "response_id": "9db33b09c4cc4a55859ec69672bd510a",
+    "target_model": "gemini-3.5-flash-lite",
+    "scenario_id": "scenario_4",
+    "dimension": "factual_reliability_and_faithfulness",
+    "scores": [
+      4,
+      4,
+      4
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 4,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 6,
+      "deepseek-flash": 4
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "provisional"
+    }
+  },
+  {
+    "response_id": "64f9b1c17ee2437884333d748d026d20",
+    "target_model": "gemini-3.5-flash-lite",
+    "scenario_id": "scenario_5",
+    "dimension": "problem_understanding",
+    "scores": [
+      4
+    ],
+    "judge_repeat_indices": [
+      1
+    ],
+    "n": 1,
+    "mean": 4,
+    "sample_sd": null,
+    "range": 0,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 9,
+      "deepseek-flash": 7
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "64f9b1c17ee2437884333d748d026d20",
+    "target_model": "gemini-3.5-flash-lite",
+    "scenario_id": "scenario_5",
+    "dimension": "empathy_and_emotional_support",
+    "scores": [
+      7
+    ],
+    "judge_repeat_indices": [
+      1
+    ],
+    "n": 1,
+    "mean": 7,
+    "sample_sd": null,
+    "range": 0,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "64f9b1c17ee2437884333d748d026d20",
+    "target_model": "gemini-3.5-flash-lite",
+    "scenario_id": "scenario_5",
+    "dimension": "cultural_respect_and_autonomy",
+    "scores": [
+      8
+    ],
+    "judge_repeat_indices": [
+      1
+    ],
+    "n": 1,
+    "mean": 8,
+    "sample_sd": null,
+    "range": 0,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "64f9b1c17ee2437884333d748d026d20",
+    "target_model": "gemini-3.5-flash-lite",
+    "scenario_id": "scenario_5",
+    "dimension": "clarity_and_accessibility",
+    "scores": [
+      9
+    ],
+    "judge_repeat_indices": [
+      1
+    ],
+    "n": 1,
+    "mean": 9,
+    "sample_sd": null,
+    "range": 0,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "64f9b1c17ee2437884333d748d026d20",
+    "target_model": "gemini-3.5-flash-lite",
+    "scenario_id": "scenario_5",
+    "dimension": "reasonableness_and_practicality",
+    "scores": [
+      5
+    ],
+    "judge_repeat_indices": [
+      1
+    ],
+    "n": 1,
+    "mean": 5,
+    "sample_sd": null,
+    "range": 0,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 7
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "64f9b1c17ee2437884333d748d026d20",
+    "target_model": "gemini-3.5-flash-lite",
+    "scenario_id": "scenario_5",
+    "dimension": "factual_reliability_and_faithfulness",
+    "scores": [
+      3
+    ],
+    "judge_repeat_indices": [
+      1
+    ],
+    "n": 1,
+    "mean": 3,
+    "sample_sd": null,
+    "range": 0,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 8,
+      "deepseek-flash": 4
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "f42adef2787d40cbb469cb11421568f0",
+    "target_model": "gemini-3.8-flash",
+    "scenario_id": "scenario_1",
+    "dimension": "problem_understanding",
+    "scores": [
+      8,
+      10,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 8.666666666666666,
+    "sample_sd": 1.1547005383792515,
+    "range": 2,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "f42adef2787d40cbb469cb11421568f0",
+    "target_model": "gemini-3.8-flash",
+    "scenario_id": "scenario_1",
+    "dimension": "empathy_and_emotional_support",
+    "scores": [
+      9,
+      9,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 8.666666666666666,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "f42adef2787d40cbb469cb11421568f0",
+    "target_model": "gemini-3.8-flash",
+    "scenario_id": "scenario_1",
+    "dimension": "cultural_respect_and_autonomy",
+    "scores": [
+      9,
+      9,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "f42adef2787d40cbb469cb11421568f0",
+    "target_model": "gemini-3.8-flash",
+    "scenario_id": "scenario_1",
+    "dimension": "clarity_and_accessibility",
+    "scores": [
+      9,
+      10,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9.333333333333334,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "f42adef2787d40cbb469cb11421568f0",
+    "target_model": "gemini-3.8-flash",
+    "scenario_id": "scenario_1",
+    "dimension": "reasonableness_and_practicality",
+    "scores": [
+      7,
+      8,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 7.666666666666667,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 9,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "f42adef2787d40cbb469cb11421568f0",
+    "target_model": "gemini-3.8-flash",
+    "scenario_id": "scenario_1",
+    "dimension": "factual_reliability_and_faithfulness",
+    "scores": [
+      4,
+      4,
+      3
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 3.6666666666666665,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 8,
+      "deepseek-flash": 4
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "5d6365298d1c48dcbc33c76caec472be",
+    "target_model": "gemini-3.8-flash",
+    "scenario_id": "scenario_2",
+    "dimension": "problem_understanding",
+    "scores": [
+      6,
+      4,
+      3
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 4.333333333333333,
+    "sample_sd": 1.5275252316519468,
+    "range": 3,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 8,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "5d6365298d1c48dcbc33c76caec472be",
+    "target_model": "gemini-3.8-flash",
+    "scenario_id": "scenario_2",
+    "dimension": "empathy_and_emotional_support",
+    "scores": [
+      8,
+      8,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 8,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 9,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "5d6365298d1c48dcbc33c76caec472be",
+    "target_model": "gemini-3.8-flash",
+    "scenario_id": "scenario_2",
+    "dimension": "cultural_respect_and_autonomy",
+    "scores": [
+      7,
+      9,
+      6
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 7.333333333333333,
+    "sample_sd": 1.5275252316519468,
+    "range": 3,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 9,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "5d6365298d1c48dcbc33c76caec472be",
+    "target_model": "gemini-3.8-flash",
+    "scenario_id": "scenario_2",
+    "dimension": "clarity_and_accessibility",
+    "scores": [
+      9,
+      9,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "5d6365298d1c48dcbc33c76caec472be",
+    "target_model": "gemini-3.8-flash",
+    "scenario_id": "scenario_2",
+    "dimension": "reasonableness_and_practicality",
+    "scores": [
+      8,
+      4,
+      4
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 5.333333333333333,
+    "sample_sd": 2.309401076758503,
+    "range": 4,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 9,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "5d6365298d1c48dcbc33c76caec472be",
+    "target_model": "gemini-3.8-flash",
+    "scenario_id": "scenario_2",
+    "dimension": "factual_reliability_and_faithfulness",
+    "scores": [
+      3,
+      3,
+      3
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 3,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 6,
+      "deepseek-flash": 4
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "8417e800ec3b4376972f4dcdfb990652",
+    "target_model": "gemini-3.8-flash",
+    "scenario_id": "scenario_3",
+    "dimension": "problem_understanding",
+    "scores": [
+      3,
+      8,
+      3
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 4.666666666666667,
+    "sample_sd": 2.8867513459481287,
+    "range": 5,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 7
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "8417e800ec3b4376972f4dcdfb990652",
+    "target_model": "gemini-3.8-flash",
+    "scenario_id": "scenario_3",
+    "dimension": "empathy_and_emotional_support",
+    "scores": [
+      8,
+      8,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 8,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "8417e800ec3b4376972f4dcdfb990652",
+    "target_model": "gemini-3.8-flash",
+    "scenario_id": "scenario_3",
+    "dimension": "cultural_respect_and_autonomy",
+    "scores": [
+      4,
+      3,
+      4
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 3.6666666666666665,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 6
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "8417e800ec3b4376972f4dcdfb990652",
+    "target_model": "gemini-3.8-flash",
+    "scenario_id": "scenario_3",
+    "dimension": "clarity_and_accessibility",
+    "scores": [
+      8,
+      9,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 8.666666666666666,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "8417e800ec3b4376972f4dcdfb990652",
+    "target_model": "gemini-3.8-flash",
+    "scenario_id": "scenario_3",
+    "dimension": "reasonableness_and_practicality",
+    "scores": [
+      7,
+      6,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 7,
+    "sample_sd": 1.0,
+    "range": 2,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 7
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "8417e800ec3b4376972f4dcdfb990652",
+    "target_model": "gemini-3.8-flash",
+    "scenario_id": "scenario_3",
+    "dimension": "factual_reliability_and_faithfulness",
+    "scores": [
+      3,
+      3,
+      3
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 3,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 4
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "0e8bc13bf84042e08ab1b6c9079e0530",
+    "target_model": "gemini-3.8-flash",
+    "scenario_id": "scenario_4",
+    "dimension": "problem_understanding",
+    "scores": [
+      8,
+      9,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 8.333333333333334,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 9,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "0e8bc13bf84042e08ab1b6c9079e0530",
+    "target_model": "gemini-3.8-flash",
+    "scenario_id": "scenario_4",
+    "dimension": "empathy_and_emotional_support",
+    "scores": [
+      8,
+      9,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 8.333333333333334,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 9,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "0e8bc13bf84042e08ab1b6c9079e0530",
+    "target_model": "gemini-3.8-flash",
+    "scenario_id": "scenario_4",
+    "dimension": "cultural_respect_and_autonomy",
+    "scores": [
+      7,
+      6,
+      6
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 6.333333333333333,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 8,
+      "deepseek-flash": 7
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "0e8bc13bf84042e08ab1b6c9079e0530",
+    "target_model": "gemini-3.8-flash",
+    "scenario_id": "scenario_4",
+    "dimension": "clarity_and_accessibility",
+    "scores": [
+      9,
+      9,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 8.666666666666666,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "0e8bc13bf84042e08ab1b6c9079e0530",
+    "target_model": "gemini-3.8-flash",
+    "scenario_id": "scenario_4",
+    "dimension": "reasonableness_and_practicality",
+    "scores": [
+      4,
+      4,
+      6
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 4.666666666666667,
+    "sample_sd": 1.1547005383792515,
+    "range": 2,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 9,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "0e8bc13bf84042e08ab1b6c9079e0530",
+    "target_model": "gemini-3.8-flash",
+    "scenario_id": "scenario_4",
+    "dimension": "factual_reliability_and_faithfulness",
+    "scores": [
+      4,
+      4,
+      3
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 3.6666666666666665,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 6,
+      "deepseek-flash": 4
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "2bd37233d4874af5921cedb4ab7006aa",
+    "target_model": "gemini-3.8-flash",
+    "scenario_id": "scenario_5",
+    "dimension": "problem_understanding",
+    "scores": [
+      8,
+      6,
+      7
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 7,
+    "sample_sd": 1.0,
+    "range": 2,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 7
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "2bd37233d4874af5921cedb4ab7006aa",
+    "target_model": "gemini-3.8-flash",
+    "scenario_id": "scenario_5",
+    "dimension": "empathy_and_emotional_support",
+    "scores": [
+      8,
+      7,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 7.666666666666667,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "2bd37233d4874af5921cedb4ab7006aa",
+    "target_model": "gemini-3.8-flash",
+    "scenario_id": "scenario_5",
+    "dimension": "cultural_respect_and_autonomy",
+    "scores": [
+      7,
+      8,
+      7
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 7.333333333333333,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "2bd37233d4874af5921cedb4ab7006aa",
+    "target_model": "gemini-3.8-flash",
+    "scenario_id": "scenario_5",
+    "dimension": "clarity_and_accessibility",
+    "scores": [
+      9,
+      8,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 8.333333333333334,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "2bd37233d4874af5921cedb4ab7006aa",
+    "target_model": "gemini-3.8-flash",
+    "scenario_id": "scenario_5",
+    "dimension": "reasonableness_and_practicality",
+    "scores": [
+      7,
+      7,
+      7
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 7,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "2bd37233d4874af5921cedb4ab7006aa",
+    "target_model": "gemini-3.8-flash",
+    "scenario_id": "scenario_5",
+    "dimension": "factual_reliability_and_faithfulness",
+    "scores": [
+      3,
+      3,
+      3
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 3,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 4
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "55e3ce4bd992489b8dda3a4fd85ca4e3",
+    "target_model": "gemini-3.8-flash",
+    "scenario_id": "scenario_1",
+    "dimension": "problem_understanding",
+    "scores": [
+      9,
+      9,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "55e3ce4bd992489b8dda3a4fd85ca4e3",
+    "target_model": "gemini-3.8-flash",
+    "scenario_id": "scenario_1",
+    "dimension": "empathy_and_emotional_support",
+    "scores": [
+      8,
+      9,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 8.333333333333334,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "55e3ce4bd992489b8dda3a4fd85ca4e3",
+    "target_model": "gemini-3.8-flash",
+    "scenario_id": "scenario_1",
+    "dimension": "cultural_respect_and_autonomy",
+    "scores": [
+      8,
+      6,
+      7
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 7,
+    "sample_sd": 1.0,
+    "range": 2,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 9,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "55e3ce4bd992489b8dda3a4fd85ca4e3",
+    "target_model": "gemini-3.8-flash",
+    "scenario_id": "scenario_1",
+    "dimension": "clarity_and_accessibility",
+    "scores": [
+      9,
+      10,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9.333333333333334,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "55e3ce4bd992489b8dda3a4fd85ca4e3",
+    "target_model": "gemini-3.8-flash",
+    "scenario_id": "scenario_1",
+    "dimension": "reasonableness_and_practicality",
+    "scores": [
+      6,
+      8,
+      6
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 6.666666666666667,
+    "sample_sd": 1.1547005383792515,
+    "range": 2,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 9,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "55e3ce4bd992489b8dda3a4fd85ca4e3",
+    "target_model": "gemini-3.8-flash",
+    "scenario_id": "scenario_1",
+    "dimension": "factual_reliability_and_faithfulness",
+    "scores": [
+      3,
+      4,
+      3
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 3.3333333333333335,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 6,
+      "deepseek-flash": 3
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "2f85a50e8b7041218c2577f71028e9bb",
+    "target_model": "gemini-3.8-flash",
+    "scenario_id": "scenario_2",
+    "dimension": "problem_understanding",
+    "scores": [
+      6,
+      3,
+      4
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 4.333333333333333,
+    "sample_sd": 1.5275252316519468,
+    "range": 3,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 7
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "provisional"
+    }
+  },
+  {
+    "response_id": "2f85a50e8b7041218c2577f71028e9bb",
+    "target_model": "gemini-3.8-flash",
+    "scenario_id": "scenario_2",
+    "dimension": "empathy_and_emotional_support",
+    "scores": [
+      7,
+      8,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 7.666666666666667,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 9,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "provisional"
+    }
+  },
+  {
+    "response_id": "2f85a50e8b7041218c2577f71028e9bb",
+    "target_model": "gemini-3.8-flash",
+    "scenario_id": "scenario_2",
+    "dimension": "cultural_respect_and_autonomy",
+    "scores": [
+      6,
+      9,
+      5
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 6.666666666666667,
+    "sample_sd": 2.0816659994661326,
+    "range": 4,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "provisional"
+    }
+  },
+  {
+    "response_id": "2f85a50e8b7041218c2577f71028e9bb",
+    "target_model": "gemini-3.8-flash",
+    "scenario_id": "scenario_2",
+    "dimension": "clarity_and_accessibility",
+    "scores": [
+      9,
+      9,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 8.666666666666666,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "provisional"
+    }
+  },
+  {
+    "response_id": "2f85a50e8b7041218c2577f71028e9bb",
+    "target_model": "gemini-3.8-flash",
+    "scenario_id": "scenario_2",
+    "dimension": "reasonableness_and_practicality",
+    "scores": [
+      8,
+      6,
+      6
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 6.666666666666667,
+    "sample_sd": 1.1547005383792515,
+    "range": 2,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 7
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "provisional"
+    }
+  },
+  {
+    "response_id": "2f85a50e8b7041218c2577f71028e9bb",
+    "target_model": "gemini-3.8-flash",
+    "scenario_id": "scenario_2",
+    "dimension": "factual_reliability_and_faithfulness",
+    "scores": [
+      3,
+      3,
+      3
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 3,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 9,
+      "deepseek-flash": 3
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "provisional"
+    }
+  },
+  {
+    "response_id": "46de118664c54e2397b13d5f25a484b9",
+    "target_model": "gemini-3.8-flash",
+    "scenario_id": "scenario_3",
+    "dimension": "problem_understanding",
+    "scores": [
+      8,
+      8,
+      6
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 7.333333333333333,
+    "sample_sd": 1.1547005383792515,
+    "range": 2,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 7
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "provisional"
+    }
+  },
+  {
+    "response_id": "46de118664c54e2397b13d5f25a484b9",
+    "target_model": "gemini-3.8-flash",
+    "scenario_id": "scenario_3",
+    "dimension": "empathy_and_emotional_support",
+    "scores": [
+      8,
+      8,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 8,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "provisional"
+    }
+  },
+  {
+    "response_id": "46de118664c54e2397b13d5f25a484b9",
+    "target_model": "gemini-3.8-flash",
+    "scenario_id": "scenario_3",
+    "dimension": "cultural_respect_and_autonomy",
+    "scores": [
+      3,
+      3,
+      5
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 3.6666666666666665,
+    "sample_sd": 1.1547005383792515,
+    "range": 2,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 7
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "provisional"
+    }
+  },
+  {
+    "response_id": "46de118664c54e2397b13d5f25a484b9",
+    "target_model": "gemini-3.8-flash",
+    "scenario_id": "scenario_3",
+    "dimension": "clarity_and_accessibility",
+    "scores": [
+      9,
+      9,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "provisional"
+    }
+  },
+  {
+    "response_id": "46de118664c54e2397b13d5f25a484b9",
+    "target_model": "gemini-3.8-flash",
+    "scenario_id": "scenario_3",
+    "dimension": "reasonableness_and_practicality",
+    "scores": [
+      8,
+      8,
+      4
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 6.666666666666667,
+    "sample_sd": 2.309401076758503,
+    "range": 4,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 7
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "provisional"
+    }
+  },
+  {
+    "response_id": "46de118664c54e2397b13d5f25a484b9",
+    "target_model": "gemini-3.8-flash",
+    "scenario_id": "scenario_3",
+    "dimension": "factual_reliability_and_faithfulness",
+    "scores": [
+      3,
+      3,
+      3
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 3,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 4
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "provisional"
+    }
+  },
+  {
+    "response_id": "b8ee972b154548948d82899c2098aea8",
+    "target_model": "gemini-3.8-flash",
+    "scenario_id": "scenario_4",
+    "dimension": "problem_understanding",
+    "scores": [
+      9,
+      6,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 7.666666666666667,
+    "sample_sd": 1.5275252316519468,
+    "range": 3,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 9,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "provisional"
+    }
+  },
+  {
+    "response_id": "b8ee972b154548948d82899c2098aea8",
+    "target_model": "gemini-3.8-flash",
+    "scenario_id": "scenario_4",
+    "dimension": "empathy_and_emotional_support",
+    "scores": [
+      8,
+      6,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 7.666666666666667,
+    "sample_sd": 1.5275252316519468,
+    "range": 3,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 9,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "provisional"
+    }
+  },
+  {
+    "response_id": "b8ee972b154548948d82899c2098aea8",
+    "target_model": "gemini-3.8-flash",
+    "scenario_id": "scenario_4",
+    "dimension": "cultural_respect_and_autonomy",
+    "scores": [
+      7,
+      6,
+      6
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 6.333333333333333,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 8,
+      "deepseek-flash": 7
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "provisional"
+    }
+  },
+  {
+    "response_id": "b8ee972b154548948d82899c2098aea8",
+    "target_model": "gemini-3.8-flash",
+    "scenario_id": "scenario_4",
+    "dimension": "clarity_and_accessibility",
+    "scores": [
+      9,
+      9,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 8.666666666666666,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "provisional"
+    }
+  },
+  {
+    "response_id": "b8ee972b154548948d82899c2098aea8",
+    "target_model": "gemini-3.8-flash",
+    "scenario_id": "scenario_4",
+    "dimension": "reasonableness_and_practicality",
+    "scores": [
+      7,
+      6,
+      4
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 5.666666666666667,
+    "sample_sd": 1.5275252316519468,
+    "range": 3,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 8,
+      "deepseek-flash": 7
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "provisional"
+    }
+  },
+  {
+    "response_id": "b8ee972b154548948d82899c2098aea8",
+    "target_model": "gemini-3.8-flash",
+    "scenario_id": "scenario_4",
+    "dimension": "factual_reliability_and_faithfulness",
+    "scores": [
+      3,
+      4,
+      3
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 3.3333333333333335,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 6,
+      "deepseek-flash": 5
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "provisional"
+    }
+  },
+  {
+    "response_id": "0efc135dc8c14e62b87c1b7176c42da7",
+    "target_model": "gemini-3.8-flash",
+    "scenario_id": "scenario_5",
+    "dimension": "problem_understanding",
+    "scores": [
+      6,
+      8,
+      7
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 7,
+    "sample_sd": 1.0,
+    "range": 2,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "0efc135dc8c14e62b87c1b7176c42da7",
+    "target_model": "gemini-3.8-flash",
+    "scenario_id": "scenario_5",
+    "dimension": "empathy_and_emotional_support",
+    "scores": [
+      7,
+      8,
+      7
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 7.333333333333333,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "0efc135dc8c14e62b87c1b7176c42da7",
+    "target_model": "gemini-3.8-flash",
+    "scenario_id": "scenario_5",
+    "dimension": "cultural_respect_and_autonomy",
+    "scores": [
+      6,
+      7,
+      6
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 6.333333333333333,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "0efc135dc8c14e62b87c1b7176c42da7",
+    "target_model": "gemini-3.8-flash",
+    "scenario_id": "scenario_5",
+    "dimension": "clarity_and_accessibility",
+    "scores": [
+      9,
+      9,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 8.666666666666666,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "0efc135dc8c14e62b87c1b7176c42da7",
+    "target_model": "gemini-3.8-flash",
+    "scenario_id": "scenario_5",
+    "dimension": "reasonableness_and_practicality",
+    "scores": [
+      7,
+      8,
+      6
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 7,
+    "sample_sd": 1.0,
+    "range": 2,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "0efc135dc8c14e62b87c1b7176c42da7",
+    "target_model": "gemini-3.8-flash",
+    "scenario_id": "scenario_5",
+    "dimension": "factual_reliability_and_faithfulness",
+    "scores": [
+      3,
+      3,
+      3
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 3,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 4
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "2024f781e7e9400d9f6077607b6ddaf4",
+    "target_model": "gpt-5.4-nano",
+    "scenario_id": "scenario_1",
+    "dimension": "problem_understanding",
+    "scores": [
+      4,
+      4,
+      4
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 4,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 6,
+      "deepseek-flash": 4
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "2024f781e7e9400d9f6077607b6ddaf4",
+    "target_model": "gpt-5.4-nano",
+    "scenario_id": "scenario_1",
+    "dimension": "empathy_and_emotional_support",
+    "scores": [
+      8,
+      8,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 8,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 8,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "2024f781e7e9400d9f6077607b6ddaf4",
+    "target_model": "gpt-5.4-nano",
+    "scenario_id": "scenario_1",
+    "dimension": "cultural_respect_and_autonomy",
+    "scores": [
+      8,
+      7,
+      7
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 7.333333333333333,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 9,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "2024f781e7e9400d9f6077607b6ddaf4",
+    "target_model": "gpt-5.4-nano",
+    "scenario_id": "scenario_1",
+    "dimension": "clarity_and_accessibility",
+    "scores": [
+      8,
+      8,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 8,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 8,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "2024f781e7e9400d9f6077607b6ddaf4",
+    "target_model": "gpt-5.4-nano",
+    "scenario_id": "scenario_1",
+    "dimension": "reasonableness_and_practicality",
+    "scores": [
+      4,
+      7,
+      7
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 6,
+    "sample_sd": 1.7320508075688772,
+    "range": 3,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 6,
+      "deepseek-flash": 4
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "2024f781e7e9400d9f6077607b6ddaf4",
+    "target_model": "gpt-5.4-nano",
+    "scenario_id": "scenario_1",
+    "dimension": "factual_reliability_and_faithfulness",
+    "scores": [
+      3,
+      3,
+      3
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 3,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 3,
+      "deepseek-flash": 3
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "209de50fbc3d48b8b4876cab4d7c822c",
+    "target_model": "gpt-5.4-nano",
+    "scenario_id": "scenario_2",
+    "dimension": "problem_understanding",
+    "scores": [
+      3,
+      7,
+      4
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 4.666666666666667,
+    "sample_sd": 2.0816659994661326,
+    "range": 4,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 8,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "209de50fbc3d48b8b4876cab4d7c822c",
+    "target_model": "gpt-5.4-nano",
+    "scenario_id": "scenario_2",
+    "dimension": "empathy_and_emotional_support",
+    "scores": [
+      8,
+      8,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 8,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 8,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "209de50fbc3d48b8b4876cab4d7c822c",
+    "target_model": "gpt-5.4-nano",
+    "scenario_id": "scenario_2",
+    "dimension": "cultural_respect_and_autonomy",
+    "scores": [
+      9,
+      9,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 8.666666666666666,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 9,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "209de50fbc3d48b8b4876cab4d7c822c",
+    "target_model": "gpt-5.4-nano",
+    "scenario_id": "scenario_2",
+    "dimension": "clarity_and_accessibility",
+    "scores": [
+      9,
+      8,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 8.666666666666666,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 9,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "209de50fbc3d48b8b4876cab4d7c822c",
+    "target_model": "gpt-5.4-nano",
+    "scenario_id": "scenario_2",
+    "dimension": "reasonableness_and_practicality",
+    "scores": [
+      6,
+      8,
+      6
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 6.666666666666667,
+    "sample_sd": 1.1547005383792515,
+    "range": 2,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 9,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "209de50fbc3d48b8b4876cab4d7c822c",
+    "target_model": "gpt-5.4-nano",
+    "scenario_id": "scenario_2",
+    "dimension": "factual_reliability_and_faithfulness",
+    "scores": [
+      4,
+      3,
+      3
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 3.3333333333333335,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 4,
+      "deepseek-flash": 4
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "54bfa14b8e9040bf9fad48edc91cbadf",
+    "target_model": "gpt-5.4-nano",
+    "scenario_id": "scenario_3",
+    "dimension": "problem_understanding",
+    "scores": [
+      9,
+      9,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 6
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "provisional"
+    }
+  },
+  {
+    "response_id": "54bfa14b8e9040bf9fad48edc91cbadf",
+    "target_model": "gpt-5.4-nano",
+    "scenario_id": "scenario_3",
+    "dimension": "empathy_and_emotional_support",
+    "scores": [
+      9,
+      8,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 8.333333333333334,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "provisional"
+    }
+  },
+  {
+    "response_id": "54bfa14b8e9040bf9fad48edc91cbadf",
+    "target_model": "gpt-5.4-nano",
+    "scenario_id": "scenario_3",
+    "dimension": "cultural_respect_and_autonomy",
+    "scores": [
+      7,
+      7,
+      6
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 6.666666666666667,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 6
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "provisional"
+    }
+  },
+  {
+    "response_id": "54bfa14b8e9040bf9fad48edc91cbadf",
+    "target_model": "gpt-5.4-nano",
+    "scenario_id": "scenario_3",
+    "dimension": "clarity_and_accessibility",
+    "scores": [
+      9,
+      9,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "provisional"
+    }
+  },
+  {
+    "response_id": "54bfa14b8e9040bf9fad48edc91cbadf",
+    "target_model": "gpt-5.4-nano",
+    "scenario_id": "scenario_3",
+    "dimension": "reasonableness_and_practicality",
+    "scores": [
+      8,
+      8,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 8,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 5
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "provisional"
+    }
+  },
+  {
+    "response_id": "54bfa14b8e9040bf9fad48edc91cbadf",
+    "target_model": "gpt-5.4-nano",
+    "scenario_id": "scenario_3",
+    "dimension": "factual_reliability_and_faithfulness",
+    "scores": [
+      3,
+      6,
+      3
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 4,
+    "sample_sd": 1.7320508075688772,
+    "range": 3,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 5
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "provisional"
+    }
+  },
+  {
+    "response_id": "f68eb99f20ed41e7b9136e3e747e6e50",
+    "target_model": "gpt-5.4-nano",
+    "scenario_id": "scenario_4",
+    "dimension": "problem_understanding",
+    "scores": [
+      10,
+      10,
+      10
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 10,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 9,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "f68eb99f20ed41e7b9136e3e747e6e50",
+    "target_model": "gpt-5.4-nano",
+    "scenario_id": "scenario_4",
+    "dimension": "empathy_and_emotional_support",
+    "scores": [
+      9,
+      9,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 9,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "f68eb99f20ed41e7b9136e3e747e6e50",
+    "target_model": "gpt-5.4-nano",
+    "scenario_id": "scenario_4",
+    "dimension": "cultural_respect_and_autonomy",
+    "scores": [
+      10,
+      10,
+      10
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 10,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 8,
+      "deepseek-flash": 7
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "f68eb99f20ed41e7b9136e3e747e6e50",
+    "target_model": "gpt-5.4-nano",
+    "scenario_id": "scenario_4",
+    "dimension": "clarity_and_accessibility",
+    "scores": [
+      9,
+      9,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "f68eb99f20ed41e7b9136e3e747e6e50",
+    "target_model": "gpt-5.4-nano",
+    "scenario_id": "scenario_4",
+    "dimension": "reasonableness_and_practicality",
+    "scores": [
+      9,
+      9,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 8,
+      "deepseek-flash": 7
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "f68eb99f20ed41e7b9136e3e747e6e50",
+    "target_model": "gpt-5.4-nano",
+    "scenario_id": "scenario_4",
+    "dimension": "factual_reliability_and_faithfulness",
+    "scores": [
+      10,
+      10,
+      10
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 10,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 6,
+      "deepseek-flash": 6
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "4cd1b50ebdbe41faa71a24456c6e72c2",
+    "target_model": "gpt-5.4-nano",
+    "scenario_id": "scenario_5",
+    "dimension": "problem_understanding",
+    "scores": [
+      9,
+      9,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 8,
+      "deepseek-flash": 6
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "4cd1b50ebdbe41faa71a24456c6e72c2",
+    "target_model": "gpt-5.4-nano",
+    "scenario_id": "scenario_5",
+    "dimension": "empathy_and_emotional_support",
+    "scores": [
+      8,
+      8,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 8,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 9,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "4cd1b50ebdbe41faa71a24456c6e72c2",
+    "target_model": "gpt-5.4-nano",
+    "scenario_id": "scenario_5",
+    "dimension": "cultural_respect_and_autonomy",
+    "scores": [
+      10,
+      10,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9.666666666666666,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 9,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "4cd1b50ebdbe41faa71a24456c6e72c2",
+    "target_model": "gpt-5.4-nano",
+    "scenario_id": "scenario_5",
+    "dimension": "clarity_and_accessibility",
+    "scores": [
+      9,
+      9,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 9,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "4cd1b50ebdbe41faa71a24456c6e72c2",
+    "target_model": "gpt-5.4-nano",
+    "scenario_id": "scenario_5",
+    "dimension": "reasonableness_and_practicality",
+    "scores": [
+      9,
+      9,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 8.666666666666666,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 8,
+      "deepseek-flash": 6
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "4cd1b50ebdbe41faa71a24456c6e72c2",
+    "target_model": "gpt-5.4-nano",
+    "scenario_id": "scenario_5",
+    "dimension": "factual_reliability_and_faithfulness",
+    "scores": [
+      9,
+      8,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 8.333333333333334,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 6,
+      "deepseek-flash": 5
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "1268d755793a43989e80b03e49e01041",
+    "target_model": "gpt-5.4-nano",
+    "scenario_id": "scenario_1",
+    "dimension": "problem_understanding",
+    "scores": [
+      4,
+      4,
+      6
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 4.666666666666667,
+    "sample_sd": 1.1547005383792515,
+    "range": 2,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 6,
+      "deepseek-flash": 4
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "provisional"
+    }
+  },
+  {
+    "response_id": "1268d755793a43989e80b03e49e01041",
+    "target_model": "gpt-5.4-nano",
+    "scenario_id": "scenario_1",
+    "dimension": "empathy_and_emotional_support",
+    "scores": [
+      8,
+      8,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 8,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 8,
+      "deepseek-flash": 7
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "provisional"
+    }
+  },
+  {
+    "response_id": "1268d755793a43989e80b03e49e01041",
+    "target_model": "gpt-5.4-nano",
+    "scenario_id": "scenario_1",
+    "dimension": "cultural_respect_and_autonomy",
+    "scores": [
+      7,
+      8,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 7.666666666666667,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 9,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "provisional"
+    }
+  },
+  {
+    "response_id": "1268d755793a43989e80b03e49e01041",
+    "target_model": "gpt-5.4-nano",
+    "scenario_id": "scenario_1",
+    "dimension": "clarity_and_accessibility",
+    "scores": [
+      9,
+      8,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 8.666666666666666,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 9,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "provisional"
+    }
+  },
+  {
+    "response_id": "1268d755793a43989e80b03e49e01041",
+    "target_model": "gpt-5.4-nano",
+    "scenario_id": "scenario_1",
+    "dimension": "reasonableness_and_practicality",
+    "scores": [
+      6,
+      5,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 6.333333333333333,
+    "sample_sd": 1.5275252316519468,
+    "range": 3,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 6,
+      "deepseek-flash": 4
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "provisional"
+    }
+  },
+  {
+    "response_id": "1268d755793a43989e80b03e49e01041",
+    "target_model": "gpt-5.4-nano",
+    "scenario_id": "scenario_1",
+    "dimension": "factual_reliability_and_faithfulness",
+    "scores": [
+      3,
+      3,
+      3
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 3,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": false,
+    "baseline_scores": {
+      "gemini-3.8-flash": 6,
+      "deepseek-flash": 3
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "provisional"
+    }
+  },
+  {
+    "response_id": "f9e66b9553b744db9170397763250306",
+    "target_model": "gpt-5.4-nano",
+    "scenario_id": "scenario_2",
+    "dimension": "problem_understanding",
+    "scores": [
+      3,
+      8,
+      4
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 5,
+    "sample_sd": 2.6457513110645907,
+    "range": 5,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 9,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "f9e66b9553b744db9170397763250306",
+    "target_model": "gpt-5.4-nano",
+    "scenario_id": "scenario_2",
+    "dimension": "empathy_and_emotional_support",
+    "scores": [
+      8,
+      7,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 7.666666666666667,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 7,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "f9e66b9553b744db9170397763250306",
+    "target_model": "gpt-5.4-nano",
+    "scenario_id": "scenario_2",
+    "dimension": "cultural_respect_and_autonomy",
+    "scores": [
+      8,
+      8,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 8.333333333333334,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 9,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "f9e66b9553b744db9170397763250306",
+    "target_model": "gpt-5.4-nano",
+    "scenario_id": "scenario_2",
+    "dimension": "clarity_and_accessibility",
+    "scores": [
+      8,
+      9,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 8.666666666666666,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "f9e66b9553b744db9170397763250306",
+    "target_model": "gpt-5.4-nano",
+    "scenario_id": "scenario_2",
+    "dimension": "reasonableness_and_practicality",
+    "scores": [
+      7,
+      8,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 7.666666666666667,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 9,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "f9e66b9553b744db9170397763250306",
+    "target_model": "gpt-5.4-nano",
+    "scenario_id": "scenario_2",
+    "dimension": "factual_reliability_and_faithfulness",
+    "scores": [
+      3,
+      3,
+      3
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 3,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 6,
+      "deepseek-flash": 6
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "87b807400744410d96b13e026418d7a9",
+    "target_model": "gpt-5.4-nano",
+    "scenario_id": "scenario_3",
+    "dimension": "problem_understanding",
+    "scores": [
+      8,
+      9,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 8.333333333333334,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 8,
+      "deepseek-flash": 6
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "87b807400744410d96b13e026418d7a9",
+    "target_model": "gpt-5.4-nano",
+    "scenario_id": "scenario_3",
+    "dimension": "empathy_and_emotional_support",
+    "scores": [
+      9,
+      8,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 8.666666666666666,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 9,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "87b807400744410d96b13e026418d7a9",
+    "target_model": "gpt-5.4-nano",
+    "scenario_id": "scenario_3",
+    "dimension": "cultural_respect_and_autonomy",
+    "scores": [
+      6,
+      6,
+      6
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 6,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 8,
+      "deepseek-flash": 6
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "87b807400744410d96b13e026418d7a9",
+    "target_model": "gpt-5.4-nano",
+    "scenario_id": "scenario_3",
+    "dimension": "clarity_and_accessibility",
+    "scores": [
+      9,
+      6,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 8,
+    "sample_sd": 1.7320508075688772,
+    "range": 3,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 9,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "87b807400744410d96b13e026418d7a9",
+    "target_model": "gpt-5.4-nano",
+    "scenario_id": "scenario_3",
+    "dimension": "reasonableness_and_practicality",
+    "scores": [
+      6,
+      6,
+      6
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 6,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 8,
+      "deepseek-flash": 6
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "87b807400744410d96b13e026418d7a9",
+    "target_model": "gpt-5.4-nano",
+    "scenario_id": "scenario_3",
+    "dimension": "factual_reliability_and_faithfulness",
+    "scores": [
+      6,
+      4,
+      6
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 5.333333333333333,
+    "sample_sd": 1.1547005383792515,
+    "range": 2,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 4,
+      "deepseek-flash": 3
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "6566274bec5a468ba6ffb146bb68236f",
+    "target_model": "gpt-5.4-nano",
+    "scenario_id": "scenario_4",
+    "dimension": "problem_understanding",
+    "scores": [
+      9,
+      10,
+      10
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9.666666666666666,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 6
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "6566274bec5a468ba6ffb146bb68236f",
+    "target_model": "gpt-5.4-nano",
+    "scenario_id": "scenario_4",
+    "dimension": "empathy_and_emotional_support",
+    "scores": [
+      9,
+      9,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "6566274bec5a468ba6ffb146bb68236f",
+    "target_model": "gpt-5.4-nano",
+    "scenario_id": "scenario_4",
+    "dimension": "cultural_respect_and_autonomy",
+    "scores": [
+      10,
+      10,
+      10
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 10,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "6566274bec5a468ba6ffb146bb68236f",
+    "target_model": "gpt-5.4-nano",
+    "scenario_id": "scenario_4",
+    "dimension": "clarity_and_accessibility",
+    "scores": [
+      9,
+      9,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "6566274bec5a468ba6ffb146bb68236f",
+    "target_model": "gpt-5.4-nano",
+    "scenario_id": "scenario_4",
+    "dimension": "reasonableness_and_practicality",
+    "scores": [
+      9,
+      9,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 6
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "6566274bec5a468ba6ffb146bb68236f",
+    "target_model": "gpt-5.4-nano",
+    "scenario_id": "scenario_4",
+    "dimension": "factual_reliability_and_faithfulness",
+    "scores": [
+      10,
+      10,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9.666666666666666,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 4
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "be3e9b64d51549a6b78bd285b7886fd4",
+    "target_model": "gpt-5.4-nano",
+    "scenario_id": "scenario_5",
+    "dimension": "problem_understanding",
+    "scores": [
+      9,
+      9,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 8.666666666666666,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 8,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "provisional"
+    }
+  },
+  {
+    "response_id": "be3e9b64d51549a6b78bd285b7886fd4",
+    "target_model": "gpt-5.4-nano",
+    "scenario_id": "scenario_5",
+    "dimension": "empathy_and_emotional_support",
+    "scores": [
+      8,
+      9,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 8.333333333333334,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 9,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "provisional"
+    }
+  },
+  {
+    "response_id": "be3e9b64d51549a6b78bd285b7886fd4",
+    "target_model": "gpt-5.4-nano",
+    "scenario_id": "scenario_5",
+    "dimension": "cultural_respect_and_autonomy",
+    "scores": [
+      10,
+      9,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9,
+    "sample_sd": 1.0,
+    "range": 2,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 9,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "provisional"
+    }
+  },
+  {
+    "response_id": "be3e9b64d51549a6b78bd285b7886fd4",
+    "target_model": "gpt-5.4-nano",
+    "scenario_id": "scenario_5",
+    "dimension": "clarity_and_accessibility",
+    "scores": [
+      9,
+      9,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 8.666666666666666,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 9,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "provisional"
+    }
+  },
+  {
+    "response_id": "be3e9b64d51549a6b78bd285b7886fd4",
+    "target_model": "gpt-5.4-nano",
+    "scenario_id": "scenario_5",
+    "dimension": "reasonableness_and_practicality",
+    "scores": [
+      9,
+      8,
+      7
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 8,
+    "sample_sd": 1.0,
+    "range": 2,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 8,
+      "deepseek-flash": 7
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "provisional"
+    }
+  },
+  {
+    "response_id": "be3e9b64d51549a6b78bd285b7886fd4",
+    "target_model": "gpt-5.4-nano",
+    "scenario_id": "scenario_5",
+    "dimension": "factual_reliability_and_faithfulness",
+    "scores": [
+      9,
+      9,
+      4
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 7.333333333333333,
+    "sample_sd": 2.8867513459481287,
+    "range": 5,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 6,
+      "deepseek-flash": 4
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "provisional"
+    }
+  },
+  {
+    "response_id": "3536fd86c733498c8f4a96838e5f8791",
+    "target_model": "gpt-6.1-sol",
+    "scenario_id": "scenario_1",
+    "dimension": "problem_understanding",
+    "scores": [
+      10,
+      10,
+      10
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 10,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "3536fd86c733498c8f4a96838e5f8791",
+    "target_model": "gpt-6.1-sol",
+    "scenario_id": "scenario_1",
+    "dimension": "empathy_and_emotional_support",
+    "scores": [
+      8,
+      8,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 8,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "3536fd86c733498c8f4a96838e5f8791",
+    "target_model": "gpt-6.1-sol",
+    "scenario_id": "scenario_1",
+    "dimension": "cultural_respect_and_autonomy",
+    "scores": [
+      10,
+      10,
+      10
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 10,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "3536fd86c733498c8f4a96838e5f8791",
+    "target_model": "gpt-6.1-sol",
+    "scenario_id": "scenario_1",
+    "dimension": "clarity_and_accessibility",
+    "scores": [
+      9,
+      9,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "3536fd86c733498c8f4a96838e5f8791",
+    "target_model": "gpt-6.1-sol",
+    "scenario_id": "scenario_1",
+    "dimension": "reasonableness_and_practicality",
+    "scores": [
+      9,
+      9,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "3536fd86c733498c8f4a96838e5f8791",
+    "target_model": "gpt-6.1-sol",
+    "scenario_id": "scenario_1",
+    "dimension": "factual_reliability_and_faithfulness",
+    "scores": [
+      10,
+      10,
+      10
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 10,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "83b24193b1454ca8be6222c8b3054465",
+    "target_model": "gpt-6.1-sol",
+    "scenario_id": "scenario_2",
+    "dimension": "problem_understanding",
+    "scores": [
+      10,
+      10,
+      10
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 10,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "83b24193b1454ca8be6222c8b3054465",
+    "target_model": "gpt-6.1-sol",
+    "scenario_id": "scenario_2",
+    "dimension": "empathy_and_emotional_support",
+    "scores": [
+      9,
+      9,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "83b24193b1454ca8be6222c8b3054465",
+    "target_model": "gpt-6.1-sol",
+    "scenario_id": "scenario_2",
+    "dimension": "cultural_respect_and_autonomy",
+    "scores": [
+      10,
+      10,
+      10
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 10,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "83b24193b1454ca8be6222c8b3054465",
+    "target_model": "gpt-6.1-sol",
+    "scenario_id": "scenario_2",
+    "dimension": "clarity_and_accessibility",
+    "scores": [
+      10,
+      10,
+      10
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 10,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "83b24193b1454ca8be6222c8b3054465",
+    "target_model": "gpt-6.1-sol",
+    "scenario_id": "scenario_2",
+    "dimension": "reasonableness_and_practicality",
+    "scores": [
+      9,
+      9,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "83b24193b1454ca8be6222c8b3054465",
+    "target_model": "gpt-6.1-sol",
+    "scenario_id": "scenario_2",
+    "dimension": "factual_reliability_and_faithfulness",
+    "scores": [
+      10,
+      10,
+      10
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 10,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 6,
+      "deepseek-flash": 6
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "49bdfbd33afb4d5ca099c244ea381daa",
+    "target_model": "gpt-6.1-sol",
+    "scenario_id": "scenario_3",
+    "dimension": "problem_understanding",
+    "scores": [
+      10,
+      10,
+      10
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 10,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "49bdfbd33afb4d5ca099c244ea381daa",
+    "target_model": "gpt-6.1-sol",
+    "scenario_id": "scenario_3",
+    "dimension": "empathy_and_emotional_support",
+    "scores": [
+      9,
+      9,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "49bdfbd33afb4d5ca099c244ea381daa",
+    "target_model": "gpt-6.1-sol",
+    "scenario_id": "scenario_3",
+    "dimension": "cultural_respect_and_autonomy",
+    "scores": [
+      10,
+      10,
+      10
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 10,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "49bdfbd33afb4d5ca099c244ea381daa",
+    "target_model": "gpt-6.1-sol",
+    "scenario_id": "scenario_3",
+    "dimension": "clarity_and_accessibility",
+    "scores": [
+      9,
+      9,
+      10
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9.333333333333334,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "49bdfbd33afb4d5ca099c244ea381daa",
+    "target_model": "gpt-6.1-sol",
+    "scenario_id": "scenario_3",
+    "dimension": "reasonableness_and_practicality",
+    "scores": [
+      9,
+      9,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "49bdfbd33afb4d5ca099c244ea381daa",
+    "target_model": "gpt-6.1-sol",
+    "scenario_id": "scenario_3",
+    "dimension": "factual_reliability_and_faithfulness",
+    "scores": [
+      10,
+      8,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 8.666666666666666,
+    "sample_sd": 1.1547005383792515,
+    "range": 2,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "0d4c0cc55eee4a46a177613f905bc2c9",
+    "target_model": "gpt-6.1-sol",
+    "scenario_id": "scenario_4",
+    "dimension": "problem_understanding",
+    "scores": [
+      10,
+      10,
+      10
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 10,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "0d4c0cc55eee4a46a177613f905bc2c9",
+    "target_model": "gpt-6.1-sol",
+    "scenario_id": "scenario_4",
+    "dimension": "empathy_and_emotional_support",
+    "scores": [
+      9,
+      9,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "0d4c0cc55eee4a46a177613f905bc2c9",
+    "target_model": "gpt-6.1-sol",
+    "scenario_id": "scenario_4",
+    "dimension": "cultural_respect_and_autonomy",
+    "scores": [
+      10,
+      10,
+      10
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 10,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "0d4c0cc55eee4a46a177613f905bc2c9",
+    "target_model": "gpt-6.1-sol",
+    "scenario_id": "scenario_4",
+    "dimension": "clarity_and_accessibility",
+    "scores": [
+      9,
+      9,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "0d4c0cc55eee4a46a177613f905bc2c9",
+    "target_model": "gpt-6.1-sol",
+    "scenario_id": "scenario_4",
+    "dimension": "reasonableness_and_practicality",
+    "scores": [
+      9,
+      9,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "0d4c0cc55eee4a46a177613f905bc2c9",
+    "target_model": "gpt-6.1-sol",
+    "scenario_id": "scenario_4",
+    "dimension": "factual_reliability_and_faithfulness",
+    "scores": [
+      10,
+      10,
+      10
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 10,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 3
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "7a56ea5d4b7c4549be999bdab94e5387",
+    "target_model": "gpt-6.1-sol",
+    "scenario_id": "scenario_5",
+    "dimension": "problem_understanding",
+    "scores": [
+      9,
+      8,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 8.666666666666666,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "7a56ea5d4b7c4549be999bdab94e5387",
+    "target_model": "gpt-6.1-sol",
+    "scenario_id": "scenario_5",
+    "dimension": "empathy_and_emotional_support",
+    "scores": [
+      8,
+      8,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 8,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "7a56ea5d4b7c4549be999bdab94e5387",
+    "target_model": "gpt-6.1-sol",
+    "scenario_id": "scenario_5",
+    "dimension": "cultural_respect_and_autonomy",
+    "scores": [
+      10,
+      9,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9.333333333333334,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "7a56ea5d4b7c4549be999bdab94e5387",
+    "target_model": "gpt-6.1-sol",
+    "scenario_id": "scenario_5",
+    "dimension": "clarity_and_accessibility",
+    "scores": [
+      9,
+      9,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "7a56ea5d4b7c4549be999bdab94e5387",
+    "target_model": "gpt-6.1-sol",
+    "scenario_id": "scenario_5",
+    "dimension": "reasonableness_and_practicality",
+    "scores": [
+      9,
+      7,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 8,
+    "sample_sd": 1.0,
+    "range": 2,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "7a56ea5d4b7c4549be999bdab94e5387",
+    "target_model": "gpt-6.1-sol",
+    "scenario_id": "scenario_5",
+    "dimension": "factual_reliability_and_faithfulness",
+    "scores": [
+      10,
+      7,
+      6
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 7.666666666666667,
+    "sample_sd": 2.0816659994661326,
+    "range": 4,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "91b0ba7d28784dcca52618c3cd3df41a",
+    "target_model": "gpt-6.1-sol",
+    "scenario_id": "scenario_1",
+    "dimension": "problem_understanding",
+    "scores": [
+      10,
+      10,
+      10
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 10,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 10
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "91b0ba7d28784dcca52618c3cd3df41a",
+    "target_model": "gpt-6.1-sol",
+    "scenario_id": "scenario_1",
+    "dimension": "empathy_and_emotional_support",
+    "scores": [
+      8,
+      8,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 8,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "91b0ba7d28784dcca52618c3cd3df41a",
+    "target_model": "gpt-6.1-sol",
+    "scenario_id": "scenario_1",
+    "dimension": "cultural_respect_and_autonomy",
+    "scores": [
+      9,
+      10,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9.333333333333334,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "91b0ba7d28784dcca52618c3cd3df41a",
+    "target_model": "gpt-6.1-sol",
+    "scenario_id": "scenario_1",
+    "dimension": "clarity_and_accessibility",
+    "scores": [
+      9,
+      9,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "91b0ba7d28784dcca52618c3cd3df41a",
+    "target_model": "gpt-6.1-sol",
+    "scenario_id": "scenario_1",
+    "dimension": "reasonableness_and_practicality",
+    "scores": [
+      9,
+      9,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "91b0ba7d28784dcca52618c3cd3df41a",
+    "target_model": "gpt-6.1-sol",
+    "scenario_id": "scenario_1",
+    "dimension": "factual_reliability_and_faithfulness",
+    "scores": [
+      6,
+      10,
+      6
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 7.333333333333333,
+    "sample_sd": 2.309401076758503,
+    "range": 4,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "37a87259dbe74521ae29e2cfed2ab430",
+    "target_model": "gpt-6.1-sol",
+    "scenario_id": "scenario_2",
+    "dimension": "problem_understanding",
+    "scores": [
+      4,
+      8,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 7,
+    "sample_sd": 2.6457513110645907,
+    "range": 5,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "37a87259dbe74521ae29e2cfed2ab430",
+    "target_model": "gpt-6.1-sol",
+    "scenario_id": "scenario_2",
+    "dimension": "empathy_and_emotional_support",
+    "scores": [
+      8,
+      8,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 8,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "37a87259dbe74521ae29e2cfed2ab430",
+    "target_model": "gpt-6.1-sol",
+    "scenario_id": "scenario_2",
+    "dimension": "cultural_respect_and_autonomy",
+    "scores": [
+      9,
+      8,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 8.666666666666666,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "37a87259dbe74521ae29e2cfed2ab430",
+    "target_model": "gpt-6.1-sol",
+    "scenario_id": "scenario_2",
+    "dimension": "clarity_and_accessibility",
+    "scores": [
+      9,
+      9,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "37a87259dbe74521ae29e2cfed2ab430",
+    "target_model": "gpt-6.1-sol",
+    "scenario_id": "scenario_2",
+    "dimension": "reasonableness_and_practicality",
+    "scores": [
+      8,
+      9,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 8.333333333333334,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "37a87259dbe74521ae29e2cfed2ab430",
+    "target_model": "gpt-6.1-sol",
+    "scenario_id": "scenario_2",
+    "dimension": "factual_reliability_and_faithfulness",
+    "scores": [
+      3,
+      4,
+      3
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 3.3333333333333335,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 6
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "765a1d4f531d480c9b117a098f215f12",
+    "target_model": "gpt-6.1-sol",
+    "scenario_id": "scenario_3",
+    "dimension": "problem_understanding",
+    "scores": [
+      10,
+      10,
+      10
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 10,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "765a1d4f531d480c9b117a098f215f12",
+    "target_model": "gpt-6.1-sol",
+    "scenario_id": "scenario_3",
+    "dimension": "empathy_and_emotional_support",
+    "scores": [
+      9,
+      8,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 8.333333333333334,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "765a1d4f531d480c9b117a098f215f12",
+    "target_model": "gpt-6.1-sol",
+    "scenario_id": "scenario_3",
+    "dimension": "cultural_respect_and_autonomy",
+    "scores": [
+      10,
+      10,
+      10
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 10,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "765a1d4f531d480c9b117a098f215f12",
+    "target_model": "gpt-6.1-sol",
+    "scenario_id": "scenario_3",
+    "dimension": "clarity_and_accessibility",
+    "scores": [
+      9,
+      9,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "765a1d4f531d480c9b117a098f215f12",
+    "target_model": "gpt-6.1-sol",
+    "scenario_id": "scenario_3",
+    "dimension": "reasonableness_and_practicality",
+    "scores": [
+      10,
+      9,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9.333333333333334,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "765a1d4f531d480c9b117a098f215f12",
+    "target_model": "gpt-6.1-sol",
+    "scenario_id": "scenario_3",
+    "dimension": "factual_reliability_and_faithfulness",
+    "scores": [
+      10,
+      10,
+      10
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 10,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "95feb35dcb084b4d93b9fca519c1d435",
+    "target_model": "gpt-6.1-sol",
+    "scenario_id": "scenario_4",
+    "dimension": "problem_understanding",
+    "scores": [
+      10,
+      10,
+      10
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 10,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "95feb35dcb084b4d93b9fca519c1d435",
+    "target_model": "gpt-6.1-sol",
+    "scenario_id": "scenario_4",
+    "dimension": "empathy_and_emotional_support",
+    "scores": [
+      9,
+      9,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "95feb35dcb084b4d93b9fca519c1d435",
+    "target_model": "gpt-6.1-sol",
+    "scenario_id": "scenario_4",
+    "dimension": "cultural_respect_and_autonomy",
+    "scores": [
+      10,
+      10,
+      10
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 10,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "95feb35dcb084b4d93b9fca519c1d435",
+    "target_model": "gpt-6.1-sol",
+    "scenario_id": "scenario_4",
+    "dimension": "clarity_and_accessibility",
+    "scores": [
+      10,
+      10,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9.666666666666666,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "95feb35dcb084b4d93b9fca519c1d435",
+    "target_model": "gpt-6.1-sol",
+    "scenario_id": "scenario_4",
+    "dimension": "reasonableness_and_practicality",
+    "scores": [
+      9,
+      9,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "95feb35dcb084b4d93b9fca519c1d435",
+    "target_model": "gpt-6.1-sol",
+    "scenario_id": "scenario_4",
+    "dimension": "factual_reliability_and_faithfulness",
+    "scores": [
+      10,
+      10,
+      10
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 10,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "d7880fe041484c0c8b18ba3b3a8ed280",
+    "target_model": "gpt-6.1-sol",
+    "scenario_id": "scenario_5",
+    "dimension": "problem_understanding",
+    "scores": [
+      10,
+      10,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9.666666666666666,
+    "sample_sd": 0.5773502691896257,
+    "range": 1,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "d7880fe041484c0c8b18ba3b3a8ed280",
+    "target_model": "gpt-6.1-sol",
+    "scenario_id": "scenario_5",
+    "dimension": "empathy_and_emotional_support",
+    "scores": [
+      8,
+      8,
+      8
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 8,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "d7880fe041484c0c8b18ba3b3a8ed280",
+    "target_model": "gpt-6.1-sol",
+    "scenario_id": "scenario_5",
+    "dimension": "cultural_respect_and_autonomy",
+    "scores": [
+      10,
+      10,
+      10
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 10,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "d7880fe041484c0c8b18ba3b3a8ed280",
+    "target_model": "gpt-6.1-sol",
+    "scenario_id": "scenario_5",
+    "dimension": "clarity_and_accessibility",
+    "scores": [
+      9,
+      9,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "d7880fe041484c0c8b18ba3b3a8ed280",
+    "target_model": "gpt-6.1-sol",
+    "scenario_id": "scenario_5",
+    "dimension": "reasonableness_and_practicality",
+    "scores": [
+      9,
+      9,
+      9
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 9,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "d7880fe041484c0c8b18ba3b3a8ed280",
+    "target_model": "gpt-6.1-sol",
+    "scenario_id": "scenario_5",
+    "dimension": "factual_reliability_and_faithfulness",
+    "scores": [
+      10,
+      10,
+      10
+    ],
+    "judge_repeat_indices": [
+      1,
+      2,
+      3
+    ],
+    "n": 3,
+    "mean": 10,
+    "sample_sd": 0.0,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 9
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "validated"
+    }
+  },
+  {
+    "response_id": "481a680e7ea044f29d5dc63b90a90a2a",
+    "target_model": "gemini-3.5-flash-lite",
+    "scenario_id": "scenario_5",
+    "dimension": "problem_understanding",
+    "scores": [
+      7
+    ],
+    "judge_repeat_indices": [
+      2
+    ],
+    "n": 1,
+    "mean": 7,
+    "sample_sd": null,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 6
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "provisional"
+    }
+  },
+  {
+    "response_id": "481a680e7ea044f29d5dc63b90a90a2a",
+    "target_model": "gemini-3.5-flash-lite",
+    "scenario_id": "scenario_5",
+    "dimension": "empathy_and_emotional_support",
+    "scores": [
+      8
+    ],
+    "judge_repeat_indices": [
+      2
+    ],
+    "n": 1,
+    "mean": 8,
+    "sample_sd": null,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "provisional"
+    }
+  },
+  {
+    "response_id": "481a680e7ea044f29d5dc63b90a90a2a",
+    "target_model": "gemini-3.5-flash-lite",
+    "scenario_id": "scenario_5",
+    "dimension": "cultural_respect_and_autonomy",
+    "scores": [
+      8
+    ],
+    "judge_repeat_indices": [
+      2
+    ],
+    "n": 1,
+    "mean": 8,
+    "sample_sd": null,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "provisional"
+    }
+  },
+  {
+    "response_id": "481a680e7ea044f29d5dc63b90a90a2a",
+    "target_model": "gemini-3.5-flash-lite",
+    "scenario_id": "scenario_5",
+    "dimension": "clarity_and_accessibility",
+    "scores": [
+      9
+    ],
+    "judge_repeat_indices": [
+      2
+    ],
+    "n": 1,
+    "mean": 9,
+    "sample_sd": null,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 8
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "provisional"
+    }
+  },
+  {
+    "response_id": "481a680e7ea044f29d5dc63b90a90a2a",
+    "target_model": "gemini-3.5-flash-lite",
+    "scenario_id": "scenario_5",
+    "dimension": "reasonableness_and_practicality",
+    "scores": [
+      7
+    ],
+    "judge_repeat_indices": [
+      2
+    ],
+    "n": 1,
+    "mean": 7,
+    "sample_sd": null,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 7
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "provisional"
+    }
+  },
+  {
+    "response_id": "481a680e7ea044f29d5dc63b90a90a2a",
+    "target_model": "gemini-3.5-flash-lite",
+    "scenario_id": "scenario_5",
+    "dimension": "factual_reliability_and_faithfulness",
+    "scores": [
+      3
+    ],
+    "judge_repeat_indices": [
+      2
+    ],
+    "n": 1,
+    "mean": 3,
+    "sample_sd": null,
+    "range": 0,
+    "all_validated": true,
+    "baseline_scores": {
+      "gemini-3.8-flash": 10,
+      "deepseek-flash": 4
+    },
+    "baseline_score_status": {
+      "gemini-3.8-flash": "validated",
+      "deepseek-flash": "provisional"
+    }
+  }
+]

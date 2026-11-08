@@ -1,0 +1,18 @@
+{
+  "evaluation_version": "V4.15",
+  "checklist_version": "V4.14",
+  "numeric_protocol_version": "V4.12",
+  "workflow_revision": "prompt_only_original_runner",
+  "runner": "runtime.configured_evaluation",
+  "checklist_file": "versions/v4_14/inputs/checklist_type1.md",
+  "score_formula_changed": false,
+  "item_mapping_changed": false,
+  "anchor_tables_changed": false,
+  "normal_requests_per_judgment": 1,
+  "files_sha256": {
+    "evaluation_prompt_type1.md": "f01d52958448b35d5f282822c9435136f742416562aa22a82daeacf21d45be8b"
+  },
+  "prompt_revision": "arithmetic_e1_only",
+  "checklist_requirements_changed": false,
+  "change_scope": "E1 explanatory wording only"
+}

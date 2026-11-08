@@ -1,0 +1,11 @@
+{
+  "counts": {
+    "complete": 100,
+    "partial": 0,
+    "missing": 0
+  },
+  "parent_comparison": "project://Sample Data/evaluations/batch_007/comparison/run_20261029T054348.161406Z_V4.12_cbf37824",
+  "created_at_utc": "2026-10-29T23:00:55.484635+00:00",
+  "patch_id": "patch_20261029T230043.952102Z_474c17a9",
+  "note": "Per-dimension overlay; full evidence stays in original/supplement judgment files. Usage is not recomputed."
+}

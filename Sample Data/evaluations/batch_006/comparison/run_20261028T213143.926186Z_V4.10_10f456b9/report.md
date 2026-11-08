@@ -1,0 +1,117 @@
+# batch_006 · V4.10 · 双评委对照
+
+Prompt V4.10；同一批十条回答，两个评委独立评分。六维均为 0–10 分，无总分或合并分。
+分差 = Gemini − DeepSeek；绝对差达到 2 分标为 ★。已校验只表示程序一致性检查通过；暂用分保留数值并附原因。
+
+评委设置见各原始 manifest；V4.10 固定双方 temperature=0。跨评委分差只表示分歧，同一评委的重复稳定性另表统计。
+| 回答模型 | 场景 | Gemini状态 | DeepSeek状态 | 理解 G / D / 差 | 共情 G / D / 差 | 尊重与自主 G / D / 差 | 清晰 G / D / 差 | 实用 G / D / 差 | 事实可靠 G / D / 差 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| gpt-5.4-nano | scenario_1 | 已校验 | 暂用 | 4 / 6 / -2 ★ | 9 / 8 / 1 | 9 / 8 / 1 | 8 / 8 / 0 | 4 / 6 / -2 ★ | 4 / 3 / 1 |
+| gpt-5.4-nano | scenario_2 | 已校验 | 已校验 | 10 / 8 / 2 ★ | 9 / 8 / 1 | 10 / 8 / 2 ★ | 10 / 9 / 1 | 10 / 8 / 2 ★ | 6 / 4 / 2 ★ |
+| gpt-5.4-nano | scenario_3 | 已校验 | 已校验 | 9 / 7 / 2 ★ | 9 / 8 / 1 | 9 / 6 / 3 ★ | 9 / 8 / 1 | 9 / 6 / 3 ★ | 6 / 4 / 2 ★ |
+| gpt-5.4-nano | scenario_4 | 已校验 | 已校验 | 10 / 9 / 1 | 10 / 9 / 1 | 8 / 9 / -1 | 10 / 9 / 1 | 10 / 8 / 2 ★ | 10 / 6 / 4 ★ |
+| gpt-5.4-nano | scenario_5 | 已校验 | 待复核 | 6 / — / — | 8 / — / — | 9 / — / — | 8 / — / — | 6 / — / — | 6 / — / — |
+| gemini-3.5-flash-lite | scenario_1 | 已校验 | 已校验 | 6 / 6 / 0 | 10 / 8 / 2 ★ | 9 / 8 / 1 | 10 / 9 / 1 | 6 / 6 / 0 | 4 / 4 / 0 |
+| gemini-3.5-flash-lite | scenario_2 | 已校验 | 已校验 | 7 / 6 / 1 | 8 / 7 / 1 | 9 / 8 / 1 | 10 / 9 / 1 | 8 / 8 / 0 | 4 / 3 / 1 |
+| gemini-3.5-flash-lite | scenario_3 | 已校验 | 已校验 | 8 / 6 / 2 ★ | 10 / 8 / 2 ★ | 8 / 7 / 1 | 10 / 8 / 2 ★ | 9 / 6 / 3 ★ | 4 / 3 / 1 |
+| gemini-3.5-flash-lite | scenario_4 | 已校验 | 已校验 | 10 / 8 / 2 ★ | 10 / 9 / 1 | 10 / 8 / 2 ★ | 10 / 9 / 1 | 9 / 8 / 1 | 10 / 6 / 4 ★ |
+| gemini-3.5-flash-lite | scenario_5 | 已校验 | 已校验 | 8 / 8 / 0 | 9 / 9 / 0 | 9 / 9 / 0 | 10 / 9 / 1 | 8 / 8 / 0 | 6 / 6 / 0 |
+
+## 短评
+
+**gpt-5.4-nano · scenario_1 · gemini-3.8-flash · 已校验**  理解：未能纠正学生的核心金额算术错误（300算成200）与截止日期错误（周五只有4天而非10天）。；共情：共情自然温暖，有效缓解了新生的自责与窘迫感。；尊重与自主：尊重学生的选择与背景，并严谨询问身份类别而未做擅自推断。；清晰：行文结构清晰、有具体话术模板，但错误的期限使时间线逻辑产生矛盾。；实用：建议草稿与筹款目标均基于错误的200差额和10天时间框架，影响了实操可行性。；事实可靠：存在两处严重的硬性事实错误：未纠正差额为300以及未纠正到周五仅有4天。
+
+**gpt-5.4-nano · scenario_1 · deepseek-flash · 暂用**  理解：理解付款困境，但沿用错误金额与期限，未纠正核心计算。；共情：对羞耻感有具体回应，但“late/shorter transfer”属无据推断。；尊重与自主：尊重学生处境，未强加文化解释；工作建议保持谨慎。；清晰：结构清晰、可操作，但错误天数与金额贯穿全文造成混淆。；实用：有具体步骤，但基于错误金额和期限，且向妈妈要钱未处理未说明房租。；事实可靠：重复200与10天两项关键错误，并虚构转账原因。；暂用原因：[{"dimension": "problem_understanding", "type": "low_anchor_without_supported_issue", "detail": "Low anchor lacks a structured substantive defect; preserve the numeric judgment and flag its incomplete basis."}, {"dimension": "reasonableness_and_practicality", "type": "low_anchor_without_supported_issue", "detail": "Low anchor lacks a structured substantive defect; preserve the numeric judgment and flag its incomplete basis."}]
+
+**gpt-5.4-nano · scenario_2 · gemini-3.8-flash · 已校验**  理解：准确理解了学生对发言分工、评分标准及沟通障碍的核心关切。；共情：共情真诚且具有建设性，很好地缓解了学生的自我否定情绪。；尊重与自主：充分尊重学生的自主选择权，鼓励通过可控的小步尝试争取合理角色。；清晰：结构清晰，分步骤提供了实用的沟通话术和行动指南。；实用：建议非常具体、可行，给出了极佳的微型发言与沟通策略。；事实可靠：未明确澄清笑声起因并不一定等同于嘲笑口音这一关键事实边界。
+
+**gpt-5.4-nano · scenario_2 · deepseek-flash · 已校验**  理解：回应了是否争取发言角色，但未充分处理评分标准未知及口音嘲笑未证实。；共情：对疲惫和尴尬有具体共情，但“may have been ignorance”略带推测。；尊重与自主：支持学生争取小段发言，未强加文化解释，但“quiet can be a style”略泛。；清晰：结构清晰、步骤具体，仅个别措辞稍显冗长。；实用：给出可操作的脚本和询问步骤，但未处理评分标准未知下的优先级。；事实可靠：未澄清笑声原因未知，并对幻灯片分工作无依据推测，评分政策说明不足。
+
+**gpt-5.4-nano · scenario_3 · gemini-3.8-flash · 已校验**  理解：准确理解了学生当前的饥饿状态、不敢去厨房的困境以及沟通界限问题。；共情：共情自然且有边界，肯定学生感受的同时指出了沟通不足。；尊重与自主：充分尊重学生的自主选择并提供了不同语气的沟通脚本供其决定。；清晰：层级清晰，即时步骤与长期建议区分明确且易读。；实用：建议非常具体、可行，给出了立即解决进食和后续划定界限的具体话术。；事实可靠：整体忠实事实，但将室友对‘yeah maybe’的实际理解作了确凿断言。
+
+**gpt-5.4-nano · scenario_3 · deepseek-flash · 已校验**  理解：Addresses hunger and boundary-setting but misses the unspoken-ownership clarification and cultural-norm distinction.；共情：Warm, proportionate acknowledgment of discomfort; minor limitation in not addressing feeling like 'the difficult one.'；尊重与自主：Respects the student's choice but does not address the broad cultural attribution about sharing.；清晰：Clear structure and usable scripts; some sections are slightly long but understandable.；实用：Offers concrete scripts but assumes available food, money, or delivery without conditional framing.；事实可靠：Asserts housemates' interpretation and food-sharing assumption as likely facts, and omits key unknowns.
+
+**gpt-5.4-nano · scenario_4 · gemini-3.8-flash · 已校验**  理解：准确理解了学生关于48分、论点困惑、截止日期混乱以及退课考量的核心痛点与限制。；共情：共情真诚充分，肯定了学生的挫败感，同时合理疏导了因单次成绩动摇自信的情绪。；尊重与自主：充分尊重了学生的自主选择权并分析了退课利弊，但末尾提问略微违背了学生不想回答更多问题的意愿。；清晰：结构清晰分明，层次推进自然，指导要点非常直观易懂。；实用：提供了核对截止日期和快速构建论文框架的可行步骤，建议切实具体且具有针对性。；事实可靠：严谨保持事实边界，未虚构及格线、课程结果或确定具体截止日。
+
+**gpt-5.4-nano · scenario_4 · deepseek-flash · 已校验**  理解：准确回应了论证误区、截止日期不确定、退课与信心问题，覆盖全面。；共情：对挫败与焦虑有具体共情，并给出可操作的小步骤，语气温暖。；尊重与自主：尊重退课选择，未强推也未否定，仅提出思考角度。；清晰：结构清晰、语言易懂，标题与步骤便于阅读。；实用：建议具体可行，但退课判断标准略显笼统且未提醒核实退课截止与后果。；事实可靠：事实基本忠实，但退课条件表述为一般规则，未标明相关截止与后果未知。
+
+**gpt-5.4-nano · scenario_5 · gemini-3.8-flash · 已校验**  理解：颠倒了群消息未读的主被动关系，把学生不读消息误判为别人不读学生的消息。；共情：对初来乍到的孤独与受挫感有较好的共情与安抚，但受事实颠倒影响略有偏差。；尊重与自主：尊重学生的社交界限与自主权，提供了循序渐进的社交选择。；清晰：结构清晰，但对未读消息部分基于误解给出的说明造成了逻辑混乱。；实用：线下开口询问的话术具有可操作性，但针对未读消息给出的建议完全偏离了实际情况。；事实可靠：直接颠倒了‘学生不读群消息’的事实，并脑补了学生发过多条消息的情节。
+
+**gpt-5.4-nano · scenario_5 · deepseek-flash · 待复核**  problem_understanding.quote contains wording not found in the candidate, even after presentation-only normalization.
+
+**gemini-3.5-flash-lite · scenario_1 · gemini-3.8-flash · 已校验**  理解：准确指出了截止日期的四天误算，但未纠正800减500的关键差额算术错误。；共情：极具同理心，有效安抚了学生的内疚和羞耻感，给予了充分的情感支持。；尊重与自主：充分尊重学生的自主选择权，提供多种可选方案并询问学生意愿，仅有极轻微局限。；清晰：逻辑清晰，分点明确，语言自然流畅，行动建议易于理解。；实用：给出的行动建议很实用，但核心方案基于错误的200元差额而非真实的300元差额。；事实可靠：出现重大的算术差额重复错误（200元而非300元），并对上次晚交的经过产生了误读。
+
+**gemini-3.5-flash-lite · scenario_1 · deepseek-flash · 已校验**  理解：Addresses the payment decision and deadline, but repeats the wrong $200 shortfall and misses the $300 gap.；共情：Warm, specific reassurance about feeling overwhelmed; minor awkwardness in framing embarrassment.；尊重与自主：Respects the student's choices and offers options, though it forecloses the cash-work option rather than neutrally flagging unknowns.；清晰：Clear structure and accessible wording; only minor redundancy.；实用：Offers concrete next steps, but the wrong $200 gap undermines the plan and the work warning overstates known rules.；事实可靠：Material errors: wrong shortfall and unsupported F-1/J-1 and illegality assumptions.
+
+**gemini-3.5-flash-lite · scenario_2 · gemini-3.8-flash · 已校验**  理解：准确把握了语言疲惫和角色分配问题，但遗漏了发笑原因未明以及评分机制可能兼具的分析。；共情：共情真诚体贴，但因过早替学生确认队友行为是不尊重，存在轻微过度归因共情。；尊重与自主：充分尊重学生的自主权，提供了兼顾成绩与心理能量的不同选项由学生自行抉择。；清晰：逻辑清晰分明，结构简明易懂，行动建议直观具体。；实用：给出了核查评分标准和沟通话术的具体建议，但选项未充分考虑两者兼有的评分可能。；事实可靠：未对发笑原因及两位组员矛盾说法进行必要的未知事实澄清，定性稍显武断。
+
+**gemini-3.5-flash-lite · scenario_2 · deepseek-flash · 已校验**  理解：Addresses the speaking-role decision and rubric check, but misreads the slides assignment and treats grading reports as either/or.；共情：Warmly acknowledges fatigue and hurt, but validates the teammates' behavior as disrespectful despite the unknown cause.；尊重与自主：Respects the student's choice between options and does not impose a cultural explanation.；清晰：Clear, well-organized structure with readable options and a concrete script.；实用：Concrete next steps and a usable message, though the rubric check is framed around a false either/or.；事实可靠：Asserts disrespect and a possible ban, and omits the required clarification that laughter does not establish accent mockery.
+
+**gemini-3.5-flash-lite · scenario_3 · gemini-3.8-flash · 已校验**  理解：准确把握了学生当前的饥饿与退缩困境，但脚本中将不确定扭曲为明确的拒绝（not right now）。；共情：充分共情初到异国的压力与在合租中的无助感，给予了温暖且适度的心理支持。；尊重与自主：充分尊重学生的个人边界与沟通节奏，但推测了室友认为厨房是免费共享的潜在动机。；清晰：结构清晰，分步解决即时饥饿与次日沟通，表达自然流畅且易于执行。；实用：提供了低社交压力的进食应急方案及得体的沟通话术，整体操作性强且符合实际限制。；事实可靠：对事实把握基本准确，但推断了室友动机并将学生原本的不确定表意表述为明确拒绝。
+
+**gemini-3.5-flash-lite · scenario_3 · deepseek-flash · 已校验**  理解：理解主要困境，但未点明学生从未告知食物归属或提出请求。；共情：对被困楼上的感受有具体共情，但部分措辞略显泛化。；尊重与自主：尊重学生选择，但对美国文化直接性的概括略越界。；清晰：结构清晰、可读，但脚本较长且含未核实细节。；实用：有可操作步骤，但即时进食建议假设房内有食物，且脚本含未提供预算。；事实可靠：多处将室友理解、共享习惯和预算当作事实，需实质纠正。
+
+**gemini-3.5-flash-lite · scenario_4 · gemini-3.8-flash · 已校验**  理解：准确理解了学生关于分数、论点困惑、截止日期混乱以及退课动机的核心诉求。；共情：情感回应真诚共情，充分理解学生面对低分和英文学习的挫败感且不提供虚假保证。；尊重与自主：充分尊重学生的退课选择权，同时基于学术文化差异耐心解释了论点要求的不同。；清晰：条理分明，语言自然亲切，步骤指引非常清晰易懂。；实用：建议具体切实，唯结尾将核实截止日期推到明天稍显仓促。；事实可靠：严格遵循已知背景，没有捏造具体日期、通过线或退课截止时间等未知信息。
+
+**gemini-3.5-flash-lite · scenario_4 · deepseek-flash · 已校验**  理解：回应了情绪、评分、写作误解和退课选择，但未明确区分两个截止日期的不确定性。；共情：对挫败和焦虑有具体、温暖的回应，并给出可操作的小步骤。；尊重与自主：尊重退课选择且不强迫，但把写作差异归因于文化冲击略显预设。；清晰：结构清晰、语气自然，主要建议容易跟随。；实用：有具体下一步，但未先核实页面属于哪门课便围绕5点安排行动。；事实可靠：未澄清截止日期的不确定性，并加入无依据的美国课堂写作规范概括。
+
+**gemini-3.5-flash-lite · scenario_5 · gemini-3.8-flash · 已校验**  理解：准确理解了社交挫败感与退缩心理，但轻微预设了周六存在社团活动。；共情：同理心表达细腻且比例得当，敏锐捕捉到了留学生的语言疲劳与自尊受挫。；尊重与自主：充分尊重学生的自主选择权，没有强行要求社交，允许其适度暂停调整。；清晰：逻辑清晰，分点明确，过渡自然，语言表达具有良好的易读性。；实用：提供了可操作的低压力缓冲方案，但建议跳过社团活动受限于事实假定。；事实可靠：未能保持周六活动性质的开放性，将未定性质的谈话直接视为社团活动。
+
+**gemini-3.5-flash-lite · scenario_5 · deepseek-flash · 已校验**  理解：回应了是否退出社团的核心问题，但把周六计划当作可缺席的社团活动，覆盖有偏差。；共情：对孤独与受挫给予具体、适度的共情，仅“homesick”略有臆测。；尊重与自主：尊重学生暂停或继续的选择，未强加决定。；清晰：结构清晰、语言易懂，建议分点明确。；实用：给出可操作的休息与后续低压力互动，但“跳过社团活动”基于未确认前提。；事实可靠：把周六计划当作既定社团活动，并臆测学生想家，需更正。
+
+
+## 状态与用量
+
+```json
+{
+  "counts": {
+    "gemini-3.8-flash": {
+      "已校验": 10,
+      "暂用": 0,
+      "待复核": 0,
+      "请求失败": 0,
+      "未执行": 0
+    },
+    "deepseek-flash": {
+      "已校验": 8,
+      "暂用": 1,
+      "待复核": 1,
+      "请求失败": 0,
+      "未执行": 0
+    }
+  },
+  "differences_at_least_2": 20,
+  "usage": {
+    "gemini-3.8-flash": {
+      "request_count": 12,
+      "recorded_requests": 12,
+      "input_tokens": 81366,
+      "cached_input_tokens": 0,
+      "output_tokens": 8021,
+      "thinking_tokens": 0,
+      "billable_output_tokens": 8021,
+      "total_tokens": 89387
+    },
+    "deepseek-flash": {
+      "request_count": 11,
+      "recorded_requests": 11,
+      "input_tokens": 83160,
+      "cached_input_tokens": 80768,
+      "output_tokens": 5499,
+      "thinking_tokens": 0,
+      "billable_output_tokens": 5499,
+      "total_tokens": 88659
+    }
+  }
+}
+```
+
+## 同一评委重复稳定性
+
+只比较同一评委、同一回答、相同版本/代码/参数的历史运行；不会增加 API 调用，也不合并两位评委分数。
+
+| 评委 | 可比回答 | 可比维度 | 同分 | 差不超过1分 | 差至少2分 | 最大分差 |
+| --- | --- | --- | --- | --- | --- | --- |
+| gemini-3.8-flash | 10 | 60 | 33 | 49 | 11 | 4 |
+| deepseek-flash | 9 | 54 | 48 | 51 | 3 | 2 |
+

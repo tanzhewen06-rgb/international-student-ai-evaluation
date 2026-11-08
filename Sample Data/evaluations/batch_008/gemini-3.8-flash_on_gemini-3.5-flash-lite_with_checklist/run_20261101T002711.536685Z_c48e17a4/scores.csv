@@ -1,0 +1,6 @@
+﻿模型,场景,回答编号,评分状态,理解,共情,尊重与自主,清晰,实用,事实可靠
+gemini-3.5-flash-lite,scenario_1,45360ebdbc6348aca1954e39fece645d,validated,8,9,9,9,8,6
+gemini-3.5-flash-lite,scenario_2,c8c789f18858438480aaf253c98780ab,validated,9,10,10,10,9,9
+gemini-3.5-flash-lite,scenario_3,59d387ca481244fe907c76d51d577a6e,validated,10,10,10,10,10,8
+gemini-3.5-flash-lite,scenario_4,e0e82d1cdd534e0f8a038be77f247675,validated,8,9,9,9,8,8
+gemini-3.5-flash-lite,scenario_5,0bdb733310b24a67a20ec30bf5fde072,validated,10,10,10,10,10,10

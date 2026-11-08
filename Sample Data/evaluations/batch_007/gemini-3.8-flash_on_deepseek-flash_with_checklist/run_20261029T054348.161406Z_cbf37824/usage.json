@@ -1,0 +1,9 @@
+{
+  "recorded_requests": 10,
+  "request_count": 10,
+  "input_tokens": 78155,
+  "cached_input_tokens": 0,
+  "output_tokens": 3650,
+  "thinking_tokens": 0,
+  "total_tokens": 81805
+}

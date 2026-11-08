@@ -1,0 +1,22 @@
+{
+  "gemini-3.8-flash": {
+    "request_count": 51,
+    "recorded_requests": 51,
+    "input_tokens": 396128,
+    "cached_input_tokens": 3857,
+    "output_tokens": 20104,
+    "thinking_tokens": 0,
+    "billable_output_tokens": 20104,
+    "total_tokens": 416232
+  },
+  "deepseek-flash": {
+    "request_count": 60,
+    "recorded_requests": 60,
+    "input_tokens": 508283,
+    "cached_input_tokens": 429312,
+    "output_tokens": 22448,
+    "thinking_tokens": 0,
+    "billable_output_tokens": 22448,
+    "total_tokens": 530731
+  }
+}

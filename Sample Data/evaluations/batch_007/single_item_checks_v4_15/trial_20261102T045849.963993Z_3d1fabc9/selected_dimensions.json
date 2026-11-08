@@ -1,0 +1,61 @@
+{
+  "status": "scored",
+  "response_id": "ced1e5122ec147799e1890b1b724698c",
+  "evaluator_model": "gpt-5.4-mini-2026-03-17",
+  "selected_dimensions": [
+    "factual_reliability_and_faithfulness"
+  ],
+  "baseline_trial": "project://Sample Data/evaluations/batch_007/judge_comparison_v4_15/trial_20261102T042920.013441Z_04b24a18",
+  "baseline_dimensions": {
+    "factual_reliability_and_faithfulness": {
+      "anchor_score": 10,
+      "score": 10,
+      "comment": "Preserves the supplied facts, corrects the timeline and shortfall, and keeps visa/work legality appropriately uncertain.",
+      "evidence": [],
+      "score_status": "validated",
+      "issue_ids": []
+    }
+  },
+  "dimensions": {
+    "factual_reliability_and_faithfulness": {
+      "anchor_score": 4,
+      "score": 3,
+      "comment": "Mostly faithful, but it repeats the wrong 200 shortfall and leaves the current late-payment permission unresolved.",
+      "evidence": [],
+      "score_status": "validated",
+      "issue_ids": [
+        "I1",
+        "I2",
+        "I3",
+        "I4"
+      ]
+    }
+  },
+  "checklist_findings": {
+    "E1": {
+      "status": "unmet",
+      "issue_ids": []
+    },
+    "E2": {
+      "status": "unmet",
+      "issue_ids": []
+    },
+    "E3": {
+      "status": "unmet",
+      "issue_ids": []
+    },
+    "E4": {
+      "status": "unmet",
+      "issue_ids": []
+    },
+    "E5": {
+      "status": "unmet",
+      "issue_ids": []
+    }
+  },
+  "reason": null,
+  "source_sha256": "7d464fd8a4f2ce5f55f65e6a4155d681f8a634c677f33bb19da56f0f63c4e8fa",
+  "rubric_sha256": "f01d52958448b35d5f282822c9435136f742416562aa22a82daeacf21d45be8b",
+  "full_judgment_file": "project://Sample Data/evaluations/batch_007/single_item_checks_v4_15/trial_20261102T045849.963993Z_3d1fabc9/gpt_judgments.json",
+  "note": "Independent current-prompt check; original scores are unchanged."
+}

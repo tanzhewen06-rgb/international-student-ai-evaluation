@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.2",
+  "rubric_version": "V4.2",
+  "evaluator_model": "gemini-3.8-flash",
+  "target_model": "gpt-5.4-nano",
+  "evaluator_generation_config": {
+    "thinking_level": "low"
+  },
+  "rubric_sha256": "90c5bde1f8b8149a1f7a4128dddea5b27336180ea19fb75417c43293d28623c1",
+  "scoring_code_sha256": {
+    "agent.py": "d440bc92e307d75c548542b25647f2b87354272526554dca4ba041de85e4aea7",
+    "models.py": "384ffaeb8d4f90b5c078313cb68704f40a4528b5000dafefab8e6da807dc19a7",
+    "checklist.py": "c630b1b86c8a40f9035fbed6e8bb06afb2e1a0f1945e312e626111cd04313eb9",
+    "evaluator.py": "33fbfb28b75f72146cc454d8fadc0b7bd9e165d467af535c20f57942cbe07d76",
+    "storage.py": "5168e764ac5e3a460301ba78e999ecaa6320bb5e4cc8a6fa5b4941293c7b438c",
+    "scoring.py": "1180deec838e4c9e54e90ca31c1651ff83f7815d1f449a8f3b6ef1159a43c957",
+    "calibration.py": "e4048326ca412f4db072c49ef7d21ef8cd799e2e6fe8979bb44d2d2bcd9d6a6b",
+    "strict_scoring.py": "c0df4f4d76afa7693a90cf58002e624dd0772d57355446863c2bd73750c7a763",
+    "audit_v42.py": "1a488eae50548ee19d56d094203257649e306974adbe55ad638c561ae4681b7e"
+  },
+  "score_scale": {
+    "min": 0,
+    "max": 10
+  },
+  "calibration_sha256": "94e8399345e1e366ba4b60744e48638c0f8283653ba1aad61a96c0aec097a58d",
+  "checklist_sha256": "f35511f4a61d42aa96b81f6b8522a8a8873dae088825ff1b8899a04c7161f245",
+  "checklist_mode": "external",
+  "model_client_sha256": "6db324f7c78f469e53e9ccb84f5f5b52903f0428517e8e883893b8d95893af41",
+  "evaluation_round_id": "1eba3643-9d19-4ec1-b085-9b1f45ad0365",
+  "evaluation_run_id": "51aca95c-1587-4b85-a41d-e81122aeac53",
+  "round_timestamp_utc": "20261027T053127.140068Z",
+  "max_responses": null,
+  "result_file": "evaluations_gemini-3.8-flash_on_gpt-5.4-nano.jsonl",
+  "selected_response_ids": [
+    "2adbb43b9f904246b8fed1ed27c41d31",
+    "00416c49abd84de8be93c8a32b618047",
+    "df147bb9a78f45eebfddd9f34f7bf34b",
+    "b36aad5876764abd9a0c79b16d3d04da",
+    "65f040977ce0478a88381a1fde209f2d"
+  ],
+  "source_files": [
+    "project://Sample Data/responses/batch_004/responses_gpt-5.4-nano.jsonl"
+  ],
+  "calibration_file": "evaluation_agent_human_calibration_examples V1.md",
+  "calibration_source_path": "project://Evaluation Agent/prompts/evaluation_agent_human_calibration_examples V1.md",
+  "calibration_snapshot": "calibration.md",
+  "checklist_file": "international_student_scenario_V4_checklist V4.md",
+  "checklist_snapshot": "checklist.md",
+  "checklist_source_path": "project://Evaluation Agent/prompts/international_student_scenario_V4_checklist V4.md",
+  "background_input": "saved_snapshot",
+  "applied_checklists": {
+    "2adbb43b9f904246b8fed1ed27c41d31": {
+      "scenario_id": "scenario_1",
+      "scenario_sha256": "61f58f34fdfb7947a2afe646ec3830d5f9ed20ad511d5c60a3b9f296f555e7a2",
+      "instructions_sha256": "c46feb805eda138b9210b9c24449c4c5ab2ace30f51a0efda968dd41e621fabc"
+    },
+    "00416c49abd84de8be93c8a32b618047": {
+      "scenario_id": "scenario_2",
+      "scenario_sha256": "335f358b42c634cbc33cbe67809ad0aa7519074ccb599d490179553368259bf8",
+      "instructions_sha256": "31e1c8ea66a1898df300aedc08ab3019e0a000eb9c1214ae44946efba53b9416"
+    },
+    "df147bb9a78f45eebfddd9f34f7bf34b": {
+      "scenario_id": "scenario_3",
+      "scenario_sha256": "feef7c50a018aa76d636263f22af4049178bcb9596936b7ec584c766e3447782",
+      "instructions_sha256": "59437bd4ab679af2c7c01a1f789da8d7f2f9e185e3aebf2052f0a27ebd4ff640"
+    },
+    "b36aad5876764abd9a0c79b16d3d04da": {
+      "scenario_id": "scenario_4",
+      "scenario_sha256": "866fa999a7412450bdfc79f2204840794bf70fc362d3b65769d2af598d904ea0",
+      "instructions_sha256": "eb61c1eccab4c517b1fb4aaf716eb09f587df4752b38a453b73dfa9e9c7bb009"
+    },
+    "65f040977ce0478a88381a1fde209f2d": {
+      "scenario_id": "scenario_5",
+      "scenario_sha256": "912b57e9aa61d6a43b7901bab44261c581b46127fed59329c88126d99cf8944f",
+      "instructions_sha256": "57390c621f1c31ec1543ca3c36e9545ea7b3877329e5b6eb3c49c7fd0743ed8f"
+    }
+  }
+}

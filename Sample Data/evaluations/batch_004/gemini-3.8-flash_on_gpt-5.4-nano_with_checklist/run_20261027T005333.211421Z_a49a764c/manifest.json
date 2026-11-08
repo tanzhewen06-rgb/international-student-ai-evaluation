@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.0",
+  "evaluator_model": "gemini-3.8-flash",
+  "target_model": "gpt-5.4-nano",
+  "evaluator_generation_config": {
+    "thinking_level": "low"
+  },
+  "rubric_sha256": "7ae5473e69042665c9a715d0a07adedb919ec6aefa1031181b55e39756589173",
+  "scoring_code_sha256": {
+    "agent.py": "d213a3a6747c7f4a52767a48f21dd4196dee3983672d163f2e8b1f4c451dab2b",
+    "models.py": "384ffaeb8d4f90b5c078313cb68704f40a4528b5000dafefab8e6da807dc19a7",
+    "checklist.py": "c630b1b86c8a40f9035fbed6e8bb06afb2e1a0f1945e312e626111cd04313eb9",
+    "evaluator.py": "1122491b8d246be4644b32804dc8ef9365caa040b267845f3f4d3cbb199678b7",
+    "storage.py": "5168e764ac5e3a460301ba78e999ecaa6320bb5e4cc8a6fa5b4941293c7b438c",
+    "scoring.py": "3e2d28deba4f07d5f193c1c471435f89cde166612552576b8eb416979c67c675",
+    "calibration.py": "1d169992686234e24ad20d5c37cb677d1b948a13c56050a87989f0829f2ff722"
+  },
+  "score_scale": {
+    "min": 0,
+    "max": 10
+  },
+  "calibration_sha256": "94e8399345e1e366ba4b60744e48638c0f8283653ba1aad61a96c0aec097a58d",
+  "checklist_sha256": "f35511f4a61d42aa96b81f6b8522a8a8873dae088825ff1b8899a04c7161f245",
+  "checklist_mode": "external",
+  "model_client_sha256": "6db324f7c78f469e53e9ccb84f5f5b52903f0428517e8e883893b8d95893af41",
+  "evaluation_round_id": "a49a764c-0ed1-400f-b73d-9d16fda018da",
+  "evaluation_run_id": "951ab0fe-7154-40ab-b1b0-9303f07b0873",
+  "round_timestamp_utc": "20261027T005333.211421Z",
+  "max_responses": null,
+  "result_file": "evaluations_gemini-3.8-flash_on_gpt-5.4-nano.jsonl",
+  "selected_response_ids": [
+    "2adbb43b9f904246b8fed1ed27c41d31",
+    "00416c49abd84de8be93c8a32b618047",
+    "df147bb9a78f45eebfddd9f34f7bf34b",
+    "b36aad5876764abd9a0c79b16d3d04da",
+    "65f040977ce0478a88381a1fde209f2d"
+  ],
+  "source_files": [
+    "project://Sample Data/responses/batch_004/responses_gpt-5.4-nano.jsonl"
+  ],
+  "calibration_file": "evaluation_agent_human_calibration_examples V1.md",
+  "calibration_source_path": "project://Evaluation Agent/prompts/evaluation_agent_human_calibration_examples V1.md",
+  "calibration_snapshot": "calibration.md",
+  "checklist_file": "international_student_scenario_V4_checklist V4.md",
+  "checklist_snapshot": "checklist.md",
+  "checklist_source_path": "project://Evaluation Agent/prompts/international_student_scenario_V4_checklist V4.md",
+  "background_input": "saved_snapshot",
+  "applied_checklists": {
+    "2adbb43b9f904246b8fed1ed27c41d31": {
+      "scenario_id": "scenario_1",
+      "scenario_sha256": "61f58f34fdfb7947a2afe646ec3830d5f9ed20ad511d5c60a3b9f296f555e7a2",
+      "instructions_sha256": "c46feb805eda138b9210b9c24449c4c5ab2ace30f51a0efda968dd41e621fabc"
+    },
+    "00416c49abd84de8be93c8a32b618047": {
+      "scenario_id": "scenario_2",
+      "scenario_sha256": "335f358b42c634cbc33cbe67809ad0aa7519074ccb599d490179553368259bf8",
+      "instructions_sha256": "31e1c8ea66a1898df300aedc08ab3019e0a000eb9c1214ae44946efba53b9416"
+    },
+    "df147bb9a78f45eebfddd9f34f7bf34b": {
+      "scenario_id": "scenario_3",
+      "scenario_sha256": "feef7c50a018aa76d636263f22af4049178bcb9596936b7ec584c766e3447782",
+      "instructions_sha256": "59437bd4ab679af2c7c01a1f789da8d7f2f9e185e3aebf2052f0a27ebd4ff640"
+    },
+    "b36aad5876764abd9a0c79b16d3d04da": {
+      "scenario_id": "scenario_4",
+      "scenario_sha256": "866fa999a7412450bdfc79f2204840794bf70fc362d3b65769d2af598d904ea0",
+      "instructions_sha256": "eb61c1eccab4c517b1fb4aaf716eb09f587df4752b38a453b73dfa9e9c7bb009"
+    },
+    "65f040977ce0478a88381a1fde209f2d": {
+      "scenario_id": "scenario_5",
+      "scenario_sha256": "912b57e9aa61d6a43b7901bab44261c581b46127fed59329c88126d99cf8944f",
+      "instructions_sha256": "57390c621f1c31ec1543ca3c36e9545ea7b3877329e5b6eb3c49c7fd0743ed8f"
+    }
+  }
+}

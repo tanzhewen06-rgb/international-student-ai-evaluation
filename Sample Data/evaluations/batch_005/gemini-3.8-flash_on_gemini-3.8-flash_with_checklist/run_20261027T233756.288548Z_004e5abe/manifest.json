@@ -1,0 +1,160 @@
+{
+  "schema_version": "1.2",
+  "rubric_version": "V4.5",
+  "evaluator_model": "gemini-3.8-flash",
+  "target_model": "gemini-3.8-flash",
+  "evaluator_generation_config": {
+    "thinking_level": "low"
+  },
+  "rubric_sha256": "bfad3c738ef39c8c369270d696f78ef307863a848ac5bb141ff66e343c14de6b",
+  "scoring_code_sha256": {
+    "agent.py": "47531829f74185da547fffb584e98c3cb2b4e36e2626c682ec7129c0a9c1d7ed",
+    "models.py": "384ffaeb8d4f90b5c078313cb68704f40a4528b5000dafefab8e6da807dc19a7",
+    "checklist.py": "c630b1b86c8a40f9035fbed6e8bb06afb2e1a0f1945e312e626111cd04313eb9",
+    "evaluator.py": "dd09514590b21aaaa55c1b5528c7f4750a45b6be78b70a4fb13562719d4ef890",
+    "storage.py": "5168e764ac5e3a460301ba78e999ecaa6320bb5e4cc8a6fa5b4941293c7b438c",
+    "scoring.py": "314542f772e36014ad1cbc2e1154930adf22274aa929d5d4444437c84d0a966d",
+    "calibration.py": "bd44408054dd97872fdbf7a3def30e7de528a4828b52ce4aca32cae938fcdba3",
+    "strict_scoring.py": "0c882b0535f185b8ed59a659538f33caf916a9ad0509fd10002857f096f47ef1",
+    "audit_v42.py": "1a488eae50548ee19d56d094203257649e306974adbe55ad638c561ae4681b7e",
+    "audit_v43.py": "4720f270d595d6842cc146f1ed8bc076a3f7f665f7368a6c61797f21e8460b3b",
+    "finalize_scoring.py": "df9b3cbbd4867d48e46f7e4c1930c048005b11d680aedc3dadbee2f3f6ff79c8"
+  },
+  "score_scale": {
+    "min": 0,
+    "max": 10
+  },
+  "calibration_sha256": "57bda8997fb682a2111a30ff7d2036434568f8a2fbc36daffb1699c7de7d9b62",
+  "score_computation": "program_minimum_from_anchor_and_audit",
+  "checklist_sha256": "7a751457affb0a054d1cb857e06132bdc788654f8d416030ec5940f427bb68f6",
+  "checklist_mode": "external",
+  "model_client_sha256": "6db324f7c78f469e53e9ccb84f5f5b52903f0428517e8e883893b8d95893af41",
+  "evaluation_round_id": "004e5abe-36fc-4a42-88dc-36b05128ace8",
+  "evaluation_run_id": "b0746753-08be-4293-b5fb-df91d68b5255",
+  "round_timestamp_utc": "20261027T233756.288548Z",
+  "max_responses": null,
+  "result_file": "evaluations_gemini-3.8-flash_on_gemini-3.8-flash.jsonl",
+  "selected_response_ids": [
+    "193786521f7044c4a85bd3a93498534a",
+    "6a792fe05b5d49c6a7d180194ed6acef",
+    "3c5284df0a534e51abe90f0af6e0a5c5",
+    "e92fe69578ef484cbd456b91b3d41833",
+    "ae229e9e404e4a4c9e018ec78de464c5",
+    "cf6da097528742cfa76a26456faa956e",
+    "88a440d754c64bc3aa42414861028efe",
+    "a659bca07ffe4f5f8d460c9bb48d37e5",
+    "6fa23b7a3e2f47b98df3ae3330629f46",
+    "31446ffe40584a4298c0dcbee1cef67c",
+    "cf15dbf4ef9e42819e5a2a420ff01bca",
+    "2b068c3a23154c00aaf38a4f54d16c31",
+    "6c521f3cfa3948e094c1fa2ec0f235ee",
+    "10740b81f6f84ee4991615f6ed447ceb",
+    "ce11ac9be8624ab49e6ed552efba7859"
+  ],
+  "source_files": [
+    "project://Sample Data/responses/batch_005/responses_gemini-3.8-flash.jsonl"
+  ],
+  "calibration_file": "evaluation_agent_human_calibration_examples V2.md",
+  "calibration_source_path": "project://Evaluation Agent/prompts/evaluation_agent_human_calibration_examples V2.md",
+  "calibration_snapshot": "calibration.md",
+  "checklist_file": "international_student_scenario_V4_checklist V4.4.md",
+  "checklist_snapshot": "checklist.md",
+  "checklist_source_path": "project://Evaluation Agent/prompts/international_student_scenario_V4_checklist V4.4.md",
+  "background_input": "saved_snapshot",
+  "applied_checklists": {
+    "193786521f7044c4a85bd3a93498534a": {
+      "scenario_id": "scenario_1",
+      "scenario_sha256": "61f58f34fdfb7947a2afe646ec3830d5f9ed20ad511d5c60a3b9f296f555e7a2",
+      "instructions_sha256": "ee3a16af6d16dcebc061ca2e6edbdccfd4644b3dca3eea4d04368b3feb836c9f"
+    },
+    "6a792fe05b5d49c6a7d180194ed6acef": {
+      "scenario_id": "scenario_2",
+      "scenario_sha256": "335f358b42c634cbc33cbe67809ad0aa7519074ccb599d490179553368259bf8",
+      "instructions_sha256": "b813e2fdacd039bcb54a3cc1c0c5669351ec68ae90b8d4b7395fbfe337a63984"
+    },
+    "3c5284df0a534e51abe90f0af6e0a5c5": {
+      "scenario_id": "scenario_3",
+      "scenario_sha256": "feef7c50a018aa76d636263f22af4049178bcb9596936b7ec584c766e3447782",
+      "instructions_sha256": "7b54c40d2bd5d3593df987f5d146ea28fc0498908bd1356075dc54af8c5ab7c5"
+    },
+    "e92fe69578ef484cbd456b91b3d41833": {
+      "scenario_id": "scenario_4",
+      "scenario_sha256": "866fa999a7412450bdfc79f2204840794bf70fc362d3b65769d2af598d904ea0",
+      "instructions_sha256": "0c9cb7b1e9d508959a17f6febd6480d5ce4225188891e7bb6d0ed047d224aa00"
+    },
+    "ae229e9e404e4a4c9e018ec78de464c5": {
+      "scenario_id": "scenario_5",
+      "scenario_sha256": "912b57e9aa61d6a43b7901bab44261c581b46127fed59329c88126d99cf8944f",
+      "instructions_sha256": "8cdc300f41dd5c26c8e8c683f569179e06e1509488c9edf0280858d0b9a300a6"
+    },
+    "cf6da097528742cfa76a26456faa956e": {
+      "scenario_id": "scenario_1",
+      "scenario_sha256": "61f58f34fdfb7947a2afe646ec3830d5f9ed20ad511d5c60a3b9f296f555e7a2",
+      "instructions_sha256": "ee3a16af6d16dcebc061ca2e6edbdccfd4644b3dca3eea4d04368b3feb836c9f"
+    },
+    "88a440d754c64bc3aa42414861028efe": {
+      "scenario_id": "scenario_2",
+      "scenario_sha256": "335f358b42c634cbc33cbe67809ad0aa7519074ccb599d490179553368259bf8",
+      "instructions_sha256": "b813e2fdacd039bcb54a3cc1c0c5669351ec68ae90b8d4b7395fbfe337a63984"
+    },
+    "a659bca07ffe4f5f8d460c9bb48d37e5": {
+      "scenario_id": "scenario_3",
+      "scenario_sha256": "feef7c50a018aa76d636263f22af4049178bcb9596936b7ec584c766e3447782",
+      "instructions_sha256": "7b54c40d2bd5d3593df987f5d146ea28fc0498908bd1356075dc54af8c5ab7c5"
+    },
+    "6fa23b7a3e2f47b98df3ae3330629f46": {
+      "scenario_id": "scenario_4",
+      "scenario_sha256": "866fa999a7412450bdfc79f2204840794bf70fc362d3b65769d2af598d904ea0",
+      "instructions_sha256": "0c9cb7b1e9d508959a17f6febd6480d5ce4225188891e7bb6d0ed047d224aa00"
+    },
+    "31446ffe40584a4298c0dcbee1cef67c": {
+      "scenario_id": "scenario_5",
+      "scenario_sha256": "912b57e9aa61d6a43b7901bab44261c581b46127fed59329c88126d99cf8944f",
+      "instructions_sha256": "8cdc300f41dd5c26c8e8c683f569179e06e1509488c9edf0280858d0b9a300a6"
+    },
+    "cf15dbf4ef9e42819e5a2a420ff01bca": {
+      "scenario_id": "scenario_1",
+      "scenario_sha256": "61f58f34fdfb7947a2afe646ec3830d5f9ed20ad511d5c60a3b9f296f555e7a2",
+      "instructions_sha256": "ee3a16af6d16dcebc061ca2e6edbdccfd4644b3dca3eea4d04368b3feb836c9f"
+    },
+    "2b068c3a23154c00aaf38a4f54d16c31": {
+      "scenario_id": "scenario_2",
+      "scenario_sha256": "335f358b42c634cbc33cbe67809ad0aa7519074ccb599d490179553368259bf8",
+      "instructions_sha256": "b813e2fdacd039bcb54a3cc1c0c5669351ec68ae90b8d4b7395fbfe337a63984"
+    },
+    "6c521f3cfa3948e094c1fa2ec0f235ee": {
+      "scenario_id": "scenario_3",
+      "scenario_sha256": "feef7c50a018aa76d636263f22af4049178bcb9596936b7ec584c766e3447782",
+      "instructions_sha256": "7b54c40d2bd5d3593df987f5d146ea28fc0498908bd1356075dc54af8c5ab7c5"
+    },
+    "10740b81f6f84ee4991615f6ed447ceb": {
+      "scenario_id": "scenario_4",
+      "scenario_sha256": "866fa999a7412450bdfc79f2204840794bf70fc362d3b65769d2af598d904ea0",
+      "instructions_sha256": "0c9cb7b1e9d508959a17f6febd6480d5ce4225188891e7bb6d0ed047d224aa00"
+    },
+    "ce11ac9be8624ab49e6ed552efba7859": {
+      "scenario_id": "scenario_5",
+      "scenario_sha256": "912b57e9aa61d6a43b7901bab44261c581b46127fed59329c88126d99cf8944f",
+      "instructions_sha256": "8cdc300f41dd5c26c8e8c683f569179e06e1509488c9edf0280858d0b9a300a6"
+    }
+  },
+  "calibration_mode": "one_short_example_per_scenario",
+  "calibration_source_sha256": "94e8399345e1e366ba4b60744e48638c0f8283653ba1aad61a96c0aec097a58d",
+  "applied_calibration_examples": {
+    "193786521f7044c4a85bd3a93498534a": "human_example_02",
+    "6a792fe05b5d49c6a7d180194ed6acef": "human_example_04",
+    "3c5284df0a534e51abe90f0af6e0a5c5": "human_example_05",
+    "e92fe69578ef484cbd456b91b3d41833": "human_example_07",
+    "ae229e9e404e4a4c9e018ec78de464c5": "human_example_09",
+    "cf6da097528742cfa76a26456faa956e": "human_example_02",
+    "88a440d754c64bc3aa42414861028efe": "human_example_04",
+    "a659bca07ffe4f5f8d460c9bb48d37e5": "human_example_05",
+    "6fa23b7a3e2f47b98df3ae3330629f46": "human_example_07",
+    "31446ffe40584a4298c0dcbee1cef67c": "human_example_09",
+    "cf15dbf4ef9e42819e5a2a420ff01bca": "human_example_02",
+    "2b068c3a23154c00aaf38a4f54d16c31": "human_example_04",
+    "6c521f3cfa3948e094c1fa2ec0f235ee": "human_example_05",
+    "10740b81f6f84ee4991615f6ed447ceb": "human_example_07",
+    "ce11ac9be8624ab49e6ed552efba7859": "human_example_09"
+  }
+}

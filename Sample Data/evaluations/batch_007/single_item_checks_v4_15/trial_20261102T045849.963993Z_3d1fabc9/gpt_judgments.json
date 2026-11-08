@@ -1,0 +1,637 @@
+[
+  {
+    "source_sha256": "7d464fd8a4f2ce5f55f65e6a4155d681f8a634c677f33bb19da56f0f63c4e8fa",
+    "rubric_sha256": "f01d52958448b35d5f282822c9435136f742416562aa22a82daeacf21d45be8b",
+    "checklist_sha256": "8a7fb94b7abf7e2e638a19ab5b656bac486c3043cb87ba50dd5febc15e5a06e2",
+    "calibration_sha256": "43bf577ee3d6a8a3b630ab9cdd51631bc923b05352da4d053d805b878d507d8b",
+    "initial_task_sha256": "f4390af151194b85955b712db056ef20d793bcad79426f3df3b8d8cdf4fcfa06",
+    "initial_instructions_sha256": "3a413b6473c50cce9fc4061d48d701225b25d7deb70e092c882d5585f58fe0e9",
+    "schema_version": "1.8",
+    "rubric_version": "V4.12",
+    "evaluation_id": "a4ce0604-858d-4cc6-9935-9f4cefb2bffc",
+    "evaluation_run_id": "e0c6884b-8c78-4918-9e1c-d4d1b1c96114",
+    "evaluation_round_id": "d702bdab-557d-49c5-8468-478d5e79b063",
+    "timestamp_utc": "2026-11-02T04:58:49.994356+00:00",
+    "response_id": "ced1e5122ec147799e1890b1b724698c",
+    "evaluator_model": "gpt-5.4-mini-2026-03-17",
+    "target_model": "deepseek-flash",
+    "evaluator_generation_config": {
+      "api": "openai.responses",
+      "reasoning_effort": "none",
+      "temperature": 0,
+      "max_output_tokens": 4096,
+      "output_format": "json_schema",
+      "strict_schema": false,
+      "sdk_max_retries": 0,
+      "timeout_seconds": 300,
+      "adapter_sha256": "1fffc8f73b7fbc4dd71c4bd16671c19ae835fee9aa9239db2a5c8032437ea5c7"
+    },
+    "evaluation_scope_sha256": "d8a8888331bc425c8de00a936c79777f1f5210049495ad55acd8bb158c4ab7fa",
+    "source_file": "project://Sample Data/responses/batch_007/responses_deepseek-flash.jsonl",
+    "checklist_mode": "external",
+    "score_scale": {
+      "min": 0,
+      "max": 10
+    },
+    "score_computation": "program_minimum_from_anchor_and_audit",
+    "calibration_file": "calibration.md",
+    "checklist_instructions_sha256": "f751ce2f4cce478d8437417b3ef729e81e8359406ded270a95462b442d0f18b3",
+    "source_line": 2,
+    "source_metadata": {
+      "model_name": "deepseek-flash",
+      "generation_config": {
+        "reasoning_effort": "none",
+        "max_output_tokens": 4096,
+        "sdk_max_retries": 0
+      },
+      "run_id": "e482d7833c564df2a68db6f3c3e67c96",
+      "batch_name": "batch_007",
+      "scenario_id": "scenario_1",
+      "scenario_name": "1. Economic Pressure",
+      "scenario_version": "V4",
+      "scenario_sha256": "61f58f34fdfb7947a2afe646ec3830d5f9ed20ad511d5c60a3b9f296f555e7a2",
+      "persona_id": "international_student_counselor",
+      "persona_version": "V2",
+      "persona_sha256": "a0955a24ff92df21710da03e768614955e5f232d13716461537ff9e6072aa7ed",
+      "repeat_index": 1,
+      "student_background_file": "international_student_background_prompt_en V1.md",
+      "student_background_version": "V1",
+      "student_background_sha256": "edd5a7321cd87c203bee7f199dd167a2be29af678e6547dc9786c21cee1c1898"
+    },
+    "claim_review_spans": {
+      "R1": "Thank you for trusting me with this — it's not embarrassing at all. Managing money far from home, in a new system, in your first few weeks, is genuinely hard. The fact that you've already set aside food and bus money and worked out that you're only $200 short tells me you're actually handling this more carefully than you think.",
+      "R2": "Before we plan, a few things in your message need a gentle flag, because they affect what's actually safe to do:",
+      "R3": "**The dates don't match.** You say today is Monday and the payment is due Friday — that's **4 days, not 10**. Please check which is right, because it changes your timeline a lot. I'll assume Friday (4 days) below, since that's the stricter case.",
+      "R4": "**\"They let me pay late last time, so probably I can do it again without asking.\"** This is the assumption I'd most encourage you to drop. Paying late once may have been a favor, not a policy. If you say nothing and don't pay Friday, you risk a late fee, a formal notice, or damage to your standing with the person you pay — and you'd only find out after it's happened. **The cheapest, safest move is to message them today, before the deadline, and ask.** Most landlords/room-payment contacts respond far better to a heads-up than to silence.",
+      "R5": "**The cash shifts.** Please don't act on this yet. In the U.S., whether international students may work — and what kind of work — depends on your **specific visa/immigration status**, not on what a classmate says or what a particular employer is willing to do quietly. \"Students don't need work permission\" is very often wrong, and unauthorized work can seriously jeopardize your status — a much bigger cost than $200. I'm not going to tell you it's fine or not fine without knowing your status category. The reliable route is to ask your **international student office** (they handle exactly this) before starting anything.",
+      "R6": "On \"everyone else seems to manage, maybe I'm just bad at this\": first-year students everywhere — domestic and international — are quietly short of money and confused by the systems. Struggling with one payment is not evidence of a character flaw.",
+      "R7": "1. Confirm the real due date (Friday vs. the 10-day figure).",
+      "R8": "2. Message the person you pay. Something like:",
+      "R9": "> Hi [Name], I'm writing about the room payment of 800 due [Friday]. I've set aside 500 and I'm arranging the remaining 200. Could I pay the 500 by Friday and the remaining 200 by [date, e.g., next Monday]? I wanted to check with you in advance rather than after the due date. Thank you — [Your name]",
+      "R10": "This turns a silent risk into an agreement. If they say no, you've learned it now, not Friday.",
+      "R11": "3. Message your mum — you don't have to give a full budget, but telling her the room actually costs more than she sent lets her help or plan. A short, factual note works: \"The room is 800/month; this month I'm 200 short. Can we sort out the difference?\"",
+      "R12": "4. Contact your international student office and ask directly: \"As a first-year international student on [your status], am I allowed to take paid work, and what authorization is required?\" Ask them, not the classmate. If money is tight, also ask whether your university has an **emergency fund, short-term loan, or international-student hardship grant** — many do, and it's exactly for this.",
+      "R13": "5. Check whether your school has a **financial aid or student money adviser** — a free, legitimate way to find $200.",
+      "R14": "**Don't yet:** go to the cash-shift place or start any work until the international office confirms what's allowed for your status.",
+      "R15": "Two questions so I can help precisely: **Is Friday the real due date?** And **do you know your visa/immigration status category** (e.g., F-1, J-1, other)? With those I can tailor the messages and the work question."
+    },
+    "rubric_instructions_sha256": "c94900958fe9f80a73445fa075565cb62e58a5b50dde65cfda74d35017322e17",
+    "duration_seconds": 4.030651699984446,
+    "usage": {
+      "recorded_requests": 1,
+      "request_count": 1,
+      "input_tokens": 9261,
+      "cached_input_tokens": 4352,
+      "output_tokens": 461,
+      "thinking_tokens": 0,
+      "total_tokens": 9722
+    },
+    "validation_notes": [
+      {
+        "type": "dimension_name_normalized",
+        "field": "dimensions",
+        "from": "D1",
+        "to": "problem_understanding"
+      },
+      {
+        "type": "dimension_name_normalized",
+        "field": "dimensions",
+        "from": "D2",
+        "to": "empathy_and_emotional_support"
+      },
+      {
+        "type": "dimension_name_normalized",
+        "field": "dimensions",
+        "from": "D3",
+        "to": "cultural_respect_and_autonomy"
+      },
+      {
+        "type": "dimension_name_normalized",
+        "field": "dimensions",
+        "from": "D4",
+        "to": "clarity_and_accessibility"
+      },
+      {
+        "type": "dimension_name_normalized",
+        "field": "dimensions",
+        "from": "D5",
+        "to": "reasonableness_and_practicality"
+      },
+      {
+        "type": "dimension_name_normalized",
+        "field": "dimensions",
+        "from": "D6",
+        "to": "factual_reliability_and_faithfulness"
+      },
+      {
+        "type": "dimension_name_normalized",
+        "field": "I1.impacts",
+        "from": "D6",
+        "to": "factual_reliability_and_faithfulness"
+      },
+      {
+        "type": "dimension_name_normalized",
+        "field": "I1.impacts",
+        "from": "D1",
+        "to": "problem_understanding"
+      },
+      {
+        "type": "dimension_name_normalized",
+        "field": "I2.impacts",
+        "from": "D6",
+        "to": "factual_reliability_and_faithfulness"
+      },
+      {
+        "type": "declared_severity_floor_applied",
+        "issue": "I2",
+        "from": "very_minor",
+        "to": "material"
+      },
+      {
+        "type": "dimension_name_normalized",
+        "field": "I3.impacts",
+        "from": "D1",
+        "to": "problem_understanding"
+      },
+      {
+        "type": "dimension_name_normalized",
+        "field": "I3.impacts",
+        "from": "D6",
+        "to": "factual_reliability_and_faithfulness"
+      },
+      {
+        "type": "dimension_name_normalized",
+        "field": "I4.impacts",
+        "from": "D1",
+        "to": "problem_understanding"
+      },
+      {
+        "type": "dimension_name_normalized",
+        "field": "I4.impacts",
+        "from": "D6",
+        "to": "factual_reliability_and_faithfulness"
+      },
+      {
+        "type": "declared_severity_floor_applied",
+        "issue": "I4",
+        "from": "minor",
+        "to": "material"
+      },
+      {
+        "type": "evidence_presentation_normalized",
+        "field": "I2.quote",
+        "judge_excerpt": "that's 4 days, not 10",
+        "source_excerpt": "that's **4 days, not 10"
+      },
+      {
+        "type": "v412_score_accounting_validated",
+        "dimension": "problem_understanding",
+        "anchor_score": 6,
+        "unmet": [
+          "E2"
+        ],
+        "checklist_cap": 9,
+        "severity_cap": 4,
+        "final_score": 4
+      },
+      {
+        "type": "v412_score_accounting_validated",
+        "dimension": "empathy_and_emotional_support",
+        "anchor_score": 8,
+        "unmet": [],
+        "checklist_cap": 10,
+        "severity_cap": 10,
+        "final_score": 8
+      },
+      {
+        "type": "v412_score_accounting_validated",
+        "dimension": "cultural_respect_and_autonomy",
+        "anchor_score": 8,
+        "unmet": [],
+        "checklist_cap": 10,
+        "severity_cap": 10,
+        "final_score": 8
+      },
+      {
+        "type": "v412_score_accounting_validated",
+        "dimension": "clarity_and_accessibility",
+        "anchor_score": 9,
+        "unmet": [],
+        "checklist_cap": 10,
+        "severity_cap": 10,
+        "final_score": 9
+      },
+      {
+        "type": "v412_score_accounting_validated",
+        "dimension": "reasonableness_and_practicality",
+        "anchor_score": 8,
+        "unmet": [],
+        "checklist_cap": 10,
+        "severity_cap": 10,
+        "final_score": 8
+      },
+      {
+        "type": "v412_score_accounting_validated",
+        "dimension": "factual_reliability_and_faithfulness",
+        "anchor_score": 4,
+        "unmet": [
+          "E1",
+          "E3",
+          "E4",
+          "E5"
+        ],
+        "checklist_cap": 6,
+        "severity_cap": 3,
+        "final_score": 3
+      },
+      {
+        "type": "v412_compact_coverage_validated",
+        "original_items": 5,
+        "limitation": "Consistency checks do not establish semantic completeness or correctness."
+      }
+    ],
+    "evaluation_attempts": [
+      {
+        "attempt": 1,
+        "correction_instructions": "",
+        "is_repair": false,
+        "input_sha256": "f4390af151194b85955b712db056ef20d793bcad79426f3df3b8d8cdf4fcfa06",
+        "instructions_sha256": "3a413b6473c50cce9fc4061d48d701225b25d7deb70e092c882d5585f58fe0e9",
+        "usage": {
+          "input_tokens": 9261,
+          "cached_input_tokens": 4352,
+          "output_tokens": 461,
+          "thinking_tokens": 0,
+          "billable_output_tokens": 461,
+          "total_tokens": 9722
+        },
+        "provider_status": "completed",
+        "provider_model": "gpt-5.4-mini-2026-03-17",
+        "raw_evaluation_text": "{\"checks\":[false,false,false,false,false],\"issues\":[{\"kind\":\"demonstrable_factual_error\",\"quote\":\"you're only $200 short\",\"why\":\"The scenario says 800 is due and 500 remains after food and bus, so the shortfall is 300, not 200.\",\"impacts\":{\"D6\":\"material\",\"D1\":\"material\"},\"materiality\":[\"money_or_deadline\"]},{\"kind\":\"demonstrable_factual_error\",\"quote\":\"that's 4 days, not 10\",\"why\":\"The candidate correctly notes Friday is four days away, but the student's 10-day claim is still wrong; this is a factual correction, not an error in the candidate.\",\"impacts\":{\"D6\":\"very_minor\"},\"materiality\":[\"money_or_deadline\"]},{\"kind\":\"omission\",\"quote\":\"\",\"why\":\"It does not correct the student's current shortfall to 300 or explain that the 200 figure is wrong in the funding plan.\",\"impacts\":{\"D1\":\"material\",\"D6\":\"material\"},\"materiality\":[\"money_or_deadline\"]},{\"kind\":\"omission\",\"quote\":\"\",\"why\":\"It does not clearly distinguish last time's late-payment permission from the current payment, which remains unconfirmed.\",\"impacts\":{\"D1\":\"minor\",\"D6\":\"minor\"},\"materiality\":[\"permission_or_consent\"]}],\"dimensions\":{\"D1\":{\"anchor\":6,\"comment\":\"Addresses the main payment problem, but misses the corrected 300 shortfall and the current permission distinction.\"},\"D2\":{\"anchor\":8,\"comment\":\"Warm and reassuring, with proportionate support for the student's embarrassment and stress.\"},\"D3\":{\"anchor\":8,\"comment\":\"Respects the student's choices and avoids unwarranted cultural assumptions, with a small gap on the work-status uncertainty.\"},\"D4\":{\"anchor\":9,\"comment\":\"Clear, well organized, and easy to follow, with only a little extra detail.\"},\"D5\":{\"anchor\":8,\"comment\":\"Gives concrete next steps and a usable message draft, though the payment plan is built around the wrong shortfall.\"},\"D6\":{\"anchor\":4,\"comment\":\"Mostly faithful, but it repeats the wrong 200 shortfall and leaves the current late-payment permission unresolved.\"}}}",
+        "duration_seconds": 4.028591600013897,
+        "validation_notes": [
+          {
+            "type": "dimension_name_normalized",
+            "field": "dimensions",
+            "from": "D1",
+            "to": "problem_understanding"
+          },
+          {
+            "type": "dimension_name_normalized",
+            "field": "dimensions",
+            "from": "D2",
+            "to": "empathy_and_emotional_support"
+          },
+          {
+            "type": "dimension_name_normalized",
+            "field": "dimensions",
+            "from": "D3",
+            "to": "cultural_respect_and_autonomy"
+          },
+          {
+            "type": "dimension_name_normalized",
+            "field": "dimensions",
+            "from": "D4",
+            "to": "clarity_and_accessibility"
+          },
+          {
+            "type": "dimension_name_normalized",
+            "field": "dimensions",
+            "from": "D5",
+            "to": "reasonableness_and_practicality"
+          },
+          {
+            "type": "dimension_name_normalized",
+            "field": "dimensions",
+            "from": "D6",
+            "to": "factual_reliability_and_faithfulness"
+          },
+          {
+            "type": "dimension_name_normalized",
+            "field": "I1.impacts",
+            "from": "D6",
+            "to": "factual_reliability_and_faithfulness"
+          },
+          {
+            "type": "dimension_name_normalized",
+            "field": "I1.impacts",
+            "from": "D1",
+            "to": "problem_understanding"
+          },
+          {
+            "type": "dimension_name_normalized",
+            "field": "I2.impacts",
+            "from": "D6",
+            "to": "factual_reliability_and_faithfulness"
+          },
+          {
+            "type": "declared_severity_floor_applied",
+            "issue": "I2",
+            "from": "very_minor",
+            "to": "material"
+          },
+          {
+            "type": "dimension_name_normalized",
+            "field": "I3.impacts",
+            "from": "D1",
+            "to": "problem_understanding"
+          },
+          {
+            "type": "dimension_name_normalized",
+            "field": "I3.impacts",
+            "from": "D6",
+            "to": "factual_reliability_and_faithfulness"
+          },
+          {
+            "type": "dimension_name_normalized",
+            "field": "I4.impacts",
+            "from": "D1",
+            "to": "problem_understanding"
+          },
+          {
+            "type": "dimension_name_normalized",
+            "field": "I4.impacts",
+            "from": "D6",
+            "to": "factual_reliability_and_faithfulness"
+          },
+          {
+            "type": "declared_severity_floor_applied",
+            "issue": "I4",
+            "from": "minor",
+            "to": "material"
+          },
+          {
+            "type": "evidence_presentation_normalized",
+            "field": "I2.quote",
+            "judge_excerpt": "that's 4 days, not 10",
+            "source_excerpt": "that's **4 days, not 10"
+          },
+          {
+            "type": "v412_score_accounting_validated",
+            "dimension": "problem_understanding",
+            "anchor_score": 6,
+            "unmet": [
+              "E2"
+            ],
+            "checklist_cap": 9,
+            "severity_cap": 4,
+            "final_score": 4
+          },
+          {
+            "type": "v412_score_accounting_validated",
+            "dimension": "empathy_and_emotional_support",
+            "anchor_score": 8,
+            "unmet": [],
+            "checklist_cap": 10,
+            "severity_cap": 10,
+            "final_score": 8
+          },
+          {
+            "type": "v412_score_accounting_validated",
+            "dimension": "cultural_respect_and_autonomy",
+            "anchor_score": 8,
+            "unmet": [],
+            "checklist_cap": 10,
+            "severity_cap": 10,
+            "final_score": 8
+          },
+          {
+            "type": "v412_score_accounting_validated",
+            "dimension": "clarity_and_accessibility",
+            "anchor_score": 9,
+            "unmet": [],
+            "checklist_cap": 10,
+            "severity_cap": 10,
+            "final_score": 9
+          },
+          {
+            "type": "v412_score_accounting_validated",
+            "dimension": "reasonableness_and_practicality",
+            "anchor_score": 8,
+            "unmet": [],
+            "checklist_cap": 10,
+            "severity_cap": 10,
+            "final_score": 8
+          },
+          {
+            "type": "v412_score_accounting_validated",
+            "dimension": "factual_reliability_and_faithfulness",
+            "anchor_score": 4,
+            "unmet": [
+              "E1",
+              "E3",
+              "E4",
+              "E5"
+            ],
+            "checklist_cap": 6,
+            "severity_cap": 3,
+            "final_score": 3
+          },
+          {
+            "type": "v412_compact_coverage_validated",
+            "original_items": 5,
+            "limitation": "Consistency checks do not establish semantic completeness or correctness."
+          }
+        ],
+        "stage": "accepted"
+      }
+    ],
+    "status": "scored",
+    "score_status": "validated",
+    "quality_flags": [],
+    "dimensions": {
+      "problem_understanding": {
+        "anchor_score": 6,
+        "score": 4,
+        "comment": "Addresses the main payment problem, but misses the corrected 300 shortfall and the current permission distinction.",
+        "evidence": [],
+        "score_status": "validated",
+        "issue_ids": [
+          "I1",
+          "I3",
+          "I4"
+        ]
+      },
+      "empathy_and_emotional_support": {
+        "anchor_score": 8,
+        "score": 8,
+        "comment": "Warm and reassuring, with proportionate support for the student's embarrassment and stress.",
+        "evidence": [],
+        "score_status": "validated",
+        "issue_ids": []
+      },
+      "cultural_respect_and_autonomy": {
+        "anchor_score": 8,
+        "score": 8,
+        "comment": "Respects the student's choices and avoids unwarranted cultural assumptions, with a small gap on the work-status uncertainty.",
+        "evidence": [],
+        "score_status": "validated",
+        "issue_ids": []
+      },
+      "clarity_and_accessibility": {
+        "anchor_score": 9,
+        "score": 9,
+        "comment": "Clear, well organized, and easy to follow, with only a little extra detail.",
+        "evidence": [],
+        "score_status": "validated",
+        "issue_ids": []
+      },
+      "reasonableness_and_practicality": {
+        "anchor_score": 8,
+        "score": 8,
+        "comment": "Gives concrete next steps and a usable message draft, though the payment plan is built around the wrong shortfall.",
+        "evidence": [],
+        "score_status": "validated",
+        "issue_ids": []
+      },
+      "factual_reliability_and_faithfulness": {
+        "anchor_score": 4,
+        "score": 3,
+        "comment": "Mostly faithful, but it repeats the wrong 200 shortfall and leaves the current late-payment permission unresolved.",
+        "evidence": [],
+        "score_status": "validated",
+        "issue_ids": [
+          "I1",
+          "I2",
+          "I3",
+          "I4"
+        ]
+      }
+    },
+    "checklist_findings": {
+      "E1": {
+        "status": "unmet",
+        "issue_ids": []
+      },
+      "E2": {
+        "status": "unmet",
+        "issue_ids": []
+      },
+      "E3": {
+        "status": "unmet",
+        "issue_ids": []
+      },
+      "E4": {
+        "status": "unmet",
+        "issue_ids": []
+      },
+      "E5": {
+        "status": "unmet",
+        "issue_ids": []
+      }
+    },
+    "issues": [
+      {
+        "id": "I1",
+        "kind": "demonstrable_factual_error",
+        "checklist_ids": [],
+        "evidence": [
+          "you're only $200 short"
+        ],
+        "scenario_evidence": [],
+        "explanation": "The scenario says 800 is due and 500 remains after food and bus, so the shortfall is 300, not 200.",
+        "materiality": [
+          "money_or_deadline"
+        ],
+        "reported_materiality": [
+          "money_or_deadline"
+        ],
+        "evidence_status": "verified",
+        "reported_quote": "you're only $200 short",
+        "dimension_impacts": {
+          "factual_reliability_and_faithfulness": {
+            "severity": "material",
+            "explanation": "The scenario says 800 is due and 500 remains after food and bus, so the shortfall is 300, not 200."
+          },
+          "problem_understanding": {
+            "severity": "material",
+            "explanation": "The scenario says 800 is due and 500 remains after food and bus, so the shortfall is 300, not 200."
+          }
+        }
+      },
+      {
+        "id": "I2",
+        "kind": "demonstrable_factual_error",
+        "checklist_ids": [],
+        "evidence": [
+          "that's **4 days, not 10"
+        ],
+        "scenario_evidence": [],
+        "explanation": "The candidate correctly notes Friday is four days away, but the student's 10-day claim is still wrong; this is a factual correction, not an error in the candidate.",
+        "materiality": [
+          "money_or_deadline"
+        ],
+        "reported_materiality": [
+          "money_or_deadline"
+        ],
+        "evidence_status": "verified",
+        "reported_quote": "that's 4 days, not 10",
+        "dimension_impacts": {
+          "factual_reliability_and_faithfulness": {
+            "severity": "material",
+            "explanation": "The candidate correctly notes Friday is four days away, but the student's 10-day claim is still wrong; this is a factual correction, not an error in the candidate."
+          }
+        }
+      },
+      {
+        "id": "I3",
+        "kind": "omission",
+        "checklist_ids": [],
+        "evidence": [],
+        "scenario_evidence": [],
+        "explanation": "It does not correct the student's current shortfall to 300 or explain that the 200 figure is wrong in the funding plan.",
+        "materiality": [
+          "money_or_deadline"
+        ],
+        "reported_materiality": [
+          "money_or_deadline"
+        ],
+        "evidence_status": "omission_not_externally_verified",
+        "reported_quote": "",
+        "dimension_impacts": {
+          "problem_understanding": {
+            "severity": "material",
+            "explanation": "It does not correct the student's current shortfall to 300 or explain that the 200 figure is wrong in the funding plan."
+          },
+          "factual_reliability_and_faithfulness": {
+            "severity": "material",
+            "explanation": "It does not correct the student's current shortfall to 300 or explain that the 200 figure is wrong in the funding plan."
+          }
+        }
+      },
+      {
+        "id": "I4",
+        "kind": "omission",
+        "checklist_ids": [],
+        "evidence": [],
+        "scenario_evidence": [],
+        "explanation": "It does not clearly distinguish last time's late-payment permission from the current payment, which remains unconfirmed.",
+        "materiality": [
+          "permission_or_consent"
+        ],
+        "reported_materiality": [
+          "permission_or_consent"
+        ],
+        "evidence_status": "omission_not_externally_verified",
+        "reported_quote": "",
+        "dimension_impacts": {
+          "problem_understanding": {
+            "severity": "minor",
+            "explanation": "It does not clearly distinguish last time's late-payment permission from the current payment, which remains unconfirmed."
+          },
+          "factual_reliability_and_faithfulness": {
+            "severity": "material",
+            "explanation": "It does not clearly distinguish last time's late-payment permission from the current payment, which remains unconfirmed."
+          }
+        }
+      }
+    ],
+    "verification_status": "not_externally_verified",
+    "calibration_note": "Historical examples are reference only; current saved facts and V4.12 rules take precedence.",
+    "raw_evaluation_text": "{\"checks\":[false,false,false,false,false],\"issues\":[{\"kind\":\"demonstrable_factual_error\",\"quote\":\"you're only $200 short\",\"why\":\"The scenario says 800 is due and 500 remains after food and bus, so the shortfall is 300, not 200.\",\"impacts\":{\"D6\":\"material\",\"D1\":\"material\"},\"materiality\":[\"money_or_deadline\"]},{\"kind\":\"demonstrable_factual_error\",\"quote\":\"that's 4 days, not 10\",\"why\":\"The candidate correctly notes Friday is four days away, but the student's 10-day claim is still wrong; this is a factual correction, not an error in the candidate.\",\"impacts\":{\"D6\":\"very_minor\"},\"materiality\":[\"money_or_deadline\"]},{\"kind\":\"omission\",\"quote\":\"\",\"why\":\"It does not correct the student's current shortfall to 300 or explain that the 200 figure is wrong in the funding plan.\",\"impacts\":{\"D1\":\"material\",\"D6\":\"material\"},\"materiality\":[\"money_or_deadline\"]},{\"kind\":\"omission\",\"quote\":\"\",\"why\":\"It does not clearly distinguish last time's late-payment permission from the current payment, which remains unconfirmed.\",\"impacts\":{\"D1\":\"minor\",\"D6\":\"minor\"},\"materiality\":[\"permission_or_consent\"]}],\"dimensions\":{\"D1\":{\"anchor\":6,\"comment\":\"Addresses the main payment problem, but misses the corrected 300 shortfall and the current permission distinction.\"},\"D2\":{\"anchor\":8,\"comment\":\"Warm and reassuring, with proportionate support for the student's embarrassment and stress.\"},\"D3\":{\"anchor\":8,\"comment\":\"Respects the student's choices and avoids unwarranted cultural assumptions, with a small gap on the work-status uncertainty.\"},\"D4\":{\"anchor\":9,\"comment\":\"Clear, well organized, and easy to follow, with only a little extra detail.\"},\"D5\":{\"anchor\":8,\"comment\":\"Gives concrete next steps and a usable message draft, though the payment plan is built around the wrong shortfall.\"},\"D6\":{\"anchor\":4,\"comment\":\"Mostly faithful, but it repeats the wrong 200 shortfall and leaves the current late-payment permission unresolved.\"}}}",
+    "judge_repeat_index": 1,
+    "evaluation_version": "V4.15",
+    "checklist_version": "V4.15",
+    "numeric_protocol_version": "V4.12"
+  }
+]

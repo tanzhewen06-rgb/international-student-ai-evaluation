@@ -1,0 +1,163 @@
+{
+  "evaluation_batch": "batch_006",
+  "rubric_version": "V4.9",
+  "rubric_sha256": "59b6778f0785e10f6835a562f780fd169502d6203ba9b58dcd1e1b09741c20b1",
+  "checklist_sha256": "7a751457affb0a054d1cb857e06132bdc788654f8d416030ec5940f427bb68f6",
+  "calibration_sha256": "57bda8997fb682a2111a30ff7d2036434568f8a2fbc36daffb1699c7de7d9b62",
+  "evaluation_round_id": "886467c3-45b8-4573-b3cb-43b059a9efa5",
+  "judges": [
+    "gemini-3.8-flash",
+    "deepseek-flash"
+  ],
+  "cohort": [
+    {
+      "source_file": "project://Sample Data/responses/batch_004/responses_gpt-5.4-nano.jsonl",
+      "source_line": 2,
+      "source_sha256": "eda4b3bffc97cf277785b559e946b8af26ef84e088a86ff28c3b8fd8a01e3f8d",
+      "response_id": "2adbb43b9f904246b8fed1ed27c41d31",
+      "scenario_id": "scenario_1",
+      "target_model": "gpt-5.4-nano"
+    },
+    {
+      "source_file": "project://Sample Data/responses/batch_004/responses_gpt-5.4-nano.jsonl",
+      "source_line": 3,
+      "source_sha256": "e81ee1cffd833306a6da046a537718ccc0fd4a0a83dea59a18130daa2125e4af",
+      "response_id": "00416c49abd84de8be93c8a32b618047",
+      "scenario_id": "scenario_2",
+      "target_model": "gpt-5.4-nano"
+    },
+    {
+      "source_file": "project://Sample Data/responses/batch_004/responses_gpt-5.4-nano.jsonl",
+      "source_line": 4,
+      "source_sha256": "be46c1f2affc5690e2f4bf5fdbe3d0df8f4bc6d448d70bb6e1acb516fe4fa779",
+      "response_id": "df147bb9a78f45eebfddd9f34f7bf34b",
+      "scenario_id": "scenario_3",
+      "target_model": "gpt-5.4-nano"
+    },
+    {
+      "source_file": "project://Sample Data/responses/batch_004/responses_gpt-5.4-nano.jsonl",
+      "source_line": 5,
+      "source_sha256": "d01b8ee432f37d1501512914698c293ff7ee1146d7d624bc99d9dd02605ecffb",
+      "response_id": "b36aad5876764abd9a0c79b16d3d04da",
+      "scenario_id": "scenario_4",
+      "target_model": "gpt-5.4-nano"
+    },
+    {
+      "source_file": "project://Sample Data/responses/batch_004/responses_gpt-5.4-nano.jsonl",
+      "source_line": 6,
+      "source_sha256": "e66a1e261b31a5c1e821df998394dba59caa67fd3cd2c191cbed8de58d55acd8",
+      "response_id": "65f040977ce0478a88381a1fde209f2d",
+      "scenario_id": "scenario_5",
+      "target_model": "gpt-5.4-nano"
+    },
+    {
+      "source_file": "project://Sample Data/responses/batch_004/responses_gemini-3.5-flash-lite.jsonl",
+      "source_line": 2,
+      "source_sha256": "c25f58acfb2741c7aafe1e388bb29ba27118f97abc0dc26c390ef314e906046e",
+      "response_id": "0eacf75cca864643908b3f8315f08c71",
+      "scenario_id": "scenario_1",
+      "target_model": "gemini-3.5-flash-lite"
+    },
+    {
+      "source_file": "project://Sample Data/responses/batch_004/responses_gemini-3.5-flash-lite.jsonl",
+      "source_line": 3,
+      "source_sha256": "0fb940495a0fbef95cc3cc3b541e55dbd6b991b3fcca0ad2b20877fa70124982",
+      "response_id": "ef75277dacc742f982e2cb85fd06b61d",
+      "scenario_id": "scenario_2",
+      "target_model": "gemini-3.5-flash-lite"
+    },
+    {
+      "source_file": "project://Sample Data/responses/batch_004/responses_gemini-3.5-flash-lite.jsonl",
+      "source_line": 4,
+      "source_sha256": "32c6a9bf2e59af30bd93cd6464bbb36b7da92061a8294128549af3a077e5db03",
+      "response_id": "dabbd15daa8d437c89733c50c6f64928",
+      "scenario_id": "scenario_3",
+      "target_model": "gemini-3.5-flash-lite"
+    },
+    {
+      "source_file": "project://Sample Data/responses/batch_004/responses_gemini-3.5-flash-lite.jsonl",
+      "source_line": 5,
+      "source_sha256": "86058755d171ee65b6cdb5c2d2b7e652c3c927ab60bb52d3434e5fdc40ab580e",
+      "response_id": "91cb7a822b044b70bec2854f0c377149",
+      "scenario_id": "scenario_4",
+      "target_model": "gemini-3.5-flash-lite"
+    },
+    {
+      "source_file": "project://Sample Data/responses/batch_004/responses_gemini-3.5-flash-lite.jsonl",
+      "source_line": 6,
+      "source_sha256": "0124148f8ebe3a30c7d6ae55ab037c0e4c2daf5227ec235b4d4bad1e4b61cc49",
+      "response_id": "f7ca27a6f10b4b589cbd90df6d9cffb6",
+      "scenario_id": "scenario_5",
+      "target_model": "gemini-3.5-flash-lite"
+    }
+  ],
+  "outcomes": [
+    {
+      "selected": 5,
+      "scored": 5,
+      "needs_review": 0,
+      "failed": 0,
+      "input_issues": 0,
+      "output_dir": "project://Sample Data/evaluations/batch_006/gemini-3.8-flash_on_gpt-5.4-nano_with_checklist/run_20261028T052242.236373Z_886467c3",
+      "dry_run": false,
+      "evaluation_round_id": "886467c3-45b8-4573-b3cb-43b059a9efa5",
+      "evaluation_run_id": "b47cf092-100d-4de9-a118-c3b4bd795b83",
+      "evaluator_model": "gemini-3.8-flash",
+      "target_model": "gpt-5.4-nano",
+      "result_file": "project://Sample Data/evaluations/batch_006/gemini-3.8-flash_on_gpt-5.4-nano_with_checklist/run_20261028T052242.236373Z_886467c3/evaluations_gemini-3.8-flash_on_gpt-5.4-nano.jsonl",
+      "checklist_sha256": "7a751457affb0a054d1cb857e06132bdc788654f8d416030ec5940f427bb68f6"
+    },
+    {
+      "selected": 5,
+      "scored": 5,
+      "needs_review": 0,
+      "failed": 0,
+      "input_issues": 0,
+      "output_dir": "project://Sample Data/evaluations/batch_006/gemini-3.8-flash_on_gemini-3.5-flash-lite_with_checklist/run_20261028T052242.236373Z_886467c3",
+      "dry_run": false,
+      "evaluation_round_id": "886467c3-45b8-4573-b3cb-43b059a9efa5",
+      "evaluation_run_id": "cb33c5e8-969e-420e-a957-614fd16ddce0",
+      "evaluator_model": "gemini-3.8-flash",
+      "target_model": "gemini-3.5-flash-lite",
+      "result_file": "project://Sample Data/evaluations/batch_006/gemini-3.8-flash_on_gemini-3.5-flash-lite_with_checklist/run_20261028T052242.236373Z_886467c3/evaluations_gemini-3.8-flash_on_gemini-3.5-flash-lite.jsonl",
+      "checklist_sha256": "7a751457affb0a054d1cb857e06132bdc788654f8d416030ec5940f427bb68f6"
+    },
+    {
+      "selected": 5,
+      "scored": 5,
+      "needs_review": 0,
+      "failed": 0,
+      "input_issues": 0,
+      "output_dir": "project://Sample Data/evaluations/batch_006/deepseek-flash_on_gpt-5.4-nano_with_checklist/run_20261028T052242.236373Z_886467c3",
+      "dry_run": false,
+      "evaluation_round_id": "886467c3-45b8-4573-b3cb-43b059a9efa5",
+      "evaluation_run_id": "04ffc032-01a1-478d-98ba-aaa1b5757a0c",
+      "evaluator_model": "deepseek-flash",
+      "target_model": "gpt-5.4-nano",
+      "result_file": "project://Sample Data/evaluations/batch_006/deepseek-flash_on_gpt-5.4-nano_with_checklist/run_20261028T052242.236373Z_886467c3/evaluations_deepseek-flash_on_gpt-5.4-nano.jsonl",
+      "checklist_sha256": "7a751457affb0a054d1cb857e06132bdc788654f8d416030ec5940f427bb68f6"
+    },
+    {
+      "selected": 5,
+      "scored": 5,
+      "needs_review": 0,
+      "failed": 0,
+      "input_issues": 0,
+      "output_dir": "project://Sample Data/evaluations/batch_006/deepseek-flash_on_gemini-3.5-flash-lite_with_checklist/run_20261028T052242.236373Z_886467c3",
+      "dry_run": false,
+      "evaluation_round_id": "886467c3-45b8-4573-b3cb-43b059a9efa5",
+      "evaluation_run_id": "e885eeb3-de6d-44f5-9621-913073d39e41",
+      "evaluator_model": "deepseek-flash",
+      "target_model": "gemini-3.5-flash-lite",
+      "result_file": "project://Sample Data/evaluations/batch_006/deepseek-flash_on_gemini-3.5-flash-lite_with_checklist/run_20261028T052242.236373Z_886467c3/evaluations_deepseek-flash_on_gemini-3.5-flash-lite.jsonl",
+      "checklist_sha256": "7a751457affb0a054d1cb857e06132bdc788654f8d416030ec5940f427bb68f6"
+    }
+  ],
+  "independent_judges": true,
+  "historical_score_reuse": false,
+  "checklist_output_mode": "original_items",
+  "api_execution": "human_initiated",
+  "score_aggregation": "none",
+  "difference_flag_threshold": 2,
+  "main_sha256": "d6c1b1dfbe24451c301ec9efca20dca150ce28dad3a226964937f01c587364c1"
+}

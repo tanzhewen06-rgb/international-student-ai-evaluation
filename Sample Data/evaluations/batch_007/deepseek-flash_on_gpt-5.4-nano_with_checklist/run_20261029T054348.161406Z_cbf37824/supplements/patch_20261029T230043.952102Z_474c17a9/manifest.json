@@ -1,0 +1,42 @@
+{
+  "source_sha256": "c5baeec129d063ce2e147b0ef70c70bc858b27e86630e5e15b658bf362be8f78",
+  "rubric_sha256": "e7c234516e17566cfc8782c741493bc324625cacbe6be6c5e3531af640faf2f0",
+  "checklist_sha256": "7a751457affb0a054d1cb857e06132bdc788654f8d416030ec5940f427bb68f6",
+  "calibration_sha256": "43bf577ee3d6a8a3b630ab9cdd51631bc923b05352da4d053d805b878d507d8b",
+  "initial_task_sha256": "0cbcc42bce74c7788d7b9d111e4325c2fb5c7cbed655a50bc675209d02f58aed",
+  "initial_instructions_sha256": "fc93c2f47d09da154543ad68acfa67c98a7ef75d29e7f76ede61cae9f015b596",
+  "patch_id": "patch_20261029T230043.952102Z_474c17a9",
+  "timestamp_utc": "2026-10-29T23:00:43.953373+00:00",
+  "parent_manifest_sha256": "62a0f4c565ab829619bd14e518bb79635d3e1726b026b765a5c7a50ad76452a0",
+  "parent_evaluation_run_id": "c33e70b3-5fc8-4135-ab43-2ab253efe07c",
+  "evaluation_round_id": "cbf37824-ecee-45a8-87c6-8070f1093625",
+  "response_id": "be3e9b64d51549a6b78bd285b7886fd4",
+  "target_model": "gpt-5.4-nano",
+  "evaluator_model": "deepseek-flash",
+  "rubric_version": "V4.12",
+  "evaluator_generation_config": {
+    "base_url": "https://api.deepseek.com",
+    "reasoning_effort": "none",
+    "temperature": 0,
+    "max_output_tokens": 4096,
+    "output_format": "json_schema",
+    "sdk_max_retries": 0
+  },
+  "selected_dimensions": [
+    "problem_understanding",
+    "empathy_and_emotional_support",
+    "cultural_respect_and_autonomy",
+    "clarity_and_accessibility",
+    "reasonableness_and_practicality",
+    "factual_reliability_and_faithfulness"
+  ],
+  "source_file": "project://Sample Data/responses/batch_007/responses_gpt-5.4-nano.jsonl",
+  "source_line": 11,
+  "source_metadata": {
+    "scenario_id": "scenario_5",
+    "repeat_index": 2,
+    "run_id": "d9fbf054c66d4f39917847b88f203407"
+  },
+  "allow_rejudge": false,
+  "historical_score_reuse": false
+}

@@ -1,0 +1,25 @@
+{
+  "purpose": "Same judge, same answer, same prompt/reference/code/settings. Differences between two judges are not a stability test.",
+  "summaries": {
+    "gemini-3.8-flash": {
+      "status": "insufficient_matching_history",
+      "answers": 0,
+      "dimensions": 0,
+      "same": 0,
+      "within_1": 0,
+      "changed_at_least_2": 0,
+      "max_abs_delta": null
+    },
+    "deepseek-flash": {
+      "status": "insufficient_matching_history",
+      "answers": 0,
+      "dimensions": 0,
+      "same": 0,
+      "within_1": 0,
+      "changed_at_least_2": 0,
+      "max_abs_delta": null
+    }
+  },
+  "comparisons": [],
+  "additional_api_calls": 0
+}

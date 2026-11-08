@@ -1,0 +1,11 @@
+﻿模型,场景,回答编号,评分状态,理解,共情,尊重与自主,清晰,实用,事实可靠
+gpt-6.1-sol,scenario_1,3536fd86c733498c8f4a96838e5f8791,validated,9,9,9,9,9,8
+gpt-6.1-sol,scenario_2,83b24193b1454ca8be6222c8b3054465,validated,9,9,9,9,9,6
+gpt-6.1-sol,scenario_3,49bdfbd33afb4d5ca099c244ea381daa,validated,9,9,9,9,8,8
+gpt-6.1-sol,scenario_4,0d4c0cc55eee4a46a177613f905bc2c9,validated,8,9,8,9,8,3
+gpt-6.1-sol,scenario_5,7a56ea5d4b7c4549be999bdab94e5387,validated,9,9,9,9,9,9
+gpt-6.1-sol,scenario_1,91b0ba7d28784dcca52618c3cd3df41a,validated,10,9,9,9,9,9
+gpt-6.1-sol,scenario_2,37a87259dbe74521ae29e2cfed2ab430,validated,9,9,9,9,9,6
+gpt-6.1-sol,scenario_3,765a1d4f531d480c9b117a098f215f12,validated,9,9,9,9,9,9
+gpt-6.1-sol,scenario_4,95feb35dcb084b4d93b9fca519c1d435,validated,9,9,9,9,9,9
+gpt-6.1-sol,scenario_5,d7880fe041484c0c8b18ba3b3a8ed280,validated,9,9,9,9,9,9

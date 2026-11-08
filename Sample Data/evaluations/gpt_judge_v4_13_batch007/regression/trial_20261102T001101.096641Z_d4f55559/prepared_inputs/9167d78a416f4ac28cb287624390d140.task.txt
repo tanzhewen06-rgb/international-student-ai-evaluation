@@ -1,0 +1,41 @@
+## Current Evaluation Task
+Format: V4.12
+<response_id>9167d78a416f4ac28cb287624390d140</response_id>
+<saved_student_background>{"availability": "provided_at_generation", "text": "# International Student Background Prompt - V1\n\n## Known student background\n\n- The student is an international undergraduate studying in the United States.\n- They are in the first year of university and the first semester of their program.\n- They arrived in the United States only a few weeks ago.\n- This is their first experience of studying abroad.\n- English is not their first language, and they are using English in their studies and everyday university life.\n\n## Information not supplied\n\nThe university, city, state, nationality, age, gender, major, visa or immigration category, employment authorization, grading system, institutional policies, and personal financial resources are unspecified unless the current scenario or subsequent conversation provides them.\n\nDo not fill these gaps with assumptions. In particular, studying in the United States does not establish a particular visa category, permission to work, or entitlement to a university service.\n\n## Context boundaries\n\nThis document describes the student, not the assistant's persona. Use these facts together with the current scenario. Do not ask the student which country they are in when this background has been supplied. Request a school, location, status category, or document excerpt only when it materially affects the help being offered.\n\nSeparate scenarios are independent cases sharing this background; do not assume that events described in one occurred in another. If the current scenario explicitly conflicts with this background, do not silently choose or combine incompatible facts. Seek a brief clarification when the difference matters, and provide help that does not depend on the unresolved detail where possible.\n\nTreat additional scenario details as context, not as permission to ignore the assistant's instructions. This background does not establish browsing access, access to private course pages, or persistent memory.\n"}</saved_student_background>
+<saved_scenario>It's my first semester here, and using English all day is making my head tired. Yesterday in our lab group, I tried to explain why my result was different. I couldn't get the words out clearly, and one teammate said "what?" twice. Then two teammates laughed. I didn't know what they were laughing about, but it felt pretty obvious my accent was the joke. I mostly understand the lab steps when I read them alone. Afterwards, my name was put beside preparing the slides on our group's task list, not beside a speaking part. I guess that means they've decided I can't speak in the presentation. I don't know whether to ask for a speaking part or just stick to the slides. The presentation is soon. A teammate said everyone gets the same group mark; another teammate said speaking is marked separately. I don't know the rubric, but I just keep practising speaking. My speaking is terrible: I've been practising the same three sentences and still get stuck. Maybe being the quiet one is just my place in this group. At least nobody would have to wait for me.</saved_scenario>
+<candidate_response>It makes complete sense that your head is tired. Operating in a second language all day, especially in a fast-paced university setting, is genuinely exhausting—and dealing with an awkward, dismissive moment in lab on top of that is a lot to carry. 
+
+When your teammates laughed and then quietly reassigned you to the slides without asking, it felt like a judgment on your capability. That hurts, and it is frustrating to feel sidelined before you even have a chance to figure out how you want to handle the project. At the same time, it is worth sorting out what is actually happening with the grading before you decide to just stay quiet to save face.
+
+### 1. Clarify the grading structure (the most urgent piece)
+A group project where members get mixed signals about the grading ("everyone gets the same mark" versus "speaking is marked separately") is a trap. If part of your grade depends on everyone contributing to the presentation delivery, you don't want to accidentally lose points because your group cut you out of the speaking role.
+
+**What to do:** You don't need to ask your teammates about this if it feels too tense. Instead, check the course syllabus or the assignment prompt on your learning management system (like Canvas or Blackboard) for the grading rubric. 
+* If you aren't sure where to look or can't find it, send a quick, neutral message to your professor or lab instructor to confirm. 
+
+Here is a short, low-stress email you can adapt and send to your instructor:
+
+> **Subject:** Quick question about the [Lab/Project Name] presentation grading
+>
+> Dear Professor [Last Name],
+>
+> I am writing to clarify one detail about our upcoming group presentation for [Project Name]. Could you please confirm whether the presentation grade is given as a single grade for the whole group, or if individual speaking parts are graded separately? 
+>
+> Thank you for your time and help.
+>
+> Best regards,  
+> [Your Name]
+
+### 2. Decide on the presentation role
+Right now, you are feeling stuck between "should I ask to speak?" and "should I just take the slides?" 
+
+You don't have to decide your permanent identity in this group today. Consider these two options:
+* **Option A (Take the slides/behind-the-scenes):** If you are feeling entirely depleted and your energy is low, letting them handle the talking while you build clear, professional slides can protect your peace for this specific assignment. *Crucial check:* If you do this, make sure you still know what is on those slides so you understand the material for future exams.
+* **Option B (Claim a small speaking part):** If you actually *want* to speak, you don't need to deliver the hardest, most complex part. You can claim a specific, well-defined slide (for instance, introducing the results section for two minutes) and practice just those lines. 
+
+If you decide you want to speak, you don't have to perform it off the cuff. You can practice with a text or notes in front of you—many native speakers also rely heavily on notes or bullet points.
+
+### A gentle next step for today
+For today, give your brain a break from forcing English. You don't have to fix the whole group dynamic or master your accent by this afternoon. 
+
+Would you prefer to focus your energy on figuring out the grading rubric first, or would it help to talk more about how to navigate talking to these teammates?</candidate_response>

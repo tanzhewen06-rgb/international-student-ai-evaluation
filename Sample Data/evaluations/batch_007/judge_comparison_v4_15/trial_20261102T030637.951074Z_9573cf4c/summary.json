@@ -1,0 +1,52 @@
+{
+  "summary": {
+    "status": "complete",
+    "revision": "V4.15",
+    "planned_judgments": 30,
+    "saved_judgments": 30,
+    "scored_judgments": 30,
+    "unscored_judgments": 0,
+    "remaining_initial_judgments": 0,
+    "provider_requests": 94,
+    "interrupted_or_unknown_requests": 0,
+    "score_status": {
+      "provisional": 14,
+      "validated": 16
+    }
+  },
+  "judges": {
+    "gpt-5.4-mini-2026-03-17": {
+      "numeric_records": 10,
+      "means": {
+        "problem_understanding": 7.9,
+        "empathy_and_emotional_support": 8.1,
+        "cultural_respect_and_autonomy": 8.3,
+        "clarity_and_accessibility": 8.9,
+        "reasonableness_and_practicality": 8.3,
+        "factual_reliability_and_faithfulness": 5.4
+      }
+    },
+    "gemini-3.8-flash": {
+      "numeric_records": 10,
+      "means": {
+        "problem_understanding": 8,
+        "empathy_and_emotional_support": 10,
+        "cultural_respect_and_autonomy": 10,
+        "clarity_and_accessibility": 10,
+        "reasonableness_and_practicality": 10,
+        "factual_reliability_and_faithfulness": 7.4
+      }
+    },
+    "deepseek-flash": {
+      "numeric_records": 10,
+      "means": {
+        "problem_understanding": 7.3,
+        "empathy_and_emotional_support": 8.6,
+        "cultural_respect_and_autonomy": 8.2,
+        "clarity_and_accessibility": 9,
+        "reasonableness_and_practicality": 8.7,
+        "factual_reliability_and_faithfulness": 5.6
+      }
+    }
+  }
+}

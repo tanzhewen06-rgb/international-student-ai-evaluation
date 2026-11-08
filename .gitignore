@@ -1,0 +1,17 @@
+# Credentials, local environments, editor state and caches
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*credentials*.json
+*secret*.json
+.venv/
+venv/
+.vscode/
+.idea/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+*.lock

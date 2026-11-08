@@ -1,0 +1,675 @@
+{
+  "summary": {
+    "status": "complete_with_review",
+    "revision": "V4.13",
+    "suite": "regression",
+    "planned_judgments": 30,
+    "saved_judgments": 30,
+    "scored_judgments": 27,
+    "unscored_judgments": 3,
+    "remaining_initial_judgments": 0,
+    "complete_triplicate_answers": 9,
+    "complete_dimension_triplets": 54,
+    "all_three_same": 37,
+    "all_three_within_1": 47,
+    "spread_at_least_2": 7,
+    "max_spread": 3,
+    "mean_within_answer_sample_sd": 0.2675436168280955,
+    "score_status": {
+      "validated": 21,
+      "provisional": 6,
+      "unscored": 3
+    },
+    "logged_requests": 33
+  },
+  "dimension_triplets": [
+    {
+      "response_id": "ced1e5122ec147799e1890b1b724698c",
+      "dimension": "problem_understanding",
+      "scores": [
+        10,
+        10,
+        10
+      ],
+      "range": 0,
+      "sample_sd": 0.0,
+      "all_validated": true
+    },
+    {
+      "response_id": "ced1e5122ec147799e1890b1b724698c",
+      "dimension": "empathy_and_emotional_support",
+      "scores": [
+        9,
+        9,
+        9
+      ],
+      "range": 0,
+      "sample_sd": 0.0,
+      "all_validated": true
+    },
+    {
+      "response_id": "ced1e5122ec147799e1890b1b724698c",
+      "dimension": "cultural_respect_and_autonomy",
+      "scores": [
+        10,
+        10,
+        10
+      ],
+      "range": 0,
+      "sample_sd": 0.0,
+      "all_validated": true
+    },
+    {
+      "response_id": "ced1e5122ec147799e1890b1b724698c",
+      "dimension": "clarity_and_accessibility",
+      "scores": [
+        9,
+        9,
+        9
+      ],
+      "range": 0,
+      "sample_sd": 0.0,
+      "all_validated": true
+    },
+    {
+      "response_id": "ced1e5122ec147799e1890b1b724698c",
+      "dimension": "reasonableness_and_practicality",
+      "scores": [
+        9,
+        9,
+        9
+      ],
+      "range": 0,
+      "sample_sd": 0.0,
+      "all_validated": true
+    },
+    {
+      "response_id": "ced1e5122ec147799e1890b1b724698c",
+      "dimension": "factual_reliability_and_faithfulness",
+      "scores": [
+        10,
+        10,
+        10
+      ],
+      "range": 0,
+      "sample_sd": 0.0,
+      "all_validated": true
+    },
+    {
+      "response_id": "11d6af8c7fd247db96ab812a9d30e2d4",
+      "dimension": "problem_understanding",
+      "scores": [
+        8,
+        8,
+        8
+      ],
+      "range": 0,
+      "sample_sd": 0.0,
+      "all_validated": true
+    },
+    {
+      "response_id": "11d6af8c7fd247db96ab812a9d30e2d4",
+      "dimension": "empathy_and_emotional_support",
+      "scores": [
+        8,
+        8,
+        8
+      ],
+      "range": 0,
+      "sample_sd": 0.0,
+      "all_validated": true
+    },
+    {
+      "response_id": "11d6af8c7fd247db96ab812a9d30e2d4",
+      "dimension": "cultural_respect_and_autonomy",
+      "scores": [
+        9,
+        9,
+        8
+      ],
+      "range": 1,
+      "sample_sd": 0.5773502691896257,
+      "all_validated": true
+    },
+    {
+      "response_id": "11d6af8c7fd247db96ab812a9d30e2d4",
+      "dimension": "clarity_and_accessibility",
+      "scores": [
+        9,
+        9,
+        9
+      ],
+      "range": 0,
+      "sample_sd": 0.0,
+      "all_validated": true
+    },
+    {
+      "response_id": "11d6af8c7fd247db96ab812a9d30e2d4",
+      "dimension": "reasonableness_and_practicality",
+      "scores": [
+        8,
+        8,
+        8
+      ],
+      "range": 0,
+      "sample_sd": 0.0,
+      "all_validated": true
+    },
+    {
+      "response_id": "11d6af8c7fd247db96ab812a9d30e2d4",
+      "dimension": "factual_reliability_and_faithfulness",
+      "scores": [
+        3,
+        3,
+        3
+      ],
+      "range": 0,
+      "sample_sd": 0.0,
+      "all_validated": true
+    },
+    {
+      "response_id": "49236bd7a0704d1795c28686c03d6ed8",
+      "dimension": "problem_understanding",
+      "scores": [
+        6,
+        6,
+        6
+      ],
+      "range": 0,
+      "sample_sd": 0.0,
+      "all_validated": false
+    },
+    {
+      "response_id": "49236bd7a0704d1795c28686c03d6ed8",
+      "dimension": "empathy_and_emotional_support",
+      "scores": [
+        8,
+        8,
+        8
+      ],
+      "range": 0,
+      "sample_sd": 0.0,
+      "all_validated": false
+    },
+    {
+      "response_id": "49236bd7a0704d1795c28686c03d6ed8",
+      "dimension": "cultural_respect_and_autonomy",
+      "scores": [
+        5,
+        8,
+        6
+      ],
+      "range": 3,
+      "sample_sd": 1.5275252316519468,
+      "all_validated": false
+    },
+    {
+      "response_id": "49236bd7a0704d1795c28686c03d6ed8",
+      "dimension": "clarity_and_accessibility",
+      "scores": [
+        9,
+        8,
+        8
+      ],
+      "range": 1,
+      "sample_sd": 0.5773502691896257,
+      "all_validated": false
+    },
+    {
+      "response_id": "49236bd7a0704d1795c28686c03d6ed8",
+      "dimension": "reasonableness_and_practicality",
+      "scores": [
+        6,
+        6,
+        6
+      ],
+      "range": 0,
+      "sample_sd": 0.0,
+      "all_validated": false
+    },
+    {
+      "response_id": "49236bd7a0704d1795c28686c03d6ed8",
+      "dimension": "factual_reliability_and_faithfulness",
+      "scores": [
+        4,
+        4,
+        4
+      ],
+      "range": 0,
+      "sample_sd": 0.0,
+      "all_validated": false
+    },
+    {
+      "response_id": "736cbc1db77d4ac4806f5405f1ec1680",
+      "dimension": "problem_understanding",
+      "scores": [
+        10,
+        10,
+        10
+      ],
+      "range": 0,
+      "sample_sd": 0.0,
+      "all_validated": true
+    },
+    {
+      "response_id": "736cbc1db77d4ac4806f5405f1ec1680",
+      "dimension": "empathy_and_emotional_support",
+      "scores": [
+        9,
+        9,
+        9
+      ],
+      "range": 0,
+      "sample_sd": 0.0,
+      "all_validated": true
+    },
+    {
+      "response_id": "736cbc1db77d4ac4806f5405f1ec1680",
+      "dimension": "cultural_respect_and_autonomy",
+      "scores": [
+        10,
+        10,
+        10
+      ],
+      "range": 0,
+      "sample_sd": 0.0,
+      "all_validated": true
+    },
+    {
+      "response_id": "736cbc1db77d4ac4806f5405f1ec1680",
+      "dimension": "clarity_and_accessibility",
+      "scores": [
+        9,
+        9,
+        9
+      ],
+      "range": 0,
+      "sample_sd": 0.0,
+      "all_validated": true
+    },
+    {
+      "response_id": "736cbc1db77d4ac4806f5405f1ec1680",
+      "dimension": "reasonableness_and_practicality",
+      "scores": [
+        9,
+        9,
+        9
+      ],
+      "range": 0,
+      "sample_sd": 0.0,
+      "all_validated": true
+    },
+    {
+      "response_id": "736cbc1db77d4ac4806f5405f1ec1680",
+      "dimension": "factual_reliability_and_faithfulness",
+      "scores": [
+        10,
+        10,
+        10
+      ],
+      "range": 0,
+      "sample_sd": 0.0,
+      "all_validated": true
+    },
+    {
+      "response_id": "ec35da4958044358a1e00ca5041d3e0c",
+      "dimension": "problem_understanding",
+      "scores": [
+        6,
+        8,
+        6
+      ],
+      "range": 2,
+      "sample_sd": 1.1547005383792515,
+      "all_validated": true
+    },
+    {
+      "response_id": "ec35da4958044358a1e00ca5041d3e0c",
+      "dimension": "empathy_and_emotional_support",
+      "scores": [
+        8,
+        8,
+        8
+      ],
+      "range": 0,
+      "sample_sd": 0.0,
+      "all_validated": true
+    },
+    {
+      "response_id": "ec35da4958044358a1e00ca5041d3e0c",
+      "dimension": "cultural_respect_and_autonomy",
+      "scores": [
+        9,
+        9,
+        9
+      ],
+      "range": 0,
+      "sample_sd": 0.0,
+      "all_validated": true
+    },
+    {
+      "response_id": "ec35da4958044358a1e00ca5041d3e0c",
+      "dimension": "clarity_and_accessibility",
+      "scores": [
+        9,
+        9,
+        9
+      ],
+      "range": 0,
+      "sample_sd": 0.0,
+      "all_validated": true
+    },
+    {
+      "response_id": "ec35da4958044358a1e00ca5041d3e0c",
+      "dimension": "reasonableness_and_practicality",
+      "scores": [
+        6,
+        8,
+        6
+      ],
+      "range": 2,
+      "sample_sd": 1.1547005383792515,
+      "all_validated": true
+    },
+    {
+      "response_id": "ec35da4958044358a1e00ca5041d3e0c",
+      "dimension": "factual_reliability_and_faithfulness",
+      "scores": [
+        4,
+        4,
+        4
+      ],
+      "range": 0,
+      "sample_sd": 0.0,
+      "all_validated": true
+    },
+    {
+      "response_id": "bfa3884988954051837d24c0563e788c",
+      "dimension": "problem_understanding",
+      "scores": [
+        6,
+        6,
+        6
+      ],
+      "range": 0,
+      "sample_sd": 0.0,
+      "all_validated": false
+    },
+    {
+      "response_id": "bfa3884988954051837d24c0563e788c",
+      "dimension": "empathy_and_emotional_support",
+      "scores": [
+        8,
+        8,
+        8
+      ],
+      "range": 0,
+      "sample_sd": 0.0,
+      "all_validated": false
+    },
+    {
+      "response_id": "bfa3884988954051837d24c0563e788c",
+      "dimension": "cultural_respect_and_autonomy",
+      "scores": [
+        8,
+        7,
+        7
+      ],
+      "range": 1,
+      "sample_sd": 0.5773502691896257,
+      "all_validated": false
+    },
+    {
+      "response_id": "bfa3884988954051837d24c0563e788c",
+      "dimension": "clarity_and_accessibility",
+      "scores": [
+        9,
+        9,
+        9
+      ],
+      "range": 0,
+      "sample_sd": 0.0,
+      "all_validated": false
+    },
+    {
+      "response_id": "bfa3884988954051837d24c0563e788c",
+      "dimension": "reasonableness_and_practicality",
+      "scores": [
+        8,
+        7,
+        7
+      ],
+      "range": 1,
+      "sample_sd": 0.5773502691896257,
+      "all_validated": false
+    },
+    {
+      "response_id": "bfa3884988954051837d24c0563e788c",
+      "dimension": "factual_reliability_and_faithfulness",
+      "scores": [
+        3,
+        3,
+        3
+      ],
+      "range": 0,
+      "sample_sd": 0.0,
+      "all_validated": false
+    },
+    {
+      "response_id": "9167d78a416f4ac28cb287624390d140",
+      "dimension": "problem_understanding",
+      "scores": [
+        4,
+        4,
+        6
+      ],
+      "range": 2,
+      "sample_sd": 1.1547005383792515,
+      "all_validated": false
+    },
+    {
+      "response_id": "9167d78a416f4ac28cb287624390d140",
+      "dimension": "empathy_and_emotional_support",
+      "scores": [
+        7,
+        7,
+        8
+      ],
+      "range": 1,
+      "sample_sd": 0.5773502691896257,
+      "all_validated": false
+    },
+    {
+      "response_id": "9167d78a416f4ac28cb287624390d140",
+      "dimension": "cultural_respect_and_autonomy",
+      "scores": [
+        6,
+        5,
+        8
+      ],
+      "range": 3,
+      "sample_sd": 1.5275252316519468,
+      "all_validated": false
+    },
+    {
+      "response_id": "9167d78a416f4ac28cb287624390d140",
+      "dimension": "clarity_and_accessibility",
+      "scores": [
+        8,
+        8,
+        8
+      ],
+      "range": 0,
+      "sample_sd": 0.0,
+      "all_validated": false
+    },
+    {
+      "response_id": "9167d78a416f4ac28cb287624390d140",
+      "dimension": "reasonableness_and_practicality",
+      "scores": [
+        8,
+        7,
+        7
+      ],
+      "range": 1,
+      "sample_sd": 0.5773502691896257,
+      "all_validated": false
+    },
+    {
+      "response_id": "9167d78a416f4ac28cb287624390d140",
+      "dimension": "factual_reliability_and_faithfulness",
+      "scores": [
+        3,
+        3,
+        3
+      ],
+      "range": 0,
+      "sample_sd": 0.0,
+      "all_validated": false
+    },
+    {
+      "response_id": "8417e800ec3b4376972f4dcdfb990652",
+      "dimension": "problem_understanding",
+      "scores": [
+        8,
+        6,
+        6
+      ],
+      "range": 2,
+      "sample_sd": 1.1547005383792515,
+      "all_validated": false
+    },
+    {
+      "response_id": "8417e800ec3b4376972f4dcdfb990652",
+      "dimension": "empathy_and_emotional_support",
+      "scores": [
+        8,
+        8,
+        8
+      ],
+      "range": 0,
+      "sample_sd": 0.0,
+      "all_validated": false
+    },
+    {
+      "response_id": "8417e800ec3b4376972f4dcdfb990652",
+      "dimension": "cultural_respect_and_autonomy",
+      "scores": [
+        7,
+        6,
+        5
+      ],
+      "range": 2,
+      "sample_sd": 1.0,
+      "all_validated": false
+    },
+    {
+      "response_id": "8417e800ec3b4376972f4dcdfb990652",
+      "dimension": "clarity_and_accessibility",
+      "scores": [
+        9,
+        8,
+        8
+      ],
+      "range": 1,
+      "sample_sd": 0.5773502691896257,
+      "all_validated": false
+    },
+    {
+      "response_id": "8417e800ec3b4376972f4dcdfb990652",
+      "dimension": "reasonableness_and_practicality",
+      "scores": [
+        7,
+        6,
+        6
+      ],
+      "range": 1,
+      "sample_sd": 0.5773502691896257,
+      "all_validated": false
+    },
+    {
+      "response_id": "8417e800ec3b4376972f4dcdfb990652",
+      "dimension": "factual_reliability_and_faithfulness",
+      "scores": [
+        3,
+        3,
+        4
+      ],
+      "range": 1,
+      "sample_sd": 0.5773502691896257,
+      "all_validated": false
+    },
+    {
+      "response_id": "0d4c0cc55eee4a46a177613f905bc2c9",
+      "dimension": "problem_understanding",
+      "scores": [
+        9,
+        9,
+        9
+      ],
+      "range": 0,
+      "sample_sd": 0.0,
+      "all_validated": true
+    },
+    {
+      "response_id": "0d4c0cc55eee4a46a177613f905bc2c9",
+      "dimension": "empathy_and_emotional_support",
+      "scores": [
+        8,
+        8,
+        8
+      ],
+      "range": 0,
+      "sample_sd": 0.0,
+      "all_validated": true
+    },
+    {
+      "response_id": "0d4c0cc55eee4a46a177613f905bc2c9",
+      "dimension": "cultural_respect_and_autonomy",
+      "scores": [
+        9,
+        9,
+        9
+      ],
+      "range": 0,
+      "sample_sd": 0.0,
+      "all_validated": true
+    },
+    {
+      "response_id": "0d4c0cc55eee4a46a177613f905bc2c9",
+      "dimension": "clarity_and_accessibility",
+      "scores": [
+        9,
+        9,
+        9
+      ],
+      "range": 0,
+      "sample_sd": 0.0,
+      "all_validated": true
+    },
+    {
+      "response_id": "0d4c0cc55eee4a46a177613f905bc2c9",
+      "dimension": "reasonableness_and_practicality",
+      "scores": [
+        9,
+        9,
+        9
+      ],
+      "range": 0,
+      "sample_sd": 0.0,
+      "all_validated": true
+    },
+    {
+      "response_id": "0d4c0cc55eee4a46a177613f905bc2c9",
+      "dimension": "factual_reliability_and_faithfulness",
+      "scores": [
+        9,
+        10,
+        10
+      ],
+      "range": 1,
+      "sample_sd": 0.5773502691896257,
+      "all_validated": true
+    }
+  ]
+}

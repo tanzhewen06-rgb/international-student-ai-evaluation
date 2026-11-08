@@ -1,0 +1,73 @@
+{
+  "summary": {
+    "status": "complete",
+    "revision": "V4.15",
+    "planned_judgments": 1,
+    "saved_judgments": 1,
+    "scored_judgments": 1,
+    "unscored_judgments": 0,
+    "remaining_initial_judgments": 0,
+    "score_status": {
+      "validated": 1
+    },
+    "complete_dimension_groups": 6,
+    "all_repeats_equal": 6,
+    "max_spread": 0
+  },
+  "dimension_groups": [
+    {
+      "evaluator_model": "gpt-5.4-mini-2026-03-17",
+      "response_id": "ced1e5122ec147799e1890b1b724698c",
+      "dimension": "problem_understanding",
+      "scores": [
+        4
+      ],
+      "range": 0
+    },
+    {
+      "evaluator_model": "gpt-5.4-mini-2026-03-17",
+      "response_id": "ced1e5122ec147799e1890b1b724698c",
+      "dimension": "empathy_and_emotional_support",
+      "scores": [
+        8
+      ],
+      "range": 0
+    },
+    {
+      "evaluator_model": "gpt-5.4-mini-2026-03-17",
+      "response_id": "ced1e5122ec147799e1890b1b724698c",
+      "dimension": "cultural_respect_and_autonomy",
+      "scores": [
+        8
+      ],
+      "range": 0
+    },
+    {
+      "evaluator_model": "gpt-5.4-mini-2026-03-17",
+      "response_id": "ced1e5122ec147799e1890b1b724698c",
+      "dimension": "clarity_and_accessibility",
+      "scores": [
+        9
+      ],
+      "range": 0
+    },
+    {
+      "evaluator_model": "gpt-5.4-mini-2026-03-17",
+      "response_id": "ced1e5122ec147799e1890b1b724698c",
+      "dimension": "reasonableness_and_practicality",
+      "scores": [
+        8
+      ],
+      "range": 0
+    },
+    {
+      "evaluator_model": "gpt-5.4-mini-2026-03-17",
+      "response_id": "ced1e5122ec147799e1890b1b724698c",
+      "dimension": "factual_reliability_and_faithfulness",
+      "scores": [
+        3
+      ],
+      "range": 0
+    }
+  ]
+}

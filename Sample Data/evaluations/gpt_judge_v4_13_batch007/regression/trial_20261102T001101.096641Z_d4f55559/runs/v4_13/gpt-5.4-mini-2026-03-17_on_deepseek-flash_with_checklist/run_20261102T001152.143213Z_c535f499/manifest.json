@@ -1,0 +1,153 @@
+{
+  "scenario_type": "Type1",
+  "schema_version": "1.8",
+  "rubric_version": "V4.12",
+  "evaluator_model": "gpt-5.4-mini-2026-03-17",
+  "target_model": "deepseek-flash",
+  "evaluator_generation_config": {
+    "api": "openai.responses",
+    "reasoning_effort": "none",
+    "temperature": 0,
+    "max_output_tokens": 4096,
+    "output_format": "json_schema",
+    "strict_schema": false,
+    "sdk_max_retries": 0,
+    "timeout_seconds": 300,
+    "adapter_sha256": "1fffc8f73b7fbc4dd71c4bd16671c19ae835fee9aa9239db2a5c8032437ea5c7",
+    "semantic_review": {
+      "protocol": "context_review_before_final_scoring",
+      "draft_scores_visible_to_reviewer": false,
+      "draft_calls_per_judgment": 1,
+      "review_calls_per_judgment": 1,
+      "max_review_repairs": 1,
+      "files_sha256": {
+        "project://Evaluation Agent/versions/v4_13/semantic_review.py": "6a5de83bda0586aacb1af63eb46f33a9fccb8cf8adb21a317fc6281777bd864a",
+        "project://Evaluation Agent/versions/v4_13/semantic_review.md": "d30ab3f3285e192a49ffec1804ed40e8a03d9a457801e55170981436bf9ba8b7",
+        "project://Evaluation Agent/versions/v4_13/review_client.py": "9edda1f2de22fa05f61e495b11e762e52d0a3ff9a7e53c741ee37f7a50a4a97a"
+      },
+      "controller_sha256": "6880474695830ef64f21c023afde1792a8266806ce7cf160ee9fc92b9a89e5ac"
+    }
+  },
+  "checklist_output_mode": "original_items",
+  "allow_historical_fallback": false,
+  "rubric_sha256": "9eafdc83d35b1c06f3962bff7c037f9c5ae409f30c029c6b7f83059eda0532d9",
+  "scoring_code_sha256": {
+    "runtime/agent.py": "29e11878198eb09a725c8e230143055c5c4c6667ff649499c7eba1910ae5d7bf",
+    "runtime/calibration.py": "2a5a776c4bb7a2f28cbb0b18b95fbc6c1d18daeaed5cbdd2e76922ebd617b373",
+    "runtime/checklist.py": "81e34f60ea2c250f832d4abe0490809c20d01e9346e021f08443704ddc5c5817",
+    "runtime/evaluator.py": "382f89478273f59d7d0124ba09c59bbfec960a2665acb29201a2c39c80f488d6",
+    "runtime/finalize_scoring.py": "15d771acb07f342db52ae0862cabc5411c45e497c9b172f5abc2762fc0c89d1c",
+    "runtime/models.py": "76909db8a1105e88579a9563230a4620e4569efba958fa2f63b843c43bf49da1",
+    "runtime/paths.py": "e9ff2423ab5a9625c85e7c2d3e2ea711c5f5241781088e2b9bbe193562d63e33",
+    "runtime/report.py": "98d75934840d557552a9c35b9efa18ea51429689de1fa13e31ab823b93674129",
+    "runtime/report_dual_judge.py": "8ea82e6ddded175107d911929d8537cf46502f3a45e38448acee53e68806c862",
+    "runtime/scoring.py": "5e3805b1554d7e8f3ab7a9fc4c01814eafc640fc495d25c5c6fe5920b0abd7cd",
+    "runtime/storage.py": "136b078ee8d12c115a2e6e53b6d5cef0433f9d50e2f56703e6e9e71e16551b15",
+    "runtime/strict_scoring.py": "08484be3ea2da4f1ec03e67ab5998ef84a62d9aee56f28283af849a2aae13f50",
+    "versions/v4_12/audit.py": "ae108fc4c37bdf12e48ef0cd7971f36530cad1a071b0793b0156f76ba88d4a69",
+    "versions/v4_12/client.py": "a0fb17f491f31a8f5358de5e5315a326492cb10e97ed72fe1cbf29dc45d22c4d",
+    "versions/v4_12/judgment.py": "a9281aacc201c4a5edccfb2f9a393d12726e25a1804f48b752847ab83b7f49cc",
+    "versions/v4_12/report.py": "e2652103c9abfd23b45e5697cae2e4442b301514e0db764173c212bdfbb2566a",
+    "versions/v4_12/stability.py": "33c7aabc021bc658793e24636d2d5974a3115c4b7fb1171904d50461d986817f",
+    "versions/v4_11/audit.py": "fcd7a9ce4d69d9e668e181f67bffc625b1a0058ab4c4060aa3c7d6d42b90f437",
+    "versions/v4_11/client.py": "cfd0d276c9a241c9aac5ced4c87b5541eae69b5f3c58e80f69ebb12bb76bd09c",
+    "versions/v4_11/judgment.py": "a92d4f8fe6f4d8e1b8c0b9d6d6cd2b3cb8c7c95ffb5d143b43c557b3f924e173",
+    "versions/v4_11/report.py": "ff840f6ebc8b3dd73b0828f2df31d9c5f3e999e2949ab0910becac0032bf335f",
+    "versions/v4_11/stability.py": "33c7aabc021bc658793e24636d2d5974a3115c4b7fb1171904d50461d986817f",
+    "versions/v4_10/audit.py": "f815b2fff546d293b267cede30dd9b82a7db6cb3458b8b42ee41c8e54840775a",
+    "versions/v4_10/client.py": "0c2b9043e0697146aa8a3c31ce4afedfd13bffbb5b4fc48ab3d50881d69e3e25",
+    "versions/v4_10/judgment.py": "53447e6347f7551401c159fe0696b596cc0d8223be0ef8332798660dd488ed60",
+    "versions/v4_10/report.py": "df06b65f9e3f2a980946990accc8706d7ba60e8687b8cfaa44efab019cfc8a1e",
+    "versions/v4_10/stability.py": "7d6996cb265a379fbe1528f9a7e2f9b7f18c45f6cb7faa4d86b1f18d773636bc",
+    "versions/v4_2/audit.py": "1a488eae50548ee19d56d094203257649e306974adbe55ad638c561ae4681b7e",
+    "versions/v4_3/audit.py": "69c7823d7d98364debf447537dc9fc9d00d695e31289add3a48d839cf2f26125",
+    "versions/v4_6/client.py": "6ee95c12fc282db62ff3a5bceb706ac1441bd474b7ae4ba4ab90bad1cb91618f",
+    "versions/v4_6/judgment.py": "6d5e12b53a6bc652fce06b54fe1a3686b22e90a6d034d7f85f13c8f0a8d2b775",
+    "versions/v4_6/report.py": "8897f322f53372d75702845fd723d3cbe9dd61debe12f74fbbad636656687078",
+    "versions/v4_7/client.py": "6805299b8b251992e3e2ab72b7633ef9c0c3b581d0d87a7f57b80ecf1ba416d2",
+    "versions/v4_7/judgment.py": "8f6d0ebcdcb7c38b79c848aeb40d351986cb9b50ddd695a83a3aa45a9029771b",
+    "versions/v4_7/recovery.py": "062784f8a79b324b52a396dd2406ffff2a5e8356b523814c6879ac7f80dcacdc",
+    "versions/v4_7/report.py": "a1364aca85a2f19a9723be975ce2e5c6f2139aa0661ef450ab6d4be3136a8997",
+    "versions/v4_8/client.py": "8dcc1c3a8093579ff3b97174ff93a0eae62b654b8c7acc4a3c3d47ef39f40a40",
+    "versions/v4_8/judgment.py": "a3c6476129fe60d4887414a744075c10a3a341f191a116c20118db715aa9fc9a",
+    "versions/v4_8/report.py": "cade90e146d262b734e16082f21bc4b6bb5093f36937147cc9db583498d5cfde",
+    "versions/v4_9/audit.py": "0169c5d6a73a64d0d8eebd07e71e7dc00c9195e103ea8a7e1bd9ec0fcd4ed4ff",
+    "versions/v4_9/client.py": "392160de1caee95095fbf8022a623df2c02cf504f1b11fdca83d75979ca21158",
+    "versions/v4_9/judgment.py": "51127b9eb6b1a2f1f988cfabef01b46326db49884d74759849c9655ade60201e",
+    "versions/v4_9/report.py": "d240d15cb3d9867400706f9a7f96a09153ab4ee7fce8a7e49d377fd80cf6f317"
+  },
+  "score_scale": {
+    "min": 0,
+    "max": 10
+  },
+  "calibration_sha256": "43bf577ee3d6a8a3b630ab9cdd51631bc923b05352da4d053d805b878d507d8b",
+  "score_computation": "program_minimum_from_anchor_and_audit",
+  "checklist_sha256": "7a751457affb0a054d1cb857e06132bdc788654f8d416030ec5940f427bb68f6",
+  "checklist_mode": "external",
+  "model_client_sha256": "b7ac4c3f06b829321ac4eb07ca5b8d646680388ce60ad6db83320e1218e7e82e",
+  "evaluation_round_id": "c535f499-c44a-44d3-991a-8405e9382190",
+  "evaluation_run_id": "5f1e66bc-34ba-40ca-bc94-2a5f131c9eec",
+  "round_timestamp_utc": "20261102T001152.143213Z",
+  "max_responses": 3,
+  "result_file": "evaluations_gpt-5.4-mini-2026-03-17_on_deepseek-flash.jsonl",
+  "selected_response_ids": [
+    "11d6af8c7fd247db96ab812a9d30e2d4",
+    "49236bd7a0704d1795c28686c03d6ed8",
+    "ec35da4958044358a1e00ca5041d3e0c"
+  ],
+  "source_files": [
+    "project://Sample Data/responses/batch_007/responses_deepseek-flash.jsonl"
+  ],
+  "calibration_file": "calibration.md",
+  "calibration_source_path": "project://Evaluation Agent/gpt_judge_stability/frozen_inputs/calibration.md",
+  "calibration_snapshot": "calibration.md",
+  "checklist_file": "checklist.md",
+  "checklist_snapshot": "checklist.md",
+  "checklist_source_path": "project://Evaluation Agent/gpt_judge_stability/frozen_inputs/checklist.md",
+  "background_input": "saved_snapshot",
+  "applied_checklists": {
+    "11d6af8c7fd247db96ab812a9d30e2d4": {
+      "scenario_id": "scenario_2",
+      "scenario_sha256": "335f358b42c634cbc33cbe67809ad0aa7519074ccb599d490179553368259bf8",
+      "instructions_sha256": "b813e2fdacd039bcb54a3cc1c0c5669351ec68ae90b8d4b7395fbfe337a63984"
+    },
+    "49236bd7a0704d1795c28686c03d6ed8": {
+      "scenario_id": "scenario_3",
+      "scenario_sha256": "feef7c50a018aa76d636263f22af4049178bcb9596936b7ec584c766e3447782",
+      "instructions_sha256": "7b54c40d2bd5d3593df987f5d146ea28fc0498908bd1356075dc54af8c5ab7c5"
+    },
+    "ec35da4958044358a1e00ca5041d3e0c": {
+      "scenario_id": "scenario_5",
+      "scenario_sha256": "912b57e9aa61d6a43b7901bab44261c581b46127fed59329c88126d99cf8944f",
+      "instructions_sha256": "8cdc300f41dd5c26c8e8c683f569179e06e1509488c9edf0280858d0b9a300a6"
+    }
+  },
+  "calibration_mode": "principles_only",
+  "calibration_source_sha256": "94e8399345e1e366ba4b60744e48638c0f8283653ba1aad61a96c0aec097a58d",
+  "initial_request_hashes": {
+    "11d6af8c7fd247db96ab812a9d30e2d4": {
+      "source_sha256": "de0d4cc8eb475e984b43af03e9ef684c3f1d0cce9446051cb9f5831ff4bfc528",
+      "rubric_sha256": "9eafdc83d35b1c06f3962bff7c037f9c5ae409f30c029c6b7f83059eda0532d9",
+      "checklist_sha256": "7a751457affb0a054d1cb857e06132bdc788654f8d416030ec5940f427bb68f6",
+      "calibration_sha256": "43bf577ee3d6a8a3b630ab9cdd51631bc923b05352da4d053d805b878d507d8b",
+      "initial_task_sha256": "2afcfbb369aa5dfc6380e42c513738c6e63b65f1075283daba2152054463a1a5",
+      "initial_instructions_sha256": "ce6a9bedb41e4a227119ab80fcb18e2af41a644d8dc3759d1a88f0a27edffe75"
+    },
+    "49236bd7a0704d1795c28686c03d6ed8": {
+      "source_sha256": "5666a5a593e434893485dd5ce64cff8bde20f1dd17fbc19157129c403e0fa151",
+      "rubric_sha256": "9eafdc83d35b1c06f3962bff7c037f9c5ae409f30c029c6b7f83059eda0532d9",
+      "checklist_sha256": "7a751457affb0a054d1cb857e06132bdc788654f8d416030ec5940f427bb68f6",
+      "calibration_sha256": "43bf577ee3d6a8a3b630ab9cdd51631bc923b05352da4d053d805b878d507d8b",
+      "initial_task_sha256": "e54d8b0c6ea27fd35ff684ffcd2a2927c287079899d42591ec1828bb12173010",
+      "initial_instructions_sha256": "d27bcc1fa4f5025c825f679ef64e982bb556850ae628a9a70e569fbaa73c61c0"
+    },
+    "ec35da4958044358a1e00ca5041d3e0c": {
+      "source_sha256": "39cb625c007c88509bcc645ab3b174340fe6a6eebd8ffc58ad614f023edc7b11",
+      "rubric_sha256": "9eafdc83d35b1c06f3962bff7c037f9c5ae409f30c029c6b7f83059eda0532d9",
+      "checklist_sha256": "7a751457affb0a054d1cb857e06132bdc788654f8d416030ec5940f427bb68f6",
+      "calibration_sha256": "43bf577ee3d6a8a3b630ab9cdd51631bc923b05352da4d053d805b878d507d8b",
+      "initial_task_sha256": "b3de5fc43b8fd4506c96a9c85190694105ad19abe12317736585c515a1976366",
+      "initial_instructions_sha256": "d8f71210cb091adbd4055813f46a657f44ef4e2a91e8eacb2ec572a044b5ebee"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "live_api_calls": 0,
+  "real_credentials_read": false,
+  "historical_answer_inputs_matched": 50,
+  "simulated_judgments": 150,
+  "integer_dimension_scores": 900,
+  "same_answer_same_initial_inputs_all_three": true,
+  "repeated_start_rejected": true,
+  "report_detected_synthetic_spread": true,
+  "interrupted_records_recovered": true,
+  "original_schema_preserved": true,
+  "transport_stub_cases": 3,
+  "note": "All produced scores are labeled offline simulations and are outside actual evaluation folders."
+}

@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.5",
+  "rubric_version": "V4.8",
+  "evaluator_model": "gemini-3.8-flash",
+  "target_model": "gemini-3.5-flash-lite",
+  "evaluator_generation_config": {
+    "thinking_level": "low",
+    "max_output_tokens": 4096
+  },
+  "allow_historical_fallback": false,
+  "rubric_sha256": "b8e2e5a2d4065f1ff9952826f48609c99ca944a1d1eaff28c55c4bfc34733610",
+  "scoring_code_sha256": {
+    "agent.py": "e0808bf862aa9489e89a1a8b2667dddf99b56a654f4f734837806b694815b143",
+    "models.py": "e895f30e4703566448025c621dbf0b5e072c2cc924f5f3f2dbe96a4902622793",
+    "checklist.py": "c630b1b86c8a40f9035fbed6e8bb06afb2e1a0f1945e312e626111cd04313eb9",
+    "evaluator.py": "07bd9f2df9c0a7313274e4f207ee213d672b7528cf257f996a5c39f3bd933d6b",
+    "storage.py": "5168e764ac5e3a460301ba78e999ecaa6320bb5e4cc8a6fa5b4941293c7b438c",
+    "scoring.py": "c48933b61e849cdb1098e0dab326463694d6cc8ba262cb25b1d2fdd3f5a5eb9b",
+    "calibration.py": "ae2ca08474ecc296fadd28193496cd6dbd5e9c04fbeb1fb3d07ea87eaf635c03",
+    "strict_scoring.py": "0c882b0535f185b8ed59a659538f33caf916a9ad0509fd10002857f096f47ef1",
+    "audit_v42.py": "1a488eae50548ee19d56d094203257649e306974adbe55ad638c561ae4681b7e",
+    "audit_v43.py": "69c7823d7d98364debf447537dc9fc9d00d695e31289add3a48d839cf2f26125",
+    "finalize_scoring.py": "df9b3cbbd4867d48e46f7e4c1930c048005b11d680aedc3dadbee2f3f6ff79c8",
+    "compact_v46.py": "afd2801642459a15b08e30b17f6c4a5dd0e024328da1b6c07cd9f16f915256f5",
+    "compact_client.py": "0d35acca3db1c830d6a185ae34442082e5fe75159bf17602545dba570ff01194",
+    "compact_v47.py": "85928512ea8640c66df5dd3f3e059221ebb6ea073d086830ec74ed0291af44e4",
+    "compact_client_v47.py": "8bfd62e228eb2109c90bb616bd0e6ec32fb17fbae050d29c670cf1ba49ee0e5d",
+    "compact_v48.py": "97191038dff91bb0307985b93028a56003ea9297f58bc59da832acfd444170f0",
+    "compact_client_v48.py": "42be5f2a594588bba51f883f2c74f8575aa3e30bcabaea199f5c601f34aebb29"
+  },
+  "score_scale": {
+    "min": 0,
+    "max": 10
+  },
+  "calibration_sha256": "57bda8997fb682a2111a30ff7d2036434568f8a2fbc36daffb1699c7de7d9b62",
+  "score_computation": "program_minimum_from_anchor_and_audit",
+  "checklist_sha256": "7a751457affb0a054d1cb857e06132bdc788654f8d416030ec5940f427bb68f6",
+  "checklist_mode": "external",
+  "model_client_sha256": "6db324f7c78f469e53e9ccb84f5f5b52903f0428517e8e883893b8d95893af41",
+  "evaluation_round_id": "205c7fb1-1e2e-44ff-9945-1db3df05229c",
+  "evaluation_run_id": "e7ec4373-edb3-44ed-9a0c-38af00265aa3",
+  "round_timestamp_utc": "20261028T011335.561150Z",
+  "max_responses": 5,
+  "result_file": "evaluations_gemini-3.8-flash_on_gemini-3.5-flash-lite.jsonl",
+  "selected_response_ids": [
+    "0eacf75cca864643908b3f8315f08c71",
+    "ef75277dacc742f982e2cb85fd06b61d",
+    "dabbd15daa8d437c89733c50c6f64928",
+    "91cb7a822b044b70bec2854f0c377149",
+    "f7ca27a6f10b4b589cbd90df6d9cffb6"
+  ],
+  "source_files": [
+    "project://Sample Data/responses/batch_004/responses_gemini-3.5-flash-lite.jsonl"
+  ],
+  "calibration_file": "evaluation_agent_human_calibration_examples V2.md",
+  "calibration_source_path": "project://Evaluation Agent/prompts/evaluation_agent_human_calibration_examples V2.md",
+  "calibration_snapshot": "calibration.md",
+  "checklist_file": "international_student_scenario_V4_checklist V4.4.md",
+  "checklist_snapshot": "checklist.md",
+  "checklist_source_path": "project://Evaluation Agent/prompts/international_student_scenario_V4_checklist V4.4.md",
+  "background_input": "saved_snapshot",
+  "applied_checklists": {
+    "0eacf75cca864643908b3f8315f08c71": {
+      "scenario_id": "scenario_1",
+      "scenario_sha256": "61f58f34fdfb7947a2afe646ec3830d5f9ed20ad511d5c60a3b9f296f555e7a2",
+      "instructions_sha256": "ee3a16af6d16dcebc061ca2e6edbdccfd4644b3dca3eea4d04368b3feb836c9f"
+    },
+    "ef75277dacc742f982e2cb85fd06b61d": {
+      "scenario_id": "scenario_2",
+      "scenario_sha256": "335f358b42c634cbc33cbe67809ad0aa7519074ccb599d490179553368259bf8",
+      "instructions_sha256": "b813e2fdacd039bcb54a3cc1c0c5669351ec68ae90b8d4b7395fbfe337a63984"
+    },
+    "dabbd15daa8d437c89733c50c6f64928": {
+      "scenario_id": "scenario_3",
+      "scenario_sha256": "feef7c50a018aa76d636263f22af4049178bcb9596936b7ec584c766e3447782",
+      "instructions_sha256": "7b54c40d2bd5d3593df987f5d146ea28fc0498908bd1356075dc54af8c5ab7c5"
+    },
+    "91cb7a822b044b70bec2854f0c377149": {
+      "scenario_id": "scenario_4",
+      "scenario_sha256": "866fa999a7412450bdfc79f2204840794bf70fc362d3b65769d2af598d904ea0",
+      "instructions_sha256": "0c9cb7b1e9d508959a17f6febd6480d5ce4225188891e7bb6d0ed047d224aa00"
+    },
+    "f7ca27a6f10b4b589cbd90df6d9cffb6": {
+      "scenario_id": "scenario_5",
+      "scenario_sha256": "912b57e9aa61d6a43b7901bab44261c581b46127fed59329c88126d99cf8944f",
+      "instructions_sha256": "8cdc300f41dd5c26c8e8c683f569179e06e1509488c9edf0280858d0b9a300a6"
+    }
+  },
+  "calibration_mode": "one_short_example_per_scenario",
+  "calibration_source_sha256": "94e8399345e1e366ba4b60744e48638c0f8283653ba1aad61a96c0aec097a58d",
+  "applied_calibration_examples": {
+    "0eacf75cca864643908b3f8315f08c71": "human_example_02",
+    "ef75277dacc742f982e2cb85fd06b61d": "human_example_04",
+    "dabbd15daa8d437c89733c50c6f64928": "human_example_05",
+    "91cb7a822b044b70bec2854f0c377149": "human_example_07",
+    "f7ca27a6f10b4b589cbd90df6d9cffb6": "human_example_09"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "evaluation_version": "V4.14",
+  "checklist_version": "V4.14",
+  "numeric_protocol_version": "V4.12",
+  "supersedes": "V4.13",
+  "changed_items": [
+    "L2",
+    "S4",
+    "C1"
+  ],
+  "score_formula_changed": false,
+  "files_sha256": {
+    "checklist_type1.md": "8a7fb94b7abf7e2e638a19ab5b656bac486c3043cb87ba50dd5febc15e5a06e2",
+    "rubric_type1.md": "ef16c136b45b1b45f660e631eba0c3bd5f0f07161d9b2ee5f0bb7ada9862af31"
+  }
+}

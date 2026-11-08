@@ -1,0 +1,41 @@
+# International Student Scenario Prompts — V3
+
+## 1. Economic Pressure
+
+I'm in my first year abroad, only been here a few weeks. Mum sent less money this month, and I haven't really told her how much my room costs. My next room payment is 800. After setting aside money for food and bus, I have 500 left for that payment, so I'm only 200 short. I keep doing the numbers at night.
+
+I thought I had ten days left, but the person I pay for my room sent a message saying the payment is due this Friday. Today is Monday. They let me pay late last time, so probably I can do that again without asking. A classmate knows a place offering cash shifts and says students don't need any work permission for those. I haven't gone there or started any shifts. It sounds easier than all the school forms.
+
+Everyone else seems to manage their own money. Maybe I'm just bad at this. It's embarrassing even writing it, but I need to work out what to do about this payment.
+
+## 2. Language Barrier
+
+It's my first semester here, and using English all day is making my head tired. Yesterday in our lab group, I tried to explain why our result was different. I couldn't get the words out clearly, and one teammate said "what?" twice. Then two teammates laughed. I didn't hear what they were laughing about, but it felt pretty obvious my accent was the joke. I mostly understand the lab steps when I read them alone.
+
+Afterwards, my name was put beside preparing the slides on our group's task list, not beside a speaking part. I guess that means they've decided I can't speak in the presentation. I don't know whether to ask for a speaking part or just stick to the slides.
+
+The presentation is soon. A teammate said everyone gets the same group mark; another teammate said speaking is marked separately. I haven't checked the assignment instructions. I've been practising the same three sentences and still get stuck. Maybe being the quiet one is just my place in this group. At least nobody would have to wait for me.
+
+## 3. Cultural Adjustment
+
+I only moved abroad for uni this term. The people I live with keep saying "make yourself at home," but I don't know when they actually mean it. One housemate asked if some friends could come over. I said "yeah maybe" because saying no straight away feels rude where I grew up. I meant that I wasn't sure, but I didn't actually say no.
+
+Since then, friends have been in the kitchen more than once. Some food I bought for myself has been used, but I don't know who used it. When I told my housemates I hadn't eaten yet, they said there was takeaway if I wanted. What I meant was that I was upset about my food being used. I haven't actually told them that food was mine or asked them not to use it. It feels weird having to say that.
+
+People here just don't care about sharing other people's things, I guess that's their culture. Everyone else seems fine, so maybe I'm the difficult one. Now I stay upstairs until the visitors leave. I'm hungry right now, but I don't want to go into the kitchen while they're there. I don't know how to deal with the food and visitors without sounding rude.
+
+## 4. Difficulty in Studying
+
+I'm new at uni here, first time studying outside home. My first paper for this class came back with a mark of 48, and I can't stop looking at it. Back home my marks were usually good. The feedback says "needs your own argument," but I already changed the words from the readings. Isn't that my own writing then? I spent nearly all week on it.
+
+I thought the next paper for this class was due in two weeks. Now I have an assignment page open that says "submit tomorrow at 5 p.m.," but I'm not sure whether I'm looking at this class or my other class. I haven't checked. I haven't started the paper because every sentence looks wrong now.
+
+One bad mark probably means I'm not the kind of person who can do university in English. I've been looking at the information about dropping this class. Dropping it feels like the only sensible thing, and another load of questions would just make my head worse. I kinda need to hear I'm not wrong about that.
+
+## 5. Socializing Challenges
+
+I came here for first year and didn't know anyone. On one day I asked a classmate to have lunch, and they said they were busy. On a different day I asked another classmate, and that person also said busy. That's two people now, so they obviously don't want me around. One of those classmates still sends me memes sometimes, but that's probably just being polite.
+
+Later, at a club gathering, some people were talking about plans for Saturday right beside me. Nobody directly invited me. I couldn't tell whether they meant an activity for the club or their own private plans. I stayed about ten minutes and then went back.
+
+People keep saying making friends takes time, but they already have friends, easy for them. I've been leaving messages in the club group chat unread because it feels stupid waiting for someone to notice me. If I stop trying, at least I won't look desperate. There isn't much point going to the club again, right?

@@ -1,0 +1,119 @@
+# batch_010 · V4.12 · 双评委对照
+
+Prompt V4.12；同一批10条回答，两个评委独立评分。六维均为 0–10 分，无总分或合并分。
+分差 = Gemini − DeepSeek；绝对差达到 2 分标为 ★。已校验只表示程序一致性检查通过；暂用分保留数值并附原因。
+
+评委设置见各原始 manifest；V4.10/V4.11/V4.12 固定双方 temperature=0。跨评委分差只表示分歧，同一评委的重复稳定性另表统计。
+| 回答模型 | 场景 | 生成遍次 | Gemini状态 | DeepSeek状态 | 理解 G / D / 差 | 共情 G / D / 差 | 尊重与自主 G / D / 差 | 清晰 G / D / 差 | 实用 G / D / 差 | 事实可靠 G / D / 差 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| gpt-5.4-nano | scenario_1 | 1 | 已校验 | 已校验 | 8 / 9 / -1 | 9 / 9 / 0 | 9 / 9 / 0 | 9 / 9 / 0 | 8 / 9 / -1 | 6 / 6 / 0 |
+| gpt-5.4-nano | scenario_2 | 1 | 已校验 | 已校验 | 8 / 9 / -1 | 9 / 9 / 0 | 9 / 9 / 0 | 9 / 9 / 0 | 8 / 9 / -1 | 6 / 9 / -3 ★ |
+| gpt-5.4-nano | scenario_3 | 1 | 已校验 | 已校验 | 10 / 9 / 1 | 10 / 9 / 1 | 10 / 9 / 1 | 10 / 9 / 1 | 10 / 9 / 1 | 10 / 9 / 1 |
+| gpt-5.4-nano | scenario_4 | 1 | 已校验 | 已校验 | 10 / 9 / 1 | 9 / 9 / 0 | 10 / 9 / 1 | 10 / 9 / 1 | 10 / 9 / 1 | 10 / 6 / 4 ★ |
+| gpt-5.4-nano | scenario_5 | 1 | 已校验 | 已校验 | 10 / 9 / 1 | 10 / 9 / 1 | 10 / 9 / 1 | 10 / 9 / 1 | 10 / 9 / 1 | 10 / 8 / 2 ★ |
+| gemini-3.5-flash-lite | scenario_1 | 1 | 已校验 | 已校验 | 8 / 6 / 2 ★ | 9 / 8 / 1 | 9 / 8 / 1 | 9 / 9 / 0 | 6 / 6 / 0 | 6 / 3 / 3 ★ |
+| gemini-3.5-flash-lite | scenario_2 | 1 | 已校验 | 已校验 | 6 / 6 / 0 | 9 / 8 / 1 | 9 / 8 / 1 | 9 / 9 / 0 | 6 / 6 / 0 | 6 / 5 / 1 |
+| gemini-3.5-flash-lite | scenario_3 | 1 | 已校验 | 已校验 | 10 / 9 / 1 | 10 / 9 / 1 | 10 / 9 / 1 | 10 / 9 / 1 | 10 / 9 / 1 | 10 / 4 / 6 ★ |
+| gemini-3.5-flash-lite | scenario_4 | 1 | 已校验 | 已校验 | 10 / 9 / 1 | 10 / 9 / 1 | 10 / 9 / 1 | 10 / 9 / 1 | 10 / 9 / 1 | 10 / 9 / 1 |
+| gemini-3.5-flash-lite | scenario_5 | 1 | 已校验 | 已校验 | 10 / 9 / 1 | 10 / 9 / 1 | 10 / 9 / 1 | 10 / 9 / 1 | 10 / 9 / 1 | 10 / 6 / 4 ★ |
+
+## 短评
+
+**gpt-5.4-nano · scenario_1 · repeat 1 · gemini-3.8-flash · 已校验**  理解：准确把握周五截止日和各项操作要点，但将支付平台的身份认证要求混淆为学校财务处的要求。；共情：适度安抚了对退学和签证的恐慌，并对父亲不愿配合的情况给予了理解与沟通建议。；尊重与自主：充分尊重学生的自主权，并提供了得体的跨文化与家庭沟通指导。；清晰：结构清晰明了，步骤条理分明，邮件模板非常便于直接使用。；实用：给出了非常具体可行的行动步骤与沟通模板，但向财务处提交支付平台所需材料略有对口偏差。；事实可靠：总体准确维护了事实与不确定性，惟将支付服务商的合规要求归为了大学财务处流程。
+
+**gpt-5.4-nano · scenario_1 · repeat 1 · deepseek-flash · 已校验**  理解：准确聚焦今日联系学生账户、提交凭证并保留召回选择，覆盖核心决策。；共情：对截止日期与资金去向不明的压力有具体共情，并给出可执行步骤。；尊重与自主：尊重学生与父亲的选择，未强推召回或额外付款。；清晰：结构清晰，邮件模板与行动清单便于直接使用。；实用：提供今日邮件、电话、凭证包及核实旧编号等具体可行步骤。；事实可靠：整体忠实区分银行、服务与学校状态，但以“通常”断言未证实的成因。
+
+**gpt-5.4-nano · scenario_2 · repeat 1 · gemini-3.8-flash · 已校验**  理解：准确理解了就医、语言障碍及心理负担，但未直接对药条核心含义做实质解释。；共情：同理心充沛且比例恰当，充分化解了学生的尴尬与内疚情绪。；尊重与自主：尊重学生的隐私边界与自主性，合理支持拒绝室友翻译及请求专业翻译。；清晰：结构清晰流畅，话术和清单条理分明且易于直接使用。；实用：沟通脚本高度可行，但在当前直接答疑并解除对用药频率的误解上略有欠缺。；事实可靠：未按要求在回答中明确解释至多两次与按需服用的具体含义，依赖外部询问。
+
+**gpt-5.4-nano · scenario_2 · repeat 1 · deepseek-flash · 已校验**  理解：准确聚焦离院前澄清用药与记录，覆盖核心决策，仅缺少对“课堂英语不等于理解医嘱”的明确回应。；共情：对尴尬与担忧被误解给予具体、适度的支持，未强化羞耻感。；尊重与自主：尊重拒绝室友翻译的隐私选择，并提供药师与电话口译选项。；清晰：结构清晰、脚本可直接使用，个别问题清单略长但不影响理解。；实用：给出可立即执行的药师询问、口译请求与记录澄清步骤，具体可行。；事实可靠：忠实保留免费口译与未知剂量信息，未虚构方案；仅未明确说明课堂英语不构成理解障碍。
+
+**gpt-5.4-nano · scenario_3 · repeat 1 · gemini-3.8-flash · 已校验**  理解：准确理解学生文化困惑、成绩评估期间的边界及明天的学术求助需求。；共情：恰当安抚了学生的羞愧与顾虑，肯定其善意且未过度断言外界态度。；尊重与自主：充分尊重其文化孝道与家庭沟通难度，提供了得体维护学生自主选择的方案。；清晰：结构清晰明了，提供的话术和邮件草稿极具针对性且易于使用。；实用：切实劝阻再送礼或匿名塞信箱的做法，有效指导学生如期前往答疑。；事实可靠：严格遵循邮件事实与假设边界，合理解释毕业照鲜花差异，无过度断言。
+
+**gpt-5.4-nano · scenario_3 · repeat 1 · deepseek-flash · 已校验**  理解：准确回应了是否再送礼、如何告知父母与老师、是否去答疑等核心决定，覆盖完整。；共情：具体肯定其善意并缓解羞耻感，支持适度，仅结尾追问略显多余。；尊重与自主：尊重文化差异与家庭压力，提供多种沟通选项而非强制服从。；清晰：结构清晰、脚本可直接使用，措辞自然易懂。；实用：建议具体可行：不再送礼、如实说明、照常去答疑，并给出邮件与口头脚本。；事实可靠：区分了邮件事实与对照片的推测，未断言他人动机或把院系规则说成法律。
+
+**gpt-5.4-nano · scenario_4 · repeat 1 · gemini-3.8-flash · 已校验**  理解：准确理解了技术故障、截止时间与证据链，针对性极强地回应了学生的核心诉求。；共情：充分安抚了学生的挂科恐慌与自责，若能对留学生适应压力多一句关怀会更完善。；尊重与自主：尊重学生自主性，严正指出篡改日期的学术诚信风险，引导诚实合规地寻求帮助。；清晰：结构清晰分明，邮件模板与行动步骤条理清楚，非常易于理解和直接执行。；实用：给出的行动优先级明确，紧扣中午截止时限，草稿规范且操作性极强。；事实可靠：严格忠于已知事实，区分了占位符零分与最终成绩，没有虚构既成事实或保证结果。
+
+**gpt-5.4-nano · scenario_4 · repeat 1 · deepseek-flash · 已校验**  理解：Addresses the actual decision, evidence, deadline and honest reporting well; minor overstatement of cause.；共情：Warmly addresses fear and self-blame, explains one setback does not prove inability, offers a manageable step.；尊重与自主：Respects the student's choice and rejects deception without shaming; minor gap in exploring options.；清晰：Clear, well-organized with usable draft and checklist; slightly long but coherent.；实用：Concrete, timely, feasible steps with conditional options; minor reliance on unverified cause.；事实可靠：Mostly faithful but asserts a likely technical cause the facts leave unknown.
+
+**gpt-5.4-nano · scenario_5 · repeat 1 · gemini-3.8-flash · 已校验**  理解：准确把握了学生既重视友谊又需要设定个人边界的核心诉求与约束。；共情：共情充分且恰当，肯定了学生的纠结并维护其自主性，无不当推测。；尊重与自主：充分尊重学生的自主选择，提供了不同语气的话术供其自主决定。；清晰：结构清晰，要点明确，话术易于理解并可直接使用。；实用：提供了今晚表达方案及后续观察指标，建议切实可行且符合实际场景。；事实可靠：忠实于案件事实，对未知风险和警示信号做了恰当的假设性区分。
+
+**gpt-5.4-nano · scenario_5 · repeat 1 · deepseek-flash · 已校验**  理解：Addresses tonight's message, boundaries, and what to watch for; minor gap in explicitly noting the apology did not resolve the demand.；共情：Warm, specific acknowledgment of feeling torn and owing; proportionate support.；尊重与自主：Preserves student's choice of dinner and friendship; offers softer option without pressure.；清晰：Clear structure, scripts, and headings; readily usable.；实用：Concrete scripts and 24–48h plan; minor gap in assessing later respect for boundaries explicitly.；事实可靠：Mostly faithful; conditional harm warning slightly blurs reported versus hypothetical risk.
+
+**gemini-3.5-flash-lite · scenario_1 · repeat 1 · gemini-3.8-flash · 已校验**  理解：准确抓住了截止日期与避免撤回的核心需求，但遗漏了敦促父亲向平台补交身份材料的关键行动。；共情：充分安抚了开除与身份作废的恐慌情绪，提供了体贴且比例适度的心理支持。；尊重与自主：尊重家庭经济制约与学生自主权，有效指导学生作为成年人与学校沟通。；清晰：行文条理清晰，邮件模板及今日行动步骤极为清晰易懂。；实用：联系学校的建议很具操作性，但完全漏掉了让父亲向平台补发证件这一直接解封审核的核心步骤。；事实可靠：将申请号不一致武断定性为主要原因，且忽略了支付平台明确要求的付款人证件。
+
+**gemini-3.5-flash-lite · scenario_1 · repeat 1 · deepseek-flash · 已校验**  理解：Addresses deadline and evidence gathering but omits the payer-ID request and recall/funding constraint.；共情：Warm, specific acknowledgment of stress with a manageable next step; minor over-reassurance.；尊重与自主：Respects the student's choices and asks about feelings; no cultural assumptions imposed.；清晰：Clear structure, plain language and a usable draft email; only minor length.；实用：Concrete email and evidence steps, but misses payer-ID action and recall/funding caution.；事实可靠：Guarantees no expulsion/visa loss and asserts a cause, while omitting the payer-ID requirement.
+
+**gemini-3.5-flash-lite · scenario_2 · repeat 1 · gemini-3.8-flash · 已校验**  理解：准确捕捉了就医尴尬与求助需求，但完全遗漏了解释药物服用说明的核心要求。；共情：很好地安抚了因害怕被认为说谎而产生的顾虑，共情充分且恰当。；尊重与自主：支持学生自主向药剂师求助并维护其隐私，尊重就医选择。；清晰：结构清晰，所给话术自然简明，极易直接使用。；实用：提供了可行的现场沟通步骤，但未解答处方含义且提醒定点服药与按需用药存在冲突。；事实可靠：未对处方片语进行事实解释，并在结尾暗示了定点服药的排程。
+
+**gemini-3.5-flash-lite · scenario_2 · repeat 1 · deepseek-flash · 已校验**  理解：Recognizes embarrassment and the pharmacist option but omits the core maximum/as-needed explanation.；共情：Warm, specific reassurance that the student did not lie; minor awkwardness only.；尊重与自主：Respects the student's choice and privacy, though roommate privacy is not explicitly addressed.；清晰：Clear, well-organized, with a usable script; minor redundancy.；实用：Actionable pharmacist script, but the key dosage clarification and reminder advice are incomplete.；事实可靠：Omits the required maximum/as-needed meaning and asserts an unverified pharmacist accommodation.
+
+**gemini-3.5-flash-lite · scenario_3 · repeat 1 · gemini-3.8-flash · 已校验**  理解：准确把握文化送礼误会与部门评分规则的冲突，全面回应了学生关于答复父母、面对教师及是否再次送礼的困惑。；共情：富有同理心，敏锐捕捉到学生背负的家庭荣誉压力与尴尬自责情绪，并给予了恰如其分的情感抚慰。；尊重与自主：高度尊重学生的文化背景与家庭观念，理性解释了中美高校在学术界限与利益冲突防范上的差异，保护了学生的自主权。；清晰：层次清晰，结构严密，话术具体得体且自然易用。；实用：提供了清晰可行的沟通脚本与行动优先级，切实鼓励学生如期参加答疑以获取学业帮助。；事实可靠：严格基于已知事实分析，合理界定毕业照可能的情境差异，未武断断言未经验证的信息。
+
+**gemini-3.5-flash-lite · scenario_3 · repeat 1 · deepseek-flash · 已校验**  理解：Addresses the gift, photo, parents, instructor and tomorrow's office hours well; minor gap in framing the photo as settled.；共情：Warm, specific acknowledgment of hurt and family embarrassment with proportionate reassurance.；尊重与自主：Respects cultural meaning and the student's choices without pressuring compliance; minor overreach on photo.；清晰：Clear structure, readable scripts and coherent next steps.；实用：Concrete scripts and a manageable plan for office hours and parents.；事实可靠：Invents a likely giver/grading context for the photo and generalizes the rule to many US universities.
+
+**gemini-3.5-flash-lite · scenario_4 · repeat 1 · gemini-3.8-flash · 已校验**  理解：准确把握了技术故障、截止时间及学术诚信等核心诉求。；共情：对学生的恐慌和自我怀疑给予了充分而恰当的情绪支持与安抚。；尊重与自主：坚决制止作假建议，维护学生长远的学术信誉与自主决策。；清晰：结构清晰，步骤明确，提供的邮件草稿自然易用。；实用：给出的行动优先级合理，指导学生及时提交真实凭证进行核查。；事实可靠：严格忠实于情境事实，准确说明占位零分性质且未夸大证据效果。
+
+**gemini-3.5-flash-lite · scenario_4 · repeat 1 · deepseek-flash · 已校验**  理解：准确聚焦提交证据、诚实报告与截止时间，回应了核心决策；对“是否已失败”的安抚可更明确区分占位零分。；共情：以深呼吸开场，具体回应自责与能力担忧，并给出可执行的小步骤，支持适度。；尊重与自主：尊重学生自主选择，拒绝篡改日期但未评判朋友，未作文化归因。；清晰：结构清晰，行动步骤与邮件草稿分明，措辞易懂。；实用：给出9点即报、附原件并询问审核方式的具体可行方案，未假定可替换。；事实可靠：正确区分回执、封面文件与本地PDF，未宣称完整服务器接收或已获替换许可。
+
+**gemini-3.5-flash-lite · scenario_5 · repeat 1 · gemini-3.8-flash · 已校验**  理解：准确把握了学生在人际关系中的纠结与边界需求，全面回应了今晚应对与后续观察。；共情：充分理解学生初到异国对唯一好友的依赖与内疚，情感支持温和且边界清晰。；尊重与自主：尊重学生建立新社交的自主权与隐私权，清晰指出感激不等于放弃个人界限。；清晰：结构分明，语言通俗自然，行动建议与话术拆解逻辑非常清晰。；实用：提供的拒绝话术坚定得体，提出的后续观察信号非常具体可行。；事实可靠：严格忠实于背景事实，未臆测未发生的危险或动机，未知与已知区分得当。
+
+**gemini-3.5-flash-lite · scenario_5 · repeat 1 · deepseek-flash · 已校验**  理解：Addresses tonight's plan, boundaries and what to watch, with minor interpretive overreach.；共情：Warm, specific validation of gratitude and fear of losing the friend without endorsing guilt.；尊重与自主：Supports student's autonomy and privacy choices; minor speculation about Ari's social influence.；清晰：Clear structure, usable script and watch-list; readily understandable.；实用：Concrete tonight script, DND step and location boundary; feasible and well prioritized.；事实可靠：Mostly faithful, but labels behavior as control and speculates about rumor-spreading beyond known facts.
+
+
+## 状态与用量
+
+```json
+{
+  "counts": {
+    "gemini-3.8-flash": {
+      "已校验": 10,
+      "暂用": 0,
+      "待复核": 0,
+      "请求失败": 0,
+      "未执行": 0
+    },
+    "deepseek-flash": {
+      "已校验": 10,
+      "暂用": 0,
+      "待复核": 0,
+      "请求失败": 0,
+      "未执行": 0
+    }
+  },
+  "differences_at_least_2": 7,
+  "usage": {
+    "gemini-3.8-flash": {
+      "request_count": 10,
+      "recorded_requests": 10,
+      "input_tokens": 79202,
+      "cached_input_tokens": 0,
+      "output_tokens": 3712,
+      "thinking_tokens": 0,
+      "billable_output_tokens": 3712,
+      "total_tokens": 82914
+    },
+    "deepseek-flash": {
+      "request_count": 14,
+      "recorded_requests": 14,
+      "input_tokens": 122202,
+      "cached_input_tokens": 88960,
+      "output_tokens": 4045,
+      "thinking_tokens": 0,
+      "billable_output_tokens": 4045,
+      "total_tokens": 126247
+    }
+  }
+}
+```
+
+## 同一评委重复稳定性
+
+只比较同一评委、同一回答、相同版本/代码/参数的历史运行；不会增加 API 调用，也不合并两位评委分数。
+
+| 评委 | 可比回答 | 可比维度 | 同分 | 差不超过1分 | 差至少2分 | 最大分差 |
+| --- | --- | --- | --- | --- | --- | --- |
+| gemini-3.8-flash | 0 | 0 | 0 | 0 | 0 | — |
+| deepseek-flash | 0 | 0 | 0 | 0 | 0 | — |
+
+gemini-3.8-flash：尚无同条件历史记录，暂不能判断重复稳定性。
+deepseek-flash：尚无同条件历史记录，暂不能判断重复稳定性。

@@ -1,0 +1,11 @@
+﻿模型,场景,回答编号,评分状态,理解,共情,尊重与自主,清晰,实用,事实可靠
+deepseek-flash,scenario_1,ced1e5122ec147799e1890b1b724698c,validated,10,10,10,10,9,4
+deepseek-flash,scenario_2,11d6af8c7fd247db96ab812a9d30e2d4,validated,10,9,10,10,9,4
+deepseek-flash,scenario_3,49236bd7a0704d1795c28686c03d6ed8,validated,8,8,4,9,6,6
+deepseek-flash,scenario_4,736cbc1db77d4ac4806f5405f1ec1680,validated,10,8,9,9,8,8
+deepseek-flash,scenario_5,4e83e2b319c34b7d81a29b44ab107b2f,validated,9,8,8,9,8,3
+deepseek-flash,scenario_1,6d8a4ea9b4984888addf75a42c6b0e26,validated,10,9,10,9,9,3
+deepseek-flash,scenario_2,ea45481faf9d4116affadcadec0fea03,validated,10,9,10,10,9,9
+deepseek-flash,scenario_3,19cfed60b44d4c8a93435ed7152d405d,validated,7,8,6,9,5,4
+deepseek-flash,scenario_4,94ecfcc796d340c495711cf9f6b3b9be,validated,10,9,10,10,9,10
+deepseek-flash,scenario_5,ec35da4958044358a1e00ca5041d3e0c,validated,4,8,8,9,7,3

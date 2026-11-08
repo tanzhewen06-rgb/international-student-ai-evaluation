@@ -1,0 +1,37 @@
+{
+  "evaluation_version": "V4.16",
+  "checklist_version": "V4.16",
+  "numeric_protocol_version": "V4.12",
+  "workflow_revision": "prompt_only_original_runner",
+  "changed_items": [
+    "E1",
+    "E2",
+    "E3",
+    "L1",
+    "L3",
+    "C1",
+    "C4",
+    "A3"
+  ],
+  "previous_prompt_version": "V4.15",
+  "previous_checklist_version": "V4.14",
+  "score_formula_changed": false,
+  "item_mapping_changed": false,
+  "anchor_tables_changed": false,
+  "normal_requests_per_judgment": 1,
+  "files_sha256": {
+    "checklist_type1.md": "d3d5ca3045631a9e4159d1520710ac01705d199a050efeda0b7287dd1cf67c2b",
+    "evaluation_prompt_type1.md": "72c9a53bd4fd8e7c5cf052a2cfb13f95cd930103738a6c313dec9746b4eef121"
+  },
+  "prompt_revision": "confirmed_misjudgments_only",
+  "newly_clarified_items": [
+    "E1",
+    "E3",
+    "L1",
+    "L3",
+    "C1",
+    "C4",
+    "A3"
+  ],
+  "speculative_proposals_applied": false
+}

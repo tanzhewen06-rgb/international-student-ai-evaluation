@@ -1,0 +1,162 @@
+{
+  "scenario_type": "Type2",
+  "schema_version": "1.8",
+  "rubric_version": "V4.12",
+  "evaluator_model": "gemini-3.8-flash",
+  "target_model": "gpt-5.4-nano",
+  "evaluator_generation_config": {
+    "thinking_level": "low",
+    "max_output_tokens": 4096,
+    "temperature": 0
+  },
+  "checklist_output_mode": "original_items",
+  "allow_historical_fallback": false,
+  "rubric_sha256": "aa3e3364466faa44167fe3109aef8b4292811d1652d1ed69af72e591001a6af9",
+  "scoring_code_sha256": {
+    "runtime/agent.py": "29e11878198eb09a725c8e230143055c5c4c6667ff649499c7eba1910ae5d7bf",
+    "runtime/calibration.py": "2a5a776c4bb7a2f28cbb0b18b95fbc6c1d18daeaed5cbdd2e76922ebd617b373",
+    "runtime/checklist.py": "81e34f60ea2c250f832d4abe0490809c20d01e9346e021f08443704ddc5c5817",
+    "runtime/evaluator.py": "382f89478273f59d7d0124ba09c59bbfec960a2665acb29201a2c39c80f488d6",
+    "runtime/finalize_scoring.py": "15d771acb07f342db52ae0862cabc5411c45e497c9b172f5abc2762fc0c89d1c",
+    "runtime/models.py": "76909db8a1105e88579a9563230a4620e4569efba958fa2f63b843c43bf49da1",
+    "runtime/paths.py": "e9ff2423ab5a9625c85e7c2d3e2ea711c5f5241781088e2b9bbe193562d63e33",
+    "runtime/report.py": "98d75934840d557552a9c35b9efa18ea51429689de1fa13e31ab823b93674129",
+    "runtime/report_dual_judge.py": "8ea82e6ddded175107d911929d8537cf46502f3a45e38448acee53e68806c862",
+    "runtime/scoring.py": "7a4dbc0a9b9a38b244ff0ebde70934b8715bef9eb78252eb4eeeb8453c9d4a1a",
+    "runtime/storage.py": "136b078ee8d12c115a2e6e53b6d5cef0433f9d50e2f56703e6e9e71e16551b15",
+    "runtime/strict_scoring.py": "08484be3ea2da4f1ec03e67ab5998ef84a62d9aee56f28283af849a2aae13f50",
+    "versions/v4_12/audit.py": "9f6eeae9e87b268e4668a4e8e7d5fda773020eeb97c91f5ea17a9472d5704bc6",
+    "versions/v4_12/client.py": "a0fb17f491f31a8f5358de5e5315a326492cb10e97ed72fe1cbf29dc45d22c4d",
+    "versions/v4_12/judgment.py": "a9281aacc201c4a5edccfb2f9a393d12726e25a1804f48b752847ab83b7f49cc",
+    "versions/v4_12/report.py": "e2652103c9abfd23b45e5697cae2e4442b301514e0db764173c212bdfbb2566a",
+    "versions/v4_12/stability.py": "33c7aabc021bc658793e24636d2d5974a3115c4b7fb1171904d50461d986817f",
+    "versions/v4_11/audit.py": "fcd7a9ce4d69d9e668e181f67bffc625b1a0058ab4c4060aa3c7d6d42b90f437",
+    "versions/v4_11/client.py": "cfd0d276c9a241c9aac5ced4c87b5541eae69b5f3c58e80f69ebb12bb76bd09c",
+    "versions/v4_11/judgment.py": "a92d4f8fe6f4d8e1b8c0b9d6d6cd2b3cb8c7c95ffb5d143b43c557b3f924e173",
+    "versions/v4_11/report.py": "ff840f6ebc8b3dd73b0828f2df31d9c5f3e999e2949ab0910becac0032bf335f",
+    "versions/v4_11/stability.py": "33c7aabc021bc658793e24636d2d5974a3115c4b7fb1171904d50461d986817f",
+    "versions/v4_10/audit.py": "f815b2fff546d293b267cede30dd9b82a7db6cb3458b8b42ee41c8e54840775a",
+    "versions/v4_10/client.py": "0c2b9043e0697146aa8a3c31ce4afedfd13bffbb5b4fc48ab3d50881d69e3e25",
+    "versions/v4_10/judgment.py": "53447e6347f7551401c159fe0696b596cc0d8223be0ef8332798660dd488ed60",
+    "versions/v4_10/report.py": "df06b65f9e3f2a980946990accc8706d7ba60e8687b8cfaa44efab019cfc8a1e",
+    "versions/v4_10/stability.py": "7d6996cb265a379fbe1528f9a7e2f9b7f18c45f6cb7faa4d86b1f18d773636bc",
+    "versions/v4_2/audit.py": "1a488eae50548ee19d56d094203257649e306974adbe55ad638c561ae4681b7e",
+    "versions/v4_3/audit.py": "69c7823d7d98364debf447537dc9fc9d00d695e31289add3a48d839cf2f26125",
+    "versions/v4_6/client.py": "6ee95c12fc282db62ff3a5bceb706ac1441bd474b7ae4ba4ab90bad1cb91618f",
+    "versions/v4_6/judgment.py": "6d5e12b53a6bc652fce06b54fe1a3686b22e90a6d034d7f85f13c8f0a8d2b775",
+    "versions/v4_6/report.py": "8897f322f53372d75702845fd723d3cbe9dd61debe12f74fbbad636656687078",
+    "versions/v4_7/client.py": "6805299b8b251992e3e2ab72b7633ef9c0c3b581d0d87a7f57b80ecf1ba416d2",
+    "versions/v4_7/judgment.py": "8f6d0ebcdcb7c38b79c848aeb40d351986cb9b50ddd695a83a3aa45a9029771b",
+    "versions/v4_7/recovery.py": "062784f8a79b324b52a396dd2406ffff2a5e8356b523814c6879ac7f80dcacdc",
+    "versions/v4_7/report.py": "a1364aca85a2f19a9723be975ce2e5c6f2139aa0661ef450ab6d4be3136a8997",
+    "versions/v4_8/client.py": "8dcc1c3a8093579ff3b97174ff93a0eae62b654b8c7acc4a3c3d47ef39f40a40",
+    "versions/v4_8/judgment.py": "a3c6476129fe60d4887414a744075c10a3a341f191a116c20118db715aa9fc9a",
+    "versions/v4_8/report.py": "cade90e146d262b734e16082f21bc4b6bb5093f36937147cc9db583498d5cfde",
+    "versions/v4_9/audit.py": "0169c5d6a73a64d0d8eebd07e71e7dc00c9195e103ea8a7e1bd9ec0fcd4ed4ff",
+    "versions/v4_9/client.py": "392160de1caee95095fbf8022a623df2c02cf504f1b11fdca83d75979ca21158",
+    "versions/v4_9/judgment.py": "51127b9eb6b1a2f1f988cfabef01b46326db49884d74759849c9655ade60201e",
+    "versions/v4_9/report.py": "d240d15cb3d9867400706f9a7f96a09153ab4ee7fce8a7e49d377fd80cf6f317"
+  },
+  "score_scale": {
+    "min": 0,
+    "max": 10
+  },
+  "calibration_sha256": "43bf577ee3d6a8a3b630ab9cdd51631bc923b05352da4d053d805b878d507d8b",
+  "score_computation": "program_minimum_from_anchor_and_audit",
+  "checklist_sha256": "8c450302c8efa8a963b0c4afa0d0777dc8e7815def59dc2a257a302bb7767f85",
+  "checklist_mode": "external",
+  "model_client_sha256": "b7ac4c3f06b829321ac4eb07ca5b8d646680388ce60ad6db83320e1218e7e82e",
+  "evaluation_round_id": "07226965-7e12-4eb4-8080-7b5a1f8b4c6a",
+  "evaluation_run_id": "c0d44138-c037-4ed3-a1f8-7b2e9a2bd25b",
+  "round_timestamp_utc": "20261101T011021.786813Z",
+  "max_responses": 5,
+  "result_file": "evaluations_gemini-3.8-flash_on_gpt-5.4-nano.jsonl",
+  "selected_response_ids": [
+    "309ad546bb384ffc976442b424351185",
+    "0b56d92e31c44394afb7fc8b9b6fd3a7",
+    "141216897f604a68bf90a8e63a9e1789",
+    "113df5226df74c17aedf5437e75b9442",
+    "b5c3636437c84349aa976cf0f388c481"
+  ],
+  "source_files": [
+    "project://Sample Data/responses/batch_008/responses_gpt-5.4-nano.jsonl"
+  ],
+  "calibration_file": "evaluation_agent_human_calibration_principles V3.md",
+  "calibration_source_path": "project://Evaluation Agent/resources/human_calibration/v3/evaluation_agent_human_calibration_principles V3.md",
+  "calibration_snapshot": "calibration.md",
+  "checklist_file": "international_student_scenario_Type2_checklist V1.md",
+  "checklist_snapshot": "checklist.md",
+  "checklist_source_path": "project://Evaluation Agent/resources/checklists/type2_v1/international_student_scenario_Type2_checklist V1.md",
+  "background_input": "saved_snapshot",
+  "applied_checklists": {
+    "309ad546bb384ffc976442b424351185": {
+      "scenario_id": "scenario_1",
+      "scenario_sha256": "c6be964af680a64e1a5b91b4a8349fb7df2f41e13ae8a7ff13ac87841317700d",
+      "instructions_sha256": "bc786fd3a9c722bbc7dc7ce8836185d0e136b295fa06096418952b6d99a3d789"
+    },
+    "0b56d92e31c44394afb7fc8b9b6fd3a7": {
+      "scenario_id": "scenario_2",
+      "scenario_sha256": "a68e87b01039a55e0e8c72722c2a9455d3cd1420fb4fa02c9bafcb4e0fb9ab37",
+      "instructions_sha256": "6ae950395bc1bde3c1f83d0d94ebe2577ef036130329031b72429dd1efe1faa9"
+    },
+    "141216897f604a68bf90a8e63a9e1789": {
+      "scenario_id": "scenario_3",
+      "scenario_sha256": "4712fdab417667790bfa4fc9f405064f974f1b8a0a89e404b2e162892930553b",
+      "instructions_sha256": "9b72ad96f9a764d2157b3535522e3e570782f81cc92fea0abbdd0520299d5169"
+    },
+    "113df5226df74c17aedf5437e75b9442": {
+      "scenario_id": "scenario_4",
+      "scenario_sha256": "35ca0c10c937a71a1a69af9d7d9bbad6e4d7374edf875c5f91cf590b530e0031",
+      "instructions_sha256": "8f25d7fc6368e94bc2353ae27a27ba0e05d31b98d238abfa4be453ba5547a750"
+    },
+    "b5c3636437c84349aa976cf0f388c481": {
+      "scenario_id": "scenario_5",
+      "scenario_sha256": "e09cb571b01b620c72c26257cee4abdd09c54cd8a94bf4a3631d6e005bd22f1d",
+      "instructions_sha256": "b59fa21506756ac47dc32f64b88a931ed78aa26e0f7efaffa4f739f142285677"
+    }
+  },
+  "calibration_mode": "principles_only",
+  "calibration_source_sha256": "94e8399345e1e366ba4b60744e48638c0f8283653ba1aad61a96c0aec097a58d",
+  "initial_request_hashes": {
+    "309ad546bb384ffc976442b424351185": {
+      "source_sha256": "00e6b464584a64eb9f26009ad9c2723d5ac88fea627648582d32478789e35618",
+      "rubric_sha256": "aa3e3364466faa44167fe3109aef8b4292811d1652d1ed69af72e591001a6af9",
+      "checklist_sha256": "8c450302c8efa8a963b0c4afa0d0777dc8e7815def59dc2a257a302bb7767f85",
+      "calibration_sha256": "43bf577ee3d6a8a3b630ab9cdd51631bc923b05352da4d053d805b878d507d8b",
+      "initial_task_sha256": "3dd27f169b1653e0e7a2a302855c53c66c5c378c25fca82b615f1276ee9638d6",
+      "initial_instructions_sha256": "7040b52e6a2458b9cf6a9cbc8f8a3edd97e5e17758d0e095becbd9a5ca4a7612"
+    },
+    "0b56d92e31c44394afb7fc8b9b6fd3a7": {
+      "source_sha256": "68ec8299973a730ebab3128fb7ba7e7d593ef45a279fc933ae853f19179a8636",
+      "rubric_sha256": "aa3e3364466faa44167fe3109aef8b4292811d1652d1ed69af72e591001a6af9",
+      "checklist_sha256": "8c450302c8efa8a963b0c4afa0d0777dc8e7815def59dc2a257a302bb7767f85",
+      "calibration_sha256": "43bf577ee3d6a8a3b630ab9cdd51631bc923b05352da4d053d805b878d507d8b",
+      "initial_task_sha256": "35234c9e0e4750d79696d380ef8e8a955a984d0e0be40dcac9a130f95619846c",
+      "initial_instructions_sha256": "54243ebdb9f623716fcf506eb6faedeb458057971b5c621d9cad1b4f49b67fdc"
+    },
+    "141216897f604a68bf90a8e63a9e1789": {
+      "source_sha256": "74236825fb635392d6161034c5827332c79d71401110b3e1d42c7bdff9186775",
+      "rubric_sha256": "aa3e3364466faa44167fe3109aef8b4292811d1652d1ed69af72e591001a6af9",
+      "checklist_sha256": "8c450302c8efa8a963b0c4afa0d0777dc8e7815def59dc2a257a302bb7767f85",
+      "calibration_sha256": "43bf577ee3d6a8a3b630ab9cdd51631bc923b05352da4d053d805b878d507d8b",
+      "initial_task_sha256": "e146f243724bc32d4e8b9c8134ac57ca960851604a3a53d098634eabeba889a0",
+      "initial_instructions_sha256": "cb4c59fe37e0d763e62d62cedf181d3ae54dfb91f6d9a7213515ead0b0d56a4f"
+    },
+    "113df5226df74c17aedf5437e75b9442": {
+      "source_sha256": "89b6380191ea37f7c6560b851b23ccf6d44e999f8ffc6d0c6dc93f4e553b306d",
+      "rubric_sha256": "aa3e3364466faa44167fe3109aef8b4292811d1652d1ed69af72e591001a6af9",
+      "checklist_sha256": "8c450302c8efa8a963b0c4afa0d0777dc8e7815def59dc2a257a302bb7767f85",
+      "calibration_sha256": "43bf577ee3d6a8a3b630ab9cdd51631bc923b05352da4d053d805b878d507d8b",
+      "initial_task_sha256": "4d368540ef5241c8109cac03f632c9952d8e1897bbf7d5f2c23ab444a020fe2e",
+      "initial_instructions_sha256": "9a109694a0a4d1f157def5af8407b468033a7c170bb7422f8235a6349c1a499b"
+    },
+    "b5c3636437c84349aa976cf0f388c481": {
+      "source_sha256": "2589f97c4f69741fb73047ba0f3df8ab31d6d1d60347b346a586a86293d3cdd1",
+      "rubric_sha256": "aa3e3364466faa44167fe3109aef8b4292811d1652d1ed69af72e591001a6af9",
+      "checklist_sha256": "8c450302c8efa8a963b0c4afa0d0777dc8e7815def59dc2a257a302bb7767f85",
+      "calibration_sha256": "43bf577ee3d6a8a3b630ab9cdd51631bc923b05352da4d053d805b878d507d8b",
+      "initial_task_sha256": "8321190068dfb4b4bd1b337e87a32625212090c5887910c4a7141de9bffb74d4",
+      "initial_instructions_sha256": "c1d996239592d5a8a247f2e14e8ed5368d74fad84e979d828b97a1ca702bcfd4"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "evaluator_model": "gemini-3.8-flash",
+  "target_model": "gpt-6.1-sol",
+  "evaluator_generation_config": {
+    "thinking_level": "low"
+  },
+  "rubric_sha256": "7e09f0265ab7033e19f7a5f14b4a791303a2e31dce58a02fc44761b09f3777e6",
+  "scoring_code_sha256": {
+    "agent.py": "373a853808b1b6dbd2bf166c95d030178994ac377e549dfbae2650ebcc7d2860",
+    "models.py": "384ffaeb8d4f90b5c078313cb68704f40a4528b5000dafefab8e6da807dc19a7"
+  },
+  "model_client_sha256": "6db324f7c78f469e53e9ccb84f5f5b52903f0428517e8e883893b8d95893af41",
+  "evaluation_round_id": "331071d9-4f7f-4bef-9a36-1939277624ce",
+  "evaluation_run_id": "274e537f-4a78-45d6-85cf-ee3984d06827",
+  "round_timestamp_utc": "20261021T025707.686243Z",
+  "max_responses": null,
+  "result_file": "evaluations_gemini-3.8-flash_on_gpt-6.1-sol.jsonl",
+  "selected_response_ids": [
+    "885c14b58b1c4e64aadff34ae1384265",
+    "f708aa52035945628a1fcc612e447658",
+    "dd3b10d4d0d145289dd952c91c1cbb3c",
+    "9d17dd2c8f4240878f6e221879eb0b4c",
+    "d4ca6443da1c43948381b07fb2cbccc2",
+    "b3ec0b36d0f541b1881ec9a851db6e2c",
+    "1a02e2571de34cbabbdda699fa1355b8",
+    "b62ab55059524fa78eda1e2fff9bee2d",
+    "f7b6e5d95a0645059cc0c63b2016c654",
+    "f1a98f70dab34248b862b6d787f06aff",
+    "fd0b73cb1e4641d39e89e502eb6ef351",
+    "68bf3d22fa6940beac7560b87e8f00d8",
+    "7e564800a6414f258d49732ebcb5843e",
+    "5e6fb9da6e4e4252b00173c325c14c3c",
+    "20c2c169b58b41829e083e4af0be4399",
+    "42014031e18b48d993618f7f19bc05e9",
+    "3f0176a5c8a04542a0af91593773ba2b",
+    "59f92e760f8c428f977c88c4609a0d93",
+    "a8b549a2487347c9b2907c813311fb3f",
+    "a0a306bea33e481ead330f9259868290",
+    "89353af2d3204ade8b84094fdfed43a8",
+    "adb9551a251c4cd9aefc4b64f9b8aaca",
+    "8eea14b86198478c9a53c6d0ac56eb30",
+    "89704517f05e4084b2ffbca32b0678d7",
+    "80f98828ad0a4e43bd6935bb7fe4f5ce"
+  ],
+  "source_files": [
+    "project://Sample Data/responses/batch_001/responses_gpt-6.1-sol.jsonl"
+  ]
+}

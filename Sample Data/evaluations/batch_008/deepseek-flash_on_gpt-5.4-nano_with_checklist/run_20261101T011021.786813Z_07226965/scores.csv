@@ -1,0 +1,6 @@
+﻿模型,场景,回答编号,评分状态,理解,共情,尊重与自主,清晰,实用,事实可靠
+gpt-5.4-nano,scenario_1,309ad546bb384ffc976442b424351185,validated,9,9,9,9,9,8
+gpt-5.4-nano,scenario_2,0b56d92e31c44394afb7fc8b9b6fd3a7,validated,10,9,10,9,10,9
+gpt-5.4-nano,scenario_3,141216897f604a68bf90a8e63a9e1789,validated,9,9,9,9,9,9
+gpt-5.4-nano,scenario_4,113df5226df74c17aedf5437e75b9442,validated,9,9,9,9,9,6
+gpt-5.4-nano,scenario_5,b5c3636437c84349aa976cf0f388c481,validated,9,9,9,9,9,6

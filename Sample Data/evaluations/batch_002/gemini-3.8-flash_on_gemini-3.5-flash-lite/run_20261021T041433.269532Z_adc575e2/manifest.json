@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "evaluator_model": "gemini-3.8-flash",
+  "target_model": "gemini-3.5-flash-lite",
+  "evaluator_generation_config": {
+    "thinking_level": "low"
+  },
+  "rubric_sha256": "7e09f0265ab7033e19f7a5f14b4a791303a2e31dce58a02fc44761b09f3777e6",
+  "scoring_code_sha256": {
+    "agent.py": "373a853808b1b6dbd2bf166c95d030178994ac377e549dfbae2650ebcc7d2860",
+    "models.py": "384ffaeb8d4f90b5c078313cb68704f40a4528b5000dafefab8e6da807dc19a7"
+  },
+  "model_client_sha256": "6db324f7c78f469e53e9ccb84f5f5b52903f0428517e8e883893b8d95893af41",
+  "evaluation_round_id": "adc575e2-0007-4a0e-b4d9-b01f416a7621",
+  "evaluation_run_id": "5b643f74-d76b-493c-aca2-e81d6ca9bb15",
+  "round_timestamp_utc": "20261021T041433.269532Z",
+  "max_responses": null,
+  "result_file": "evaluations_gemini-3.8-flash_on_gemini-3.5-flash-lite.jsonl",
+  "selected_response_ids": [
+    "2a606928d07c4796bd407b8db5885ca9",
+    "0dbb41f55fda4330ae6e18a771739ddd",
+    "4cd82d3c549347ad8a13e7173fd1434e",
+    "9637b84b8f1d40f395e7cc5e4b871493",
+    "88882be2d9ba498d904c21fe6c369fdc"
+  ],
+  "source_files": [
+    "project://Sample Data/responses/batch_002/responses_gemini-3.5-flash-lite.jsonl"
+  ]
+}

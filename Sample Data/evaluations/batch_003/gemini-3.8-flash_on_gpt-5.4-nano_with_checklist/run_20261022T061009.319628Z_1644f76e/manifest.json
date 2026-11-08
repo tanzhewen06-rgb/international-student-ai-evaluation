@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0",
+  "evaluator_model": "gemini-3.8-flash",
+  "target_model": "gpt-5.4-nano",
+  "evaluator_generation_config": {
+    "thinking_level": "low"
+  },
+  "rubric_sha256": "a1a24481fff7dc5a89ca62d4b5e965ab3cc670fa4d1b9c23a32620a79838bdf0",
+  "scoring_code_sha256": {
+    "agent.py": "ccb2bf51a6ad3a522ca8bfa72ba88d504e0b649bf748b2b51b1cf1fa2744a2eb",
+    "models.py": "384ffaeb8d4f90b5c078313cb68704f40a4528b5000dafefab8e6da807dc19a7",
+    "checklist.py": "c630b1b86c8a40f9035fbed6e8bb06afb2e1a0f1945e312e626111cd04313eb9",
+    "evaluator.py": "bddbe8e9ba56b1217ce4d9e6beed0e9e9900d4739682c13d6791d6e1dcb28bb9",
+    "storage.py": "6e80e80eb018091c9b6c469b2ef172cf96f3c782890bd48618da3a0d4e131384"
+  },
+  "checklist_sha256": "3e91ff72ec185636f0214faae704a0497b9ef5dfddbf3296efc81720950cff93",
+  "checklist_mode": "integrated",
+  "model_client_sha256": "6db324f7c78f469e53e9ccb84f5f5b52903f0428517e8e883893b8d95893af41",
+  "evaluation_round_id": "1644f76e-e83b-474a-be67-d5b3ae4009b2",
+  "evaluation_run_id": "da7350e2-4700-48a2-90df-dea337ed49cc",
+  "round_timestamp_utc": "20261022T061009.319628Z",
+  "max_responses": null,
+  "result_file": "evaluations_gemini-3.8-flash_on_gpt-5.4-nano.jsonl",
+  "selected_response_ids": [
+    "87708f1425e1464b9c670cb1706e1584",
+    "a71964976b73425c974b6cca860e24e1",
+    "5c377e3806d04a12ae19d3d80b3f3515",
+    "4f0dfd3c72334054b21675d8827c7500",
+    "c47864a652f949b7831d3ec4c764be27"
+  ],
+  "source_files": [
+    "project://Sample Data/responses/batch_003/responses_gpt-5.4-nano.jsonl"
+  ],
+  "checklist_file": "Integrated Checklist V2",
+  "checklist_snapshot": "checklist.md",
+  "checklist_source_path": "project://Evaluation Agent/prompts/evaluation_agent_prompt_en V3.md",
+  "background_input": "saved_snapshot",
+  "applied_checklists": {
+    "87708f1425e1464b9c670cb1706e1584": {
+      "scenario_id": "scenario_1",
+      "scenario_sha256": "319810c1622efdc1d8ea1bb5e54b2bbf1b5222836922fc42646cc772840088af",
+      "instructions_sha256": "3e91ff72ec185636f0214faae704a0497b9ef5dfddbf3296efc81720950cff93"
+    },
+    "a71964976b73425c974b6cca860e24e1": {
+      "scenario_id": "scenario_2",
+      "scenario_sha256": "3561ed325fee6c3dd17083268b1997a1ad80598bde6318dd50bf2f264a573e38",
+      "instructions_sha256": "3e91ff72ec185636f0214faae704a0497b9ef5dfddbf3296efc81720950cff93"
+    },
+    "5c377e3806d04a12ae19d3d80b3f3515": {
+      "scenario_id": "scenario_3",
+      "scenario_sha256": "d360d45921645be583f8bba337d0503d7903268870fb8ba69e4a11ecf67fa401",
+      "instructions_sha256": "3e91ff72ec185636f0214faae704a0497b9ef5dfddbf3296efc81720950cff93"
+    },
+    "4f0dfd3c72334054b21675d8827c7500": {
+      "scenario_id": "scenario_4",
+      "scenario_sha256": "9c96c1cc866422e49da56b5d94d6577385717f12f4ffff372d3086fd05182ea1",
+      "instructions_sha256": "3e91ff72ec185636f0214faae704a0497b9ef5dfddbf3296efc81720950cff93"
+    },
+    "c47864a652f949b7831d3ec4c764be27": {
+      "scenario_id": "scenario_5",
+      "scenario_sha256": "828d71ce7c17857ca2bf445c570e57848d5ff08d0cb9c6331b036a420511312a",
+      "instructions_sha256": "3e91ff72ec185636f0214faae704a0497b9ef5dfddbf3296efc81720950cff93"
+    }
+  }
+}

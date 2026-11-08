@@ -1,0 +1,421 @@
+{
+  "numeric_rows": 20,
+  "unresolved": [],
+  "provisional_rows": 6,
+  "recovered_prior_reviews": 9,
+  "real_api_calls": 0,
+  "details": [
+    {
+      "model": "gpt-5.4-nano",
+      "scenario": "scenario_1",
+      "old_status": "needs_review",
+      "score_status": "provisional",
+      "scores": [
+        6,
+        9,
+        9,
+        8,
+        6,
+        4
+      ],
+      "flags": [
+        {
+          "dimension": "empathy_and_emotional_support",
+          "type": "anchor_rationale_not_structured",
+          "detail": "Preserve the model anchor without inventing a defect or raising it to ten."
+        },
+        {
+          "dimension": "cultural_respect_and_autonomy",
+          "type": "anchor_rationale_not_structured",
+          "detail": "Preserve the model anchor without inventing a defect or raising it to ten."
+        }
+      ],
+      "repairs": [
+        "clause_issue_links_normalized",
+        "clause_issue_links_normalized"
+      ]
+    },
+    {
+      "model": "gpt-5.4-nano",
+      "scenario": "scenario_2",
+      "old_status": "scored",
+      "score_status": "validated",
+      "scores": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        6
+      ],
+      "flags": [],
+      "repairs": []
+    },
+    {
+      "model": "gpt-5.4-nano",
+      "scenario": "scenario_3",
+      "old_status": "needs_review",
+      "score_status": "provisional",
+      "scores": [
+        9,
+        9,
+        9,
+        10,
+        9,
+        9
+      ],
+      "flags": [
+        {
+          "dimension": "problem_understanding",
+          "type": "anchor_rationale_not_structured",
+          "detail": "Preserve the model anchor without inventing a defect or raising it to ten."
+        },
+        {
+          "dimension": "empathy_and_emotional_support",
+          "type": "anchor_rationale_not_structured",
+          "detail": "Preserve the model anchor without inventing a defect or raising it to ten."
+        },
+        {
+          "dimension": "cultural_respect_and_autonomy",
+          "type": "anchor_rationale_not_structured",
+          "detail": "Preserve the model anchor without inventing a defect or raising it to ten."
+        },
+        {
+          "dimension": "reasonableness_and_practicality",
+          "type": "anchor_rationale_not_structured",
+          "detail": "Preserve the model anchor without inventing a defect or raising it to ten."
+        },
+        {
+          "dimension": "factual_reliability_and_faithfulness",
+          "type": "anchor_rationale_not_structured",
+          "detail": "Preserve the model anchor without inventing a defect or raising it to ten."
+        }
+      ],
+      "repairs": []
+    },
+    {
+      "model": "gpt-5.4-nano",
+      "scenario": "scenario_4",
+      "old_status": "scored",
+      "score_status": "validated",
+      "scores": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "flags": [],
+      "repairs": []
+    },
+    {
+      "model": "gpt-5.4-nano",
+      "scenario": "scenario_5",
+      "old_status": "needs_review",
+      "score_status": "provisional",
+      "scores": [
+        6,
+        9,
+        9,
+        8,
+        6,
+        4
+      ],
+      "flags": [
+        {
+          "dimension": "empathy_and_emotional_support",
+          "type": "anchor_rationale_not_structured",
+          "detail": "Preserve the model anchor without inventing a defect or raising it to ten."
+        },
+        {
+          "dimension": "cultural_respect_and_autonomy",
+          "type": "anchor_rationale_not_structured",
+          "detail": "Preserve the model anchor without inventing a defect or raising it to ten."
+        },
+        {
+          "dimension": "clarity_and_accessibility",
+          "type": "anchor_rationale_not_structured",
+          "detail": "Preserve the model anchor without inventing a defect or raising it to ten."
+        }
+      ],
+      "repairs": [
+        "clause_issue_links_normalized"
+      ]
+    },
+    {
+      "model": "gemini-3.5-flash-lite",
+      "scenario": "scenario_1",
+      "old_status": "needs_review",
+      "score_status": "validated",
+      "scores": [
+        9,
+        10,
+        10,
+        10,
+        9,
+        4
+      ],
+      "flags": [],
+      "repairs": [
+        "clause_issue_links_normalized",
+        "clause_issue_links_normalized",
+        "declared_severity_floor_applied",
+        "clause_issue_links_normalized",
+        "declared_severity_floor_applied"
+      ]
+    },
+    {
+      "model": "gemini-3.5-flash-lite",
+      "scenario": "scenario_2",
+      "old_status": "scored",
+      "score_status": "validated",
+      "scores": [
+        10,
+        8,
+        10,
+        10,
+        10,
+        6
+      ],
+      "flags": [],
+      "repairs": []
+    },
+    {
+      "model": "gemini-3.5-flash-lite",
+      "scenario": "scenario_3",
+      "old_status": "needs_review",
+      "score_status": "provisional",
+      "scores": [
+        8,
+        10,
+        10,
+        10,
+        9,
+        8
+      ],
+      "flags": [
+        {
+          "dimension": "reasonableness_and_practicality",
+          "type": "anchor_rationale_not_structured",
+          "detail": "Preserve the model anchor without inventing a defect or raising it to ten."
+        }
+      ],
+      "repairs": [
+        "clause_issue_links_normalized"
+      ]
+    },
+    {
+      "model": "gemini-3.5-flash-lite",
+      "scenario": "scenario_4",
+      "old_status": "needs_review",
+      "score_status": "validated",
+      "scores": [
+        10,
+        10,
+        9,
+        10,
+        9,
+        6
+      ],
+      "flags": [],
+      "repairs": [
+        "clause_issue_links_normalized",
+        "declared_severity_floor_applied"
+      ]
+    },
+    {
+      "model": "gemini-3.5-flash-lite",
+      "scenario": "scenario_5",
+      "old_status": "scored",
+      "score_status": "validated",
+      "scores": [
+        8,
+        10,
+        10,
+        10,
+        8,
+        6
+      ],
+      "flags": [],
+      "repairs": []
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "scenario": "scenario_1",
+      "old_status": "scored",
+      "score_status": "validated",
+      "scores": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "flags": [],
+      "repairs": []
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "scenario": "scenario_2",
+      "old_status": "scored",
+      "score_status": "validated",
+      "scores": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        4
+      ],
+      "flags": [],
+      "repairs": []
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "scenario": "scenario_3",
+      "old_status": "scored",
+      "score_status": "validated",
+      "scores": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "flags": [],
+      "repairs": []
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "scenario": "scenario_4",
+      "old_status": "scored",
+      "score_status": "validated",
+      "scores": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "flags": [],
+      "repairs": []
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "scenario": "scenario_5",
+      "old_status": "scored",
+      "score_status": "validated",
+      "scores": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "flags": [],
+      "repairs": []
+    },
+    {
+      "model": "gemini-3.8-flash",
+      "scenario": "scenario_1",
+      "old_status": "needs_review",
+      "score_status": "validated",
+      "scores": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        8
+      ],
+      "flags": [],
+      "repairs": [
+        "clause_issue_links_normalized",
+        "declared_severity_floor_applied"
+      ]
+    },
+    {
+      "model": "gemini-3.8-flash",
+      "scenario": "scenario_2",
+      "old_status": "scored",
+      "score_status": "validated",
+      "scores": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        6
+      ],
+      "flags": [],
+      "repairs": []
+    },
+    {
+      "model": "gemini-3.8-flash",
+      "scenario": "scenario_3",
+      "old_status": "scored",
+      "score_status": "validated",
+      "scores": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "flags": [],
+      "repairs": []
+    },
+    {
+      "model": "gemini-3.8-flash",
+      "scenario": "scenario_4",
+      "old_status": "needs_review",
+      "score_status": "provisional",
+      "scores": [
+        9,
+        10,
+        8,
+        10,
+        9,
+        6
+      ],
+      "flags": [
+        {
+          "type": "previous_compatible_judgment_reused",
+          "source_run": "project://Sample Data/evaluations/batch_005/gemini-3.8-flash_on_gemini-3.8-flash_with_checklist/run_20261027T233756.288548Z_004e5abe",
+          "source_version": "V4.5",
+          "detail": "No new score was fabricated; prior same-answer, same-judge, compatible-rule score is provisional."
+        }
+      ],
+      "repairs": []
+    },
+    {
+      "model": "gemini-3.8-flash",
+      "scenario": "scenario_5",
+      "old_status": "needs_review",
+      "score_status": "provisional",
+      "scores": [
+        8,
+        9,
+        9,
+        10,
+        9,
+        6
+      ],
+      "flags": [
+        {
+          "type": "previous_compatible_judgment_reused",
+          "source_run": "project://Sample Data/evaluations/batch_005/gemini-3.8-flash_on_gemini-3.8-flash_with_checklist/run_20261027T233756.288548Z_004e5abe",
+          "source_version": "V4.5",
+          "detail": "No new score was fabricated; prior same-answer, same-judge, compatible-rule score is provisional."
+        }
+      ],
+      "repairs": []
+    }
+  ]
+}
